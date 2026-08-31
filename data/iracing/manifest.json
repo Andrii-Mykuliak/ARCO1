@@ -1,0 +1,446 @@
+{
+  "corpus": {
+    "name": "iRacing-FB-RaceSeg-2026",
+    "description": "iRacing broadcast race-segment commentary corpus, derived from 8 CC-BY 3.0 YouTube videos on the Fearless Broadcasting channel (sim racing live-broadcast register).",
+    "domain": "motorsport (sim racing — late-model dirt/asphalt oval, NASCAR-style stage racing)",
+    "language": "en",
+    "extraction_date": "2026-06-09",
+    "extractor": {
+      "tool": "yt-dlp",
+      "version": "2026.3.17",
+      "subtitle_format": "json3 (word-level timestamps)",
+      "subtitle_source": "YouTube auto-generated captions (Kind: captions)"
+    },
+    "cleaning_pipeline": {
+      "step_1": "json3 word-level reconstruction with smart spacing",
+      "step_2": "strip [music] markers, '>>' direction markers",
+      "step_3": "whitespace normalization",
+      "step_4": "sentence split on /(?<=[.!?])\\s*(?=[A-Z])/",
+      "step_5": "filter token_count >= 4 (drop ASR fragments)"
+    },
+    "race_segment_cut": {
+      "method": "sentence-aligned, two-cue temporal boundary",
+      "start_cues_priority": [
+        "green flag in the air",
+        "here we go",
+        "away we go",
+        "waving the flag",
+        "coming to the green flag",
+        "we're underway"
+      ],
+      "end_cues_tier_1": [
+        "there's your winner",
+        "(coming to|taking|takes|gets) the checkered",
+        "checkered flag is (out|up|in the air|displayed)",
+        "sees? the checkered"
+      ],
+      "end_cues_tier_2": [
+        "your winner of tonight's race",
+        "congratulations on your (win|finish)",
+        "brought (home|it home) (first|second|third)",
+        "(he|she|that) (is|was) your winner"
+      ],
+      "tier_priority": "First match in highest-priority tier with hits."
+    }
+  },
+  "license": {
+    "name": "Creative Commons Attribution license",
+    "version": "3.0",
+    "spdx": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "machine_readable_url": "http://creativecommons.org/ns#License",
+    "derivative_release_license": "CC-BY-4.0",
+    "derivative_release_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "channel": {
+    "name": "Fearless Broadcasting",
+    "url": "https://www.youtube.com/channel/UCF-G7Uh7EvX4t_B8IxfSQvw",
+    "handle": "@fearlessbroadcasting"
+  },
+  "aggregate_stats": {
+    "n_videos": 8,
+    "n_sentences_race_segment": 5967,
+    "n_tokens_race_segment": 61794,
+    "total_duration_seconds": 41211,
+    "total_duration_min": 686.9,
+    "series_breakdown": {
+      "VLO": {
+        "n_videos": 4,
+        "n_sentences": 2793,
+        "n_tokens": 27118
+      },
+      "VLO_Truck": {
+        "n_videos": 2,
+        "n_sentences": 1566,
+        "n_tokens": 15117
+      },
+      "FNO": {
+        "n_videos": 2,
+        "n_sentences": 1608,
+        "n_tokens": 19559
+      }
+    }
+  },
+  "videos": [
+    {
+      "video_id": "VYTJiGWe4fo",
+      "url": "https://www.youtube.com/watch?v=VYTJiGWe4fo",
+      "title": "IRacing | Victory Lane Outlaws |",
+      "title_short": "Victory Lane Outlaws",
+      "series": "VLO",
+      "channel": {
+        "name": "Fearless Broadcasting",
+        "url": "https://www.youtube.com/channel/UCF-G7Uh7EvX4t_B8IxfSQvw",
+        "handle": "@fearlessbroadcasting"
+      },
+      "duration_seconds": 4419,
+      "duration_min": 73.7,
+      "upload_date_iso": "2026-05-29",
+      "upload_date_raw": "20260529",
+      "views_at_extraction": 45,
+      "license": {
+        "name": "Creative Commons Attribution license",
+        "version": "3.0",
+        "spdx": "CC-BY-3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verified_via": "yt-dlp --print %(license)s on 2026-06-09"
+      },
+      "extraction": {
+        "date": "2026-06-09",
+        "tool": "yt-dlp 2026.3.17",
+        "subtitle_format": "json3",
+        "subtitle_source": "YouTube auto-generated captions"
+      },
+      "transcript_stats": {
+        "n_full_clean_sentences": 818,
+        "n_race_segment_sentences": 543,
+        "race_segment_tokens": 5449,
+        "race_segment_median_tokens_per_sentence": 8
+      },
+      "race_segment_cut": {
+        "method": "sentence-aligned automatic cue detection",
+        "start_cue_pattern": "\\bhere we go\\b",
+        "start_cue_sentence_idx": 90,
+        "end_cue_pattern": "\\bthere'?s your winner\\b",
+        "end_cue_sentence_idx": 632,
+        "end_cue_tier": 1
+      },
+      "attribution_string": "Fearless Broadcasting. Victory Lane Outlaws. YouTube, 2026-05-29. https://www.youtube.com/watch?v=VYTJiGWe4fo. Licensed under Creative Commons Attribution license 3.0 (CC-BY-3.0), https://creativecommons.org/licenses/by/3.0/."
+    },
+    {
+      "video_id": "jixEvBux-zs",
+      "url": "https://www.youtube.com/watch?v=jixEvBux-zs",
+      "title": "IRacing | Victory Lane Outlaws |",
+      "title_short": "Victory Lane Outlaws",
+      "series": "VLO",
+      "channel": {
+        "name": "Fearless Broadcasting",
+        "url": "https://www.youtube.com/channel/UCF-G7Uh7EvX4t_B8IxfSQvw",
+        "handle": "@fearlessbroadcasting"
+      },
+      "duration_seconds": 4219,
+      "duration_min": 70.3,
+      "upload_date_iso": "2026-05-22",
+      "upload_date_raw": "20260522",
+      "views_at_extraction": 70,
+      "license": {
+        "name": "Creative Commons Attribution license",
+        "version": "3.0",
+        "spdx": "CC-BY-3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verified_via": "yt-dlp --print %(license)s on 2026-06-09"
+      },
+      "extraction": {
+        "date": "2026-06-09",
+        "tool": "yt-dlp 2026.3.17",
+        "subtitle_format": "json3",
+        "subtitle_source": "YouTube auto-generated captions"
+      },
+      "transcript_stats": {
+        "n_full_clean_sentences": 909,
+        "n_race_segment_sentences": 628,
+        "race_segment_tokens": 5706,
+        "race_segment_median_tokens_per_sentence": 8.0
+      },
+      "race_segment_cut": {
+        "method": "sentence-aligned automatic cue detection",
+        "start_cue_pattern": "\\bhere we go\\b",
+        "start_cue_sentence_idx": 135,
+        "end_cue_pattern": "\\b(he|she|that) (is|was) your winner\\b",
+        "end_cue_sentence_idx": 762,
+        "end_cue_tier": 2
+      },
+      "attribution_string": "Fearless Broadcasting. Victory Lane Outlaws. YouTube, 2026-05-22. https://www.youtube.com/watch?v=jixEvBux-zs. Licensed under Creative Commons Attribution license 3.0 (CC-BY-3.0), https://creativecommons.org/licenses/by/3.0/."
+    },
+    {
+      "video_id": "HHJ0cIAJdGY",
+      "url": "https://www.youtube.com/watch?v=HHJ0cIAJdGY",
+      "title": "IRacing | Victory Lane Outlaws |",
+      "title_short": "Victory Lane Outlaws",
+      "series": "VLO",
+      "channel": {
+        "name": "Fearless Broadcasting",
+        "url": "https://www.youtube.com/channel/UCF-G7Uh7EvX4t_B8IxfSQvw",
+        "handle": "@fearlessbroadcasting"
+      },
+      "duration_seconds": 4748,
+      "duration_min": 79.1,
+      "upload_date_iso": "2026-05-15",
+      "upload_date_raw": "20260515",
+      "views_at_extraction": 98,
+      "license": {
+        "name": "Creative Commons Attribution license",
+        "version": "3.0",
+        "spdx": "CC-BY-3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verified_via": "yt-dlp --print %(license)s on 2026-06-09"
+      },
+      "extraction": {
+        "date": "2026-06-09",
+        "tool": "yt-dlp 2026.3.17",
+        "subtitle_format": "json3",
+        "subtitle_source": "YouTube auto-generated captions"
+      },
+      "transcript_stats": {
+        "n_full_clean_sentences": 1031,
+        "n_race_segment_sentences": 740,
+        "race_segment_tokens": 7060,
+        "race_segment_median_tokens_per_sentence": 8.0
+      },
+      "race_segment_cut": {
+        "method": "sentence-aligned automatic cue detection",
+        "start_cue_pattern": "\\baway we go\\b",
+        "start_cue_sentence_idx": 101,
+        "end_cue_pattern": "\\b(he|she|that) (is|was) your winner\\b",
+        "end_cue_sentence_idx": 840,
+        "end_cue_tier": 2
+      },
+      "attribution_string": "Fearless Broadcasting. Victory Lane Outlaws. YouTube, 2026-05-15. https://www.youtube.com/watch?v=HHJ0cIAJdGY. Licensed under Creative Commons Attribution license 3.0 (CC-BY-3.0), https://creativecommons.org/licenses/by/3.0/."
+    },
+    {
+      "video_id": "VreR8mdkPH0",
+      "url": "https://www.youtube.com/watch?v=VreR8mdkPH0",
+      "title": "IRacing | Victory Lane Outlaws |",
+      "title_short": "Victory Lane Outlaws",
+      "series": "VLO",
+      "channel": {
+        "name": "Fearless Broadcasting",
+        "url": "https://www.youtube.com/channel/UCF-G7Uh7EvX4t_B8IxfSQvw",
+        "handle": "@fearlessbroadcasting"
+      },
+      "duration_seconds": 3937,
+      "duration_min": 65.6,
+      "upload_date_iso": "2026-05-12",
+      "upload_date_raw": "20260512",
+      "views_at_extraction": 88,
+      "license": {
+        "name": "Creative Commons Attribution license",
+        "version": "3.0",
+        "spdx": "CC-BY-3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verified_via": "yt-dlp --print %(license)s on 2026-06-09"
+      },
+      "extraction": {
+        "date": "2026-06-09",
+        "tool": "yt-dlp 2026.3.17",
+        "subtitle_format": "json3",
+        "subtitle_source": "YouTube auto-generated captions"
+      },
+      "transcript_stats": {
+        "n_full_clean_sentences": 960,
+        "n_race_segment_sentences": 882,
+        "race_segment_tokens": 8903,
+        "race_segment_median_tokens_per_sentence": 8.0
+      },
+      "race_segment_cut": {
+        "method": "sentence-aligned automatic cue detection",
+        "start_cue_pattern": "\\bgreen flag in the air\\b",
+        "start_cue_sentence_idx": 62,
+        "end_cue_pattern": "\\b(he|she|that) (is|was) your winner\\b",
+        "end_cue_sentence_idx": 943,
+        "end_cue_tier": 2
+      },
+      "attribution_string": "Fearless Broadcasting. Victory Lane Outlaws. YouTube, 2026-05-12. https://www.youtube.com/watch?v=VreR8mdkPH0. Licensed under Creative Commons Attribution license 3.0 (CC-BY-3.0), https://creativecommons.org/licenses/by/3.0/."
+    },
+    {
+      "video_id": "HFU-A6Rwoeg",
+      "url": "https://www.youtube.com/watch?v=HFU-A6Rwoeg",
+      "title": "IRacing | Victory Lane Outlaws Truck Series",
+      "title_short": "Victory Lane Outlaws Truck Series",
+      "series": "VLO_Truck",
+      "channel": {
+        "name": "Fearless Broadcasting",
+        "url": "https://www.youtube.com/channel/UCF-G7Uh7EvX4t_B8IxfSQvw",
+        "handle": "@fearlessbroadcasting"
+      },
+      "duration_seconds": 3418,
+      "duration_min": 57.0,
+      "upload_date_iso": "2026-06-05",
+      "upload_date_raw": "20260605",
+      "views_at_extraction": 48,
+      "license": {
+        "name": "Creative Commons Attribution license",
+        "version": "3.0",
+        "spdx": "CC-BY-3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verified_via": "yt-dlp --print %(license)s on 2026-06-09"
+      },
+      "extraction": {
+        "date": "2026-06-09",
+        "tool": "yt-dlp 2026.3.17",
+        "subtitle_format": "json3",
+        "subtitle_source": "YouTube auto-generated captions"
+      },
+      "transcript_stats": {
+        "n_full_clean_sentences": 707,
+        "n_race_segment_sentences": 540,
+        "race_segment_tokens": 5435,
+        "race_segment_median_tokens_per_sentence": 8.0
+      },
+      "race_segment_cut": {
+        "method": "sentence-aligned automatic cue detection",
+        "start_cue_pattern": "\\bhere we go\\b",
+        "start_cue_sentence_idx": 153,
+        "end_cue_pattern": "\\b(he|she|that) (is|was) your winner\\b",
+        "end_cue_sentence_idx": 692,
+        "end_cue_tier": 2
+      },
+      "attribution_string": "Fearless Broadcasting. Victory Lane Outlaws Truck Series. YouTube, 2026-06-05. https://www.youtube.com/watch?v=HFU-A6Rwoeg. Licensed under Creative Commons Attribution license 3.0 (CC-BY-3.0), https://creativecommons.org/licenses/by/3.0/."
+    },
+    {
+      "video_id": "pdRjO3MUTGQ",
+      "url": "https://www.youtube.com/watch?v=pdRjO3MUTGQ",
+      "title": "IRacing | Victory Lane Outlaws Truck Series",
+      "title_short": "Victory Lane Outlaws Truck Series",
+      "series": "VLO_Truck",
+      "channel": {
+        "name": "Fearless Broadcasting",
+        "url": "https://www.youtube.com/channel/UCF-G7Uh7EvX4t_B8IxfSQvw",
+        "handle": "@fearlessbroadcasting"
+      },
+      "duration_seconds": 5421,
+      "duration_min": 90.3,
+      "upload_date_iso": "2026-05-19",
+      "upload_date_raw": "20260519",
+      "views_at_extraction": 128,
+      "license": {
+        "name": "Creative Commons Attribution license",
+        "version": "3.0",
+        "spdx": "CC-BY-3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verified_via": "yt-dlp --print %(license)s on 2026-06-09"
+      },
+      "extraction": {
+        "date": "2026-06-09",
+        "tool": "yt-dlp 2026.3.17",
+        "subtitle_format": "json3",
+        "subtitle_source": "YouTube auto-generated captions"
+      },
+      "transcript_stats": {
+        "n_full_clean_sentences": 1232,
+        "n_race_segment_sentences": 1026,
+        "race_segment_tokens": 9682,
+        "race_segment_median_tokens_per_sentence": 8.0
+      },
+      "race_segment_cut": {
+        "method": "sentence-aligned automatic cue detection",
+        "start_cue_pattern": "\\bgreen flag in the air\\b",
+        "start_cue_sentence_idx": 91,
+        "end_cue_pattern": "\\bbrought (home|it home) (first|second|third)\\b",
+        "end_cue_sentence_idx": 1116,
+        "end_cue_tier": 2
+      },
+      "attribution_string": "Fearless Broadcasting. Victory Lane Outlaws Truck Series. YouTube, 2026-05-19. https://www.youtube.com/watch?v=pdRjO3MUTGQ. Licensed under Creative Commons Attribution license 3.0 (CC-BY-3.0), https://creativecommons.org/licenses/by/3.0/."
+    },
+    {
+      "video_id": "1sIEltYU9jY",
+      "url": "https://www.youtube.com/watch?v=1sIEltYU9jY",
+      "title": "IRacing | Friday Night O'Reilly Auto Parts Racing League",
+      "title_short": "Friday Night O'Reilly Auto Parts Racing League",
+      "series": "FNO",
+      "channel": {
+        "name": "Fearless Broadcasting",
+        "url": "https://www.youtube.com/channel/UCF-G7Uh7EvX4t_B8IxfSQvw",
+        "handle": "@fearlessbroadcasting"
+      },
+      "duration_seconds": 8635,
+      "duration_min": 143.9,
+      "upload_date_iso": "2026-05-30",
+      "upload_date_raw": "20260530",
+      "views_at_extraction": 105,
+      "license": {
+        "name": "Creative Commons Attribution license",
+        "version": "3.0",
+        "spdx": "CC-BY-3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verified_via": "yt-dlp --print %(license)s on 2026-06-09"
+      },
+      "extraction": {
+        "date": "2026-06-09",
+        "tool": "yt-dlp 2026.3.17",
+        "subtitle_format": "json3",
+        "subtitle_source": "YouTube auto-generated captions"
+      },
+      "transcript_stats": {
+        "n_full_clean_sentences": 1225,
+        "n_race_segment_sentences": 923,
+        "race_segment_tokens": 10538,
+        "race_segment_median_tokens_per_sentence": 9
+      },
+      "race_segment_cut": {
+        "method": "sentence-aligned automatic cue detection",
+        "start_cue_pattern": "\\bgreen flag in the air\\b",
+        "start_cue_sentence_idx": 101,
+        "end_cue_pattern": "\\b(coming to|taking|takes|gets) the checkered\\b",
+        "end_cue_sentence_idx": 1023,
+        "end_cue_tier": 1
+      },
+      "attribution_string": "Fearless Broadcasting. Friday Night O'Reilly Auto Parts Racing League. YouTube, 2026-05-30. https://www.youtube.com/watch?v=1sIEltYU9jY. Licensed under Creative Commons Attribution license 3.0 (CC-BY-3.0), https://creativecommons.org/licenses/by/3.0/."
+    },
+    {
+      "video_id": "oCeIXraAyDI",
+      "url": "https://www.youtube.com/watch?v=oCeIXraAyDI",
+      "title": "IRacing | Friday Night O'Reilly Auto Parts Racing League",
+      "title_short": "Friday Night O'Reilly Auto Parts Racing League",
+      "series": "FNO",
+      "channel": {
+        "name": "Fearless Broadcasting",
+        "url": "https://www.youtube.com/channel/UCF-G7Uh7EvX4t_B8IxfSQvw",
+        "handle": "@fearlessbroadcasting"
+      },
+      "duration_seconds": 6414,
+      "duration_min": 106.9,
+      "upload_date_iso": "2026-05-23",
+      "upload_date_raw": "20260523",
+      "views_at_extraction": 101,
+      "license": {
+        "name": "Creative Commons Attribution license",
+        "version": "3.0",
+        "spdx": "CC-BY-3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verified_via": "yt-dlp --print %(license)s on 2026-06-09"
+      },
+      "extraction": {
+        "date": "2026-06-09",
+        "tool": "yt-dlp 2026.3.17",
+        "subtitle_format": "json3",
+        "subtitle_source": "YouTube auto-generated captions"
+      },
+      "transcript_stats": {
+        "n_full_clean_sentences": 896,
+        "n_race_segment_sentences": 685,
+        "race_segment_tokens": 9021,
+        "race_segment_median_tokens_per_sentence": 10
+      },
+      "race_segment_cut": {
+        "method": "sentence-aligned automatic cue detection",
+        "start_cue_pattern": "\\bcoming to the green flag\\b",
+        "start_cue_sentence_idx": 85,
+        "end_cue_pattern": "\\b(coming to|taking|takes|gets) the checkered\\b",
+        "end_cue_sentence_idx": 769,
+        "end_cue_tier": 1
+      },
+      "attribution_string": "Fearless Broadcasting. Friday Night O'Reilly Auto Parts Racing League. YouTube, 2026-05-23. https://www.youtube.com/watch?v=oCeIXraAyDI. Licensed under Creative Commons Attribution license 3.0 (CC-BY-3.0), https://creativecommons.org/licenses/by/3.0/."
+    }
+  ]
+}

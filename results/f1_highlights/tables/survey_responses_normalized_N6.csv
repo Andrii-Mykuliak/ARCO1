@@ -1,0 +1,205 @@
+rater,familiarity,section_idx,cluster_id,our_label,our_domain,ours_letter,intruder_letter,t1,t3,t4,t5,match_t1,match_t3,match_t4
+R1,2,1,22,Wheel-to-wheel,Race dynamics,b,a,e,b,Race dynamics,5,False,True,True
+R1,2,2,0,DRS-assisted battles,Race dynamics,a,b,b,a,Strategy & technical,4,True,True,False
+R1,2,3,32,Front position changes,Race dynamics,c,e,e,c,Race dynamics,5,True,True,True
+R1,2,4,16,Safety car deployment,Regulatory,a,e,d,a,Regulatory,3,False,True,True
+R1,2,5,8,Race control flags,Regulatory,b,e,b,b,Regulatory,4,False,True,True
+R1,2,6,18,Team dynamics,Narrative & meta,a,e,d,a,Race dynamics,5,False,True,False
+R1,2,7,15,Tires & compounds,Strategy & technical,a,d,d,c,Strategy & technical,4,True,False,True
+R1,2,8,26,Defending & attacking,Race dynamics,c,c,c,a,Race dynamics,4,True,False,True
+R1,2,9,33,Field position changes,Race dynamics,c,a,e,b,Race dynamics,4,False,False,True
+R1,2,10,11,Team radio celebrations,Narrative & meta,a,c,b,b,Narrative & meta,3,False,False,True
+R1,2,11,23,Circuit action,Race dynamics,a,b,d,c,Race dynamics,4,False,False,True
+R1,2,12,4,Race start launch,Race dynamics,c,d,d,c,Regulatory,4,True,True,False
+R1,2,13,10,Chicane moves,Race dynamics,a,a,none,a,Regulatory,4,False,True,False
+R1,2,14,6,Grand Prix wins,Narrative & meta,b,c,none,c,Narrative & meta,3,False,False,True
+R1,2,15,1,Time penalties,Regulatory,b,b,b,b,Regulatory,4,True,True,True
+R1,2,16,19,Race lead holding,Race dynamics,c,d,d,a,Race dynamics,4,True,False,True
+R1,2,17,13,Championship & title,Narrative & meta,a,b,c,a,Narrative & meta,4,False,True,True
+R1,2,18,3,Mirror checks defending,Race dynamics,c,b,d,c,Race dynamics,4,False,True,True
+R1,2,19,14,Pit stops,Strategy & technical,c,e,b,c,Strategy & technical,3,False,True,True
+R1,2,20,12,Podium finishes,Narrative & meta,b,e,none,b,Narrative & meta,4,False,True,True
+R1,2,21,20,Wing & car damage,Strategy & technical,b,c,b,b,Strategy & technical,3,False,True,True
+R1,2,22,21,Braking & lockups,Race dynamics,c,a,e,c,Race dynamics,4,False,True,True
+R1,2,23,31,Race leader changes,Race dynamics,a,c,none,c,Race dynamics,5,False,False,True
+R1,2,24,5,Weather conditions,Strategy & technical,c,d,d,c,Regulatory,3,True,True,False
+R1,2,25,30,Lap pace & timing,Strategy & technical,b,a,d,b,Race dynamics,4,False,True,False
+R1,2,26,29,Corner specific moves,Race dynamics,c,d,e,b,Race dynamics,4,False,False,True
+R1,2,27,2,Lights-out race starts,Race dynamics,b,c,a,b,Regulatory,4,False,True,False
+R1,2,28,7,Race start lights,Race dynamics,b,c,c,b,Regulatory,3,True,True,False
+R1,2,29,24,Inter-car distance,Strategy & technical,c,a,c,none,Race dynamics,4,False,False,False
+R1,2,30,17,Gap & pace,Strategy & technical,b,e,e,b,Strategy & technical,4,True,True,True
+R1,2,31,9,Formula 1 milestones,Narrative & meta,a,c,d,a,Narrative & meta,4,False,True,True
+R1,2,32,25,Driver & team references,Narrative & meta,b,d,none,a,Race dynamics,4,False,False,False
+R1,2,33,28,Corner battles,Race dynamics,c,b,none,a,Race dynamics,4,False,False,True
+R1,2,34,27,Overtake battles,Race dynamics,a,e,e,c,Race dynamics,4,True,False,True
+R2,4,1,22,Wheel-to-wheel,Race dynamics,b,a,a,c,Race dynamics,4,True,False,True
+R2,4,2,0,DRS-assisted battles,Race dynamics,a,b,b,a,Race dynamics,3,True,True,True
+R2,4,3,32,Front position changes,Race dynamics,c,e,e,b,Race dynamics,3,True,False,True
+R2,4,4,16,Safety car deployment,Regulatory,a,e,b,a,Regulatory,5,False,True,True
+R2,4,5,8,Race control flags,Regulatory,b,e,e,none,Narrative & meta,5,True,False,False
+R2,4,6,18,Team dynamics,Narrative & meta,a,e,none,a,Narrative & meta,3,False,True,True
+R2,4,7,15,Tires & compounds,Strategy & technical,a,d,d,c,Strategy & technical,2,True,False,True
+R2,4,8,26,Defending & attacking,Race dynamics,c,c,c,a,Race dynamics,4,True,False,True
+R2,4,9,33,Field position changes,Race dynamics,c,a,none,c,Race dynamics,3,False,True,True
+R2,4,10,11,Team radio celebrations,Narrative & meta,a,c,c,a,Narrative & meta,5,True,True,True
+R2,4,11,23,Circuit action,Race dynamics,a,b,b,a,Race dynamics,2,True,True,True
+R2,4,12,4,Race start launch,Race dynamics,c,d,d,c,Race dynamics,5,True,True,True
+R2,4,13,10,Chicane moves,Race dynamics,a,a,a,b,Race dynamics,4,True,False,True
+R2,4,14,6,Grand Prix wins,Narrative & meta,b,c,c,b,Narrative & meta,5,True,True,True
+R2,4,15,1,Time penalties,Regulatory,b,b,b,b,Regulatory,5,True,True,True
+R2,4,16,19,Race lead holding,Race dynamics,c,d,d,b,Race dynamics,5,True,False,True
+R2,4,17,13,Championship & title,Narrative & meta,a,b,b,c,Narrative & meta,5,True,False,True
+R2,4,18,3,Mirror checks defending,Race dynamics,c,b,b,c,Narrative & meta,1,True,True,False
+R2,4,19,14,Pit stops,Strategy & technical,c,e,c,c,Strategy & technical,3,False,True,True
+R2,4,20,12,Podium finishes,Narrative & meta,b,e,e,b,Narrative & meta,5,True,True,True
+R2,4,21,20,Wing & car damage,Strategy & technical,b,c,c,b,Strategy & technical,5,True,True,True
+R2,4,22,21,Braking & lockups,Race dynamics,c,a,e,c,Race dynamics,4,False,True,True
+R2,4,23,31,Race leader changes,Race dynamics,a,c,a,a,Race dynamics,5,False,True,True
+R2,4,24,5,Weather conditions,Strategy & technical,c,d,d,c,Strategy & technical,5,True,True,True
+R2,4,25,30,Lap pace & timing,Strategy & technical,b,a,a,c,Strategy & technical,4,True,False,True
+R2,4,26,29,Corner specific moves,Race dynamics,c,d,d,c,Race dynamics,3,True,True,True
+R2,4,27,2,Lights-out race starts,Race dynamics,b,c,c,b,Narrative & meta,5,True,True,False
+R2,4,28,7,Race start lights,Race dynamics,b,c,c,b,Narrative & meta,5,True,True,False
+R2,4,29,24,Inter-car distance,Strategy & technical,c,a,c,none,Race dynamics,3,False,False,False
+R2,4,30,17,Gap & pace,Strategy & technical,b,e,b,b,Strategy & technical,3,False,True,True
+R2,4,31,9,Formula 1 milestones,Narrative & meta,a,c,c,a,Narrative & meta,5,True,True,True
+R2,4,32,25,Driver & team references,Narrative & meta,b,d,none,b,Narrative & meta,3,False,True,True
+R2,4,33,28,Corner battles,Race dynamics,c,b,b,c,Race dynamics,3,True,True,True
+R2,4,34,27,Overtake battles,Race dynamics,a,e,e,b,Race dynamics,4,True,False,True
+R3,4,1,22,Wheel-to-wheel,Race dynamics,b,a,a,b,Race dynamics,4,True,True,True
+R3,4,2,0,DRS-assisted battles,Race dynamics,a,b,b,a,Race dynamics,3,True,True,True
+R3,4,3,32,Front position changes,Race dynamics,c,e,e,c,Race dynamics,4,True,True,True
+R3,4,4,16,Safety car deployment,Regulatory,a,e,e,a,Regulatory,4,True,True,True
+R3,4,5,8,Race control flags,Regulatory,b,e,e,none,Narrative & meta,5,True,False,False
+R3,4,6,18,Team dynamics,Narrative & meta,a,e,e,a,Race dynamics,2,True,True,False
+R3,4,7,15,Tires & compounds,Strategy & technical,a,d,d,a,Strategy & technical,5,True,True,True
+R3,4,8,26,Defending & attacking,Race dynamics,c,c,c,c,Race dynamics,5,True,True,True
+R3,4,9,33,Field position changes,Race dynamics,c,a,a,c,Race dynamics,3,True,True,True
+R3,4,10,11,Team radio celebrations,Narrative & meta,a,c,c,a,Narrative & meta,1,True,True,True
+R3,4,11,23,Circuit action,Race dynamics,a,b,b,a,Race dynamics,4,True,True,True
+R3,4,12,4,Race start launch,Race dynamics,c,d,d,b,Race dynamics,4,True,False,True
+R3,4,13,10,Chicane moves,Race dynamics,a,a,a,a,Race dynamics,3,True,True,True
+R3,4,14,6,Grand Prix wins,Narrative & meta,b,c,c,b,Narrative & meta,5,True,True,True
+R3,4,15,1,Time penalties,Regulatory,b,b,b,b,Regulatory,5,True,True,True
+R3,4,16,19,Race lead holding,Race dynamics,c,d,d,b,Race dynamics,5,True,False,True
+R3,4,17,13,Championship & title,Narrative & meta,a,b,b,a,Narrative & meta,3,True,True,True
+R3,4,18,3,Mirror checks defending,Race dynamics,c,b,b,c,Race dynamics,3,True,True,True
+R3,4,19,14,Pit stops,Strategy & technical,c,e,e,c,Strategy & technical,5,True,True,True
+R3,4,20,12,Podium finishes,Narrative & meta,b,e,e,b,Narrative & meta,4,True,True,True
+R3,4,21,20,Wing & car damage,Strategy & technical,b,c,c,b,Race dynamics,4,True,True,False
+R3,4,22,21,Braking & lockups,Race dynamics,c,a,a,c,Race dynamics,2,True,True,True
+R3,4,23,31,Race leader changes,Race dynamics,a,c,a,c,Race dynamics,3,False,False,True
+R3,4,24,5,Weather conditions,Strategy & technical,c,d,d,c,Strategy & technical,5,True,True,True
+R3,4,25,30,Lap pace & timing,Strategy & technical,b,a,a,b,Race dynamics,4,True,True,False
+R3,4,26,29,Corner specific moves,Race dynamics,c,d,d,c,Race dynamics,4,True,True,True
+R3,4,27,2,Lights-out race starts,Race dynamics,b,c,c,b,Race dynamics,4,True,True,True
+R3,4,28,7,Race start lights,Race dynamics,b,c,c,b,Narrative & meta,1,True,True,False
+R3,4,29,24,Inter-car distance,Strategy & technical,c,a,c,c,Race dynamics,2,False,True,False
+R3,4,30,17,Gap & pace,Strategy & technical,b,e,e,b,Strategy & technical,3,True,True,True
+R3,4,31,9,Formula 1 milestones,Narrative & meta,a,c,c,c,Narrative & meta,4,True,False,True
+R3,4,32,25,Driver & team references,Narrative & meta,b,d,c,b,Race dynamics,2,False,True,False
+R3,4,33,28,Corner battles,Race dynamics,c,b,b,c,Race dynamics,4,True,True,True
+R3,4,34,27,Overtake battles,Race dynamics,a,e,e,b,Race dynamics,5,True,False,True
+R4,2,1,22,Wheel-to-wheel,Race dynamics,b,a,e,c,Race dynamics,4,False,False,True
+R4,2,2,0,DRS-assisted battles,Race dynamics,a,b,b,a,Strategy & technical,3,True,True,False
+R4,2,3,32,Front position changes,Race dynamics,c,e,e,b,Race dynamics,4,True,False,True
+R4,2,4,16,Safety car deployment,Regulatory,a,e,e,a,Regulatory,2,True,True,True
+R4,2,5,8,Race control flags,Regulatory,b,e,e,b,Regulatory,3,True,True,True
+R4,2,6,18,Team dynamics,Narrative & meta,a,e,e,a,Race dynamics,4,True,True,False
+R4,2,7,15,Tires & compounds,Strategy & technical,a,d,d,a,Strategy & technical,2,True,True,True
+R4,2,8,26,Defending & attacking,Race dynamics,c,c,c,a,Race dynamics,4,True,False,True
+R4,2,9,33,Field position changes,Race dynamics,c,a,a,b,Race dynamics,4,True,False,True
+R4,2,10,11,Team radio celebrations,Narrative & meta,a,c,c,a,Narrative & meta,2,True,True,True
+R4,2,11,23,Circuit action,Race dynamics,a,b,b,b,Race dynamics,3,True,False,True
+R4,2,12,4,Race start launch,Race dynamics,c,d,d,c,Race dynamics,3,True,True,True
+R4,2,13,10,Chicane moves,Race dynamics,a,a,a,a,Strategy & technical,3,True,True,False
+R4,2,14,6,Grand Prix wins,Narrative & meta,b,c,c,b,Narrative & meta,4,True,True,True
+R4,2,15,1,Time penalties,Regulatory,b,b,b,b,Regulatory,3,True,True,True
+R4,2,16,19,Race lead holding,Race dynamics,c,d,d,c,Race dynamics,4,True,True,True
+R4,2,17,13,Championship & title,Narrative & meta,a,b,b,a,Narrative & meta,4,True,True,True
+R4,2,18,3,Mirror checks defending,Race dynamics,c,b,b,c,Race dynamics,2,True,True,True
+R4,2,19,14,Pit stops,Strategy & technical,c,e,e,c,Strategy & technical,3,True,True,True
+R4,2,20,12,Podium finishes,Narrative & meta,b,e,e,b,Narrative & meta,4,True,True,True
+R4,2,21,20,Wing & car damage,Strategy & technical,b,c,c,b,Strategy & technical,3,True,True,True
+R4,2,22,21,Braking & lockups,Race dynamics,c,a,a,c,Race dynamics,3,True,True,True
+R4,2,23,31,Race leader changes,Race dynamics,a,c,a,a,Race dynamics,4,False,True,True
+R4,2,24,5,Weather conditions,Strategy & technical,c,d,d,c,Strategy & technical,3,True,True,True
+R4,2,25,30,Lap pace & timing,Strategy & technical,b,a,a,b,Strategy & technical,4,True,True,True
+R4,2,26,29,Corner specific moves,Race dynamics,c,d,d,c,Race dynamics,3,True,True,True
+R4,2,27,2,Lights-out race starts,Race dynamics,b,c,c,b,Race dynamics,4,True,True,True
+R4,2,28,7,Race start lights,Race dynamics,b,c,c,b,Race dynamics,4,True,True,True
+R4,2,29,24,Inter-car distance,Strategy & technical,c,a,c,c,Race dynamics,3,False,True,False
+R4,2,30,17,Gap & pace,Strategy & technical,b,e,b,b,Strategy & technical,4,False,True,True
+R4,2,31,9,Formula 1 milestones,Narrative & meta,a,c,c,a,Narrative & meta,4,True,True,True
+R4,2,32,25,Driver & team references,Narrative & meta,b,d,none,a,Race dynamics,3,False,False,False
+R4,2,33,28,Corner battles,Race dynamics,c,b,b,b,Race dynamics,3,True,False,True
+R4,2,34,27,Overtake battles,Race dynamics,a,e,e,a,Race dynamics,4,True,True,True
+R5,3,1,22,Wheel-to-wheel,Race dynamics,b,a,a,b,Race dynamics,5,True,True,True
+R5,3,2,0,DRS-assisted battles,Race dynamics,a,b,b,a,Race dynamics,5,True,True,True
+R5,3,3,32,Front position changes,Race dynamics,c,e,e,b,Narrative & meta,5,True,False,False
+R5,3,4,16,Safety car deployment,Regulatory,a,e,e,a,Regulatory,4,True,True,True
+R5,3,5,8,Race control flags,Regulatory,b,e,e,b,Regulatory,5,True,True,True
+R5,3,6,18,Team dynamics,Narrative & meta,a,e,e,a,Race dynamics,5,True,True,False
+R5,3,7,15,Tires & compounds,Strategy & technical,a,d,d,a,Strategy & technical,4,True,True,True
+R5,3,8,26,Defending & attacking,Race dynamics,c,c,c,c,Race dynamics,5,True,True,True
+R5,3,9,33,Field position changes,Race dynamics,c,a,a,c,Race dynamics,5,True,True,True
+R5,3,10,11,Team radio celebrations,Narrative & meta,a,c,c,a,Narrative & meta,3,True,True,True
+R5,3,11,23,Circuit action,Race dynamics,a,b,b,b,Race dynamics,5,True,False,True
+R5,3,12,4,Race start launch,Race dynamics,c,d,d,c,Race dynamics,5,True,True,True
+R5,3,13,10,Chicane moves,Race dynamics,a,a,a,a,Race dynamics,4,True,True,True
+R5,3,14,6,Grand Prix wins,Narrative & meta,b,c,c,b,Narrative & meta,5,True,True,True
+R5,3,15,1,Time penalties,Regulatory,b,b,b,b,Regulatory,5,True,True,True
+R5,3,16,19,Race lead holding,Race dynamics,c,d,d,c,Race dynamics,5,True,True,True
+R5,3,17,13,Championship & title,Narrative & meta,a,b,b,a,Narrative & meta,4,True,True,True
+R5,3,18,3,Mirror checks defending,Race dynamics,c,b,b,c,Race dynamics,5,True,True,True
+R5,3,19,14,Pit stops,Strategy & technical,c,e,e,c,Strategy & technical,5,True,True,True
+R5,3,20,12,Podium finishes,Narrative & meta,b,e,e,b,Narrative & meta,5,True,True,True
+R5,3,21,20,Wing & car damage,Strategy & technical,b,c,c,b,Strategy & technical,5,True,True,True
+R5,3,22,21,Braking & lockups,Race dynamics,c,a,a,c,Race dynamics,5,True,True,True
+R5,3,23,31,Race leader changes,Race dynamics,a,c,a,c,Race dynamics,5,False,False,True
+R5,3,24,5,Weather conditions,Strategy & technical,c,d,d,c,Strategy & technical,5,True,True,True
+R5,3,25,30,Lap pace & timing,Strategy & technical,b,a,a,b,Race dynamics,4,True,True,False
+R5,3,26,29,Corner specific moves,Race dynamics,c,d,d,c,Race dynamics,5,True,True,True
+R5,3,27,2,Lights-out race starts,Race dynamics,b,c,c,b,Race dynamics,4,True,True,True
+R5,3,28,7,Race start lights,Race dynamics,b,c,c,c,Race dynamics,3,True,False,True
+R5,3,29,24,Inter-car distance,Strategy & technical,c,a,c,c,Race dynamics,5,False,True,False
+R5,3,30,17,Gap & pace,Strategy & technical,b,e,e,b,Strategy & technical,5,True,True,True
+R5,3,31,9,Formula 1 milestones,Narrative & meta,a,c,c,a,Narrative & meta,5,True,True,True
+R5,3,32,25,Driver & team references,Narrative & meta,b,d,b,none,Race dynamics,5,False,False,False
+R5,3,33,28,Corner battles,Race dynamics,c,b,b,c,Race dynamics,5,True,True,True
+R5,3,34,27,Overtake battles,Race dynamics,a,e,e,b,Race dynamics,5,True,False,True
+R6,2,1,22,Wheel-to-wheel,Race dynamics,b,a,d,b,Race dynamics,2,False,True,True
+R6,2,2,0,DRS-assisted battles,Race dynamics,a,b,b,c,Race dynamics,2,True,False,True
+R6,2,3,32,Front position changes,Race dynamics,c,e,e,c,none,1,True,True,False
+R6,2,4,16,Safety car deployment,Regulatory,a,e,e,a,Regulatory,3,True,True,True
+R6,2,5,8,Race control flags,Regulatory,b,e,e,none,Narrative & meta,1,True,False,False
+R6,2,6,18,Team dynamics,Narrative & meta,a,e,none,a,Race dynamics,2,False,True,False
+R6,2,7,15,Tires & compounds,Strategy & technical,a,d,d,a,Strategy & technical,2,True,True,True
+R6,2,8,26,Defending & attacking,Race dynamics,c,c,c,c,Race dynamics,3,True,True,True
+R6,2,9,33,Field position changes,Race dynamics,c,a,none,c,Narrative & meta,1,False,True,False
+R6,2,10,11,Team radio celebrations,Narrative & meta,a,c,c,c,Narrative & meta,2,True,False,True
+R6,2,11,23,Circuit action,Race dynamics,a,b,none,none,Strategy & technical,4,False,False,False
+R6,2,12,4,Race start launch,Race dynamics,c,d,d,c,Race dynamics,3,True,True,True
+R6,2,13,10,Chicane moves,Race dynamics,a,a,a,a,Strategy & technical,2,True,True,False
+R6,2,14,6,Grand Prix wins,Narrative & meta,b,c,c,b,Narrative & meta,2,True,True,True
+R6,2,15,1,Time penalties,Regulatory,b,b,b,b,Regulatory,2,True,True,True
+R6,2,16,19,Race lead holding,Race dynamics,c,d,d,c,Race dynamics,2,True,True,True
+R6,2,17,13,Championship & title,Narrative & meta,a,b,b,a,Narrative & meta,3,True,True,True
+R6,2,18,3,Mirror checks defending,Race dynamics,c,b,b,c,Strategy & technical,2,True,True,False
+R6,2,19,14,Pit stops,Strategy & technical,c,e,e,c,Strategy & technical,3,True,True,True
+R6,2,20,12,Podium finishes,Narrative & meta,b,e,e,b,Narrative & meta,2,True,True,True
+R6,2,21,20,Wing & car damage,Strategy & technical,b,c,c,b,Race dynamics,2,True,True,False
+R6,2,22,21,Braking & lockups,Race dynamics,c,a,a,c,Race dynamics,2,True,True,True
+R6,2,23,31,Race leader changes,Race dynamics,a,c,a,a,Race dynamics,2,False,True,True
+R6,2,24,5,Weather conditions,Strategy & technical,c,d,d,c,Strategy & technical,2,True,True,True
+R6,2,25,30,Lap pace & timing,Strategy & technical,b,a,a,b,Race dynamics,4,True,True,False
+R6,2,26,29,Corner specific moves,Race dynamics,c,d,d,c,Race dynamics,3,True,True,True
+R6,2,27,2,Lights-out race starts,Race dynamics,b,c,c,b,Regulatory,2,True,True,False
+R6,2,28,7,Race start lights,Race dynamics,b,c,c,c,Narrative & meta,2,True,False,False
+R6,2,29,24,Inter-car distance,Strategy & technical,c,a,a,c,Race dynamics,2,True,True,False
+R6,2,30,17,Gap & pace,Strategy & technical,b,e,e,a,Strategy & technical,3,True,False,True
+R6,2,31,9,Formula 1 milestones,Narrative & meta,a,c,c,a,Narrative & meta,2,True,True,True
+R6,2,32,25,Driver & team references,Narrative & meta,b,d,none,none,Race dynamics,3,False,False,False
+R6,2,33,28,Corner battles,Race dynamics,c,b,b,c,Race dynamics,3,True,True,True
+R6,2,34,27,Overtake battles,Race dynamics,a,e,e,b,Race dynamics,3,True,False,True

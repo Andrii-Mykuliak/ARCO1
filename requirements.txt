@@ -1,0 +1,42 @@
+# Reproduction environment — exact pins.
+#
+# These are pinned rather than bounded because the pipeline's output is genuinely
+# version-sensitive. UMAP in particular: the same corpus, seed and parameters can
+# yield a different embedding across umap-learn releases, which changes the cluster
+# count downstream. A `>=` constraint cannot deliver a reproducible taxonomy.
+#
+# Verified end to end (45/45 pipeline stages, mode="scratch", cold cache) on the
+# versions below, Python 3.13, Windows.
+#
+#   pip install -r requirements.txt
+
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+
+# --- representation and clustering (the version-sensitive core) --------------
+umap-learn==0.5.12
+hdbscan==0.8.43
+sentence-transformers==5.5.1
+
+# --- graph-based judges ------------------------------------------------------
+# networkx backs the Louvain centroid communities (Section 5).
+# leidenalg + python-igraph back the Leiden judge on the Algorithm axis.
+# These are NOT optional: without them the Algorithm axis silently runs with one
+# judge fewer, which changes the per-cluster survival counts and the verdict bands.
+networkx==3.5
+leidenalg==0.12.0
+python-igraph==1.0.0
+
+# --- output ------------------------------------------------------------------
+matplotlib==3.10.6
+pyarrow==21.0.0          # parquet cache
+jupyter==1.1.1
+ipython==9.7.0
+
+# --- optional ----------------------------------------------------------------
+# Only needed for Config(use_ner_fallback=True), which adds a spaCy NER pass on
+# top of the gazetteer. The shipped corpus does not require it.
+# spacy==3.7.5
+# https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl

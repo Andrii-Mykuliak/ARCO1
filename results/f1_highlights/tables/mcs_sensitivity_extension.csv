@@ -1,0 +1,3 @@
+mcs,n_clusters,noise_rate,ari_all_points,ari_co_clustered,jaccard_vs_p1,canonical,note
+10,83,0.31816398587681444,0.45590312177572984,0.9253889485471747,0.8053226381059444,True,"recomputed on outputs/_umap_minilm_seed42.npy, the UMAP that reproduces the published 34-cluster partition at ARI 1.0"
+10,86,0.3219563227409441,0.9052109635192964,,0.8115720206050727,False,"SUPERSEDED - from a UMAP realisation since overwritten; kept for the record, not used by the figure or the paper"

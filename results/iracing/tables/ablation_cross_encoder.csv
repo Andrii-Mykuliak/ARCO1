@@ -1,0 +1,2 @@
+encoder_a,encoder_b,n_domains,nmi,best_mapping_agreement,permutation_null_mean_nmi,permutations,p_value
+all-MiniLM-L6-v2,all-mpnet-base-v2,4,0.7795,0.8065,0.1385,2000,0.0

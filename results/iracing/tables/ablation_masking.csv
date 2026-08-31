@@ -1,0 +1,2 @@
+comparison,masked_clusters,unmasked_clusters,masked_noise_pct,unmasked_noise_pct,ari_all,nmi_all,ari_co_clustered,n_co_clustered
+masked vs unmasked,31,46,40.3,35.6,0.3596,0.5515,0.6282,2960

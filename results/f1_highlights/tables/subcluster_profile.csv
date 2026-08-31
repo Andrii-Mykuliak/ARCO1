@@ -1,0 +1,10 @@
+parent_handle,parent_size,sub_id,sub_size,share_of_parent,sub_keywords,density_subclusters,density_noise_pct
+K00,792,1,278,0.351,inside / corner / outside / goes / going,2,15.7
+K00,792,2,304,0.384,just / going / inside / oh / yeah,2,15.7
+K00,792,3,210,0.265,ahead / past / goes / comes / gets,2,15.7
+K01,573,1,262,0.457,going / stop / got / just / think,2,89.4
+K01,573,2,121,0.211,teammate / inside / past / got / going,2,89.4
+K01,573,3,190,0.332,ahead / past / comes / going / just,2,89.4
+K02,464,1,141,0.304,prix / grand / underway / pit / going,2,22.6
+K02,464,2,118,0.254,prix / grand / wins / win / time,2,22.6
+K02,464,3,205,0.442,prix / grand / lead / takes / got,2,22.6

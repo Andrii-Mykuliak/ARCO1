@@ -1,0 +1,3 @@
+variant,test,fdr,vocab_total,clusters,pairs_tested,significant_pairs,significant_bigrams,pct_bigram,mean_per_cluster,min_per_cluster,max_per_cluster,clusters_zero,min_p,max_sig_p,bh_boundary
+CANONICAL placeholders-stripped-from-text,exact one-sided hypergeometric (upper tail),"Benjamini-Hochberg, single global family",3864,34,131376,864,472,54.6,25.41,4,115,0,0.0,0.0003189726351721651,0.00032882718304713194
+sensitivity: placeholders retained,exact one-sided hypergeometric (upper tail),"Benjamini-Hochberg, single global family",4699,34,159766,1041,639,61.4,30.62,8,116,0,0.0,0.0003253564480428223,0.00032578896636330636

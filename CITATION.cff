@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "Event-grounded commentary taxonomy — method reproduction kit"
+abstract: >-
+  End-to-end implementation of the clustering and four-axis convergence
+  validation protocol for thematic taxonomies of sports commentary. Ships a
+  redistributable CC-BY iRacing corpus so the whole pipeline runs without
+  access requests. Reproduces the method, not the numbers of the associated
+  paper, which analysed a broadcast-copyright Formula 1 corpus that cannot be
+  redistributed.
+type: software
+authors:
+  - given-names: Andrii
+    family-names: Mykuliak
+    email: andrii.v.mykuliak@lpnu.ua
+    orcid: "https://orcid.org/0009-0005-5828-6624"
+    affiliation: >-
+      Department of Software Engineering, Lviv Polytechnic National University
+  - given-names: Vitaliy
+    family-names: Yakovyna
+    email: vitaliy.s.yakovyna@lpnu.ua
+    orcid: "https://orcid.org/0000-0003-0133-8591"
+    affiliation: >-
+      Department of Artificial Intelligence, Lviv Polytechnic National University
+license: MIT
+keywords:
+  - thematic taxonomy
+  - sentence embeddings
+  - HDBSCAN
+  - cluster validation
+  - data-to-text
+  - sports commentary
+  - reproducibility

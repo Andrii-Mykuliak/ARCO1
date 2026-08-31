@@ -1,0 +1,35 @@
+P1_cluster,size,thematic_label,domain,n_pipelines_agree,mean_jaccard,robustness_class,P2_KMeans_MiniLM_UMAP_jaccard,P3_Ward_MiniLM_UMAP_jaccard,P4_HDBSCAN_BGE_UMAP_jaccard,P5_GMM_MiniLM_PCA_jaccard,P6_Spectral_MiniLM_UMAP_jaccard,P7_GMM_MiniLM_UMAP_jaccard
+27,762,Overtake battles,Race dynamics,7,0.6396666666666667,ROBUST,0.667,0.5,0.364,0.667,0.765,0.875
+18,600,Team dynamics,Narrative & meta,7,0.7248333333333333,ROBUST,0.765,0.875,0.5,0.667,0.667,0.875
+6,465,Grand Prix wins,Narrative & meta,7,0.7273333333333333,ROBUST,0.875,0.875,0.364,0.5,0.875,0.875
+15,379,Tires & compounds,Strategy & technical,7,0.7726666666666667,ROBUST,0.875,0.875,0.765,0.579,0.875,0.667
+0,205,DRS-assisted battles,Race dynamics,7,0.7909999999999999,ROBUST,0.875,0.875,0.579,0.667,0.875,0.875
+14,185,Pit stops,Strategy & technical,7,0.7595,ROBUST,0.875,0.875,0.5,0.667,0.875,0.765
+16,122,Safety car deployment,Regulatory,7,0.649,ROBUST,0.765,0.875,0.667,0.579,0.429,0.579
+1,118,Time penalties,Regulatory,7,0.8566666666666668,ROBUST,0.875,0.875,0.875,0.765,0.875,0.875
+31,162,Race leader changes,Race dynamics,6,0.4658333333333333,ROBUST,0.579,0.579,0.429,0.429,0.2,0.579
+13,158,Championship & title,Narrative & meta,6,0.4815,ROBUST,0.667,0.579,0.364,0.2,0.579,0.5
+12,139,Podium finishes,Narrative & meta,6,0.5863333333333334,ROBUST,0.765,0.765,0.154,0.304,0.765,0.765
+26,110,Defending & attacking,Race dynamics,6,0.4404999999999999,ROBUST,0.579,0.765,0.071,0.364,0.364,0.5
+28,82,Corner battles,Race dynamics,6,0.3591666666666666,ROBUST,0.429,0.429,0.304,0.2,0.364,0.429
+22,71,Wheel-to-wheel,Race dynamics,6,0.4735,ROBUST,0.667,0.364,0.667,0.2,0.579,0.364
+10,62,Chicane moves,Race dynamics,6,0.6766666666666667,ROBUST,0.875,1.0,0.364,0.071,0.875,0.875
+20,61,Wing & car damage,Strategy & technical,6,0.601,ROBUST,0.667,0.765,0.5,0.034,0.765,0.875
+2,54,Lights-out race starts,Race dynamics,6,0.6998333333333333,ROBUST,0.765,0.875,0.765,0.154,0.875,0.765
+4,42,Race start launch,Race dynamics,6,0.4938333333333334,ROBUST,0.765,0.5,0.429,0.304,0.765,0.2
+30,136,Lap pace & timing,Strategy & technical,5,0.4773333333333333,ROBUST,0.579,0.667,0.034,0.25,0.667,0.667
+9,134,Formula 1 milestones,Narrative & meta,5,0.5873333333333334,ROBUST,0.765,0.875,0.2,0.154,0.765,0.765
+33,122,Field position changes,Race dynamics,5,0.306,ROBUST,0.364,0.304,0.364,0.25,0.25,0.304
+8,118,Race control flags,Regulatory,5,0.345,ROBUST,0.429,0.429,0.154,0.2,0.429,0.429
+19,115,Race lead holding,Race dynamics,5,0.3996666666666666,ROBUST,0.667,0.667,0.2,0.364,0.0,0.5
+3,47,Mirror checks defending,Race dynamics,5,0.5625,ROBUST,0.875,0.875,0.5,0.0,0.875,0.25
+23,72,Circuit action,Race dynamics,4,0.2336666666666666,ROBUST,0.364,0.304,0.034,0.2,0.0,0.5
+5,43,Weather conditions,Strategy & technical,4,0.26,ROBUST,0.304,0.154,0.364,0.071,0.667,0.0
+7,36,Race start lights,Race dynamics,4,0.2848333333333333,ROBUST,0.034,0.0,0.579,0.429,0.667,0.0
+21,128,Braking & lockups,Race dynamics,3,0.2406666666666666,PARTIAL,0.579,0.111,0.304,0.25,0.0,0.2
+17,67,Gap & pace,Strategy & technical,3,0.2596666666666666,PARTIAL,0.429,0.429,0.2,0.25,0.0,0.25
+11,55,Team radio celebrations,Narrative & meta,3,0.2916666666666667,PARTIAL,0.0,0.0,0.875,0.0,0.875,0.0
+24,60,Inter-car distance,Strategy & technical,2,0.1451666666666666,PARTIAL,0.154,0.154,0.304,0.154,0.034,0.071
+25,69,Driver & team references,Narrative & meta,1,0.0765,FRAGILE,0.034,0.0,0.2,0.071,0.0,0.154
+29,60,Corner specific moves,Race dynamics,1,0.0468333333333333,FRAGILE,0.034,0.071,0.0,0.071,0.034,0.071
+32,45,Front position changes,Race dynamics,1,0.096,FRAGILE,0.111,0.0,0.154,0.2,0.0,0.111

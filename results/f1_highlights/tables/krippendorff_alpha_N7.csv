@@ -1,0 +1,13 @@
+task,stratum,n_raters,alpha,ci_lo,ci_hi
+Task 1 intrusion,all_N7,5,0.6404,0.5316,0.7326
+Task 3 label pick,all_N7,5,0.4978,0.3773,0.6123
+Task 4 domain,all_N7,5,0.6891,0.5133,0.8082
+Task 1 intrusion,F1=2,3,0.4213,0.2671,0.5484
+Task 3 label pick,F1=2,3,0.4087,0.2203,0.5717
+Task 4 domain,F1=2,3,0.6149,0.4275,0.7651
+Task 1 intrusion,F1=3,2,0.8905,0.7618,1.0000
+Task 3 label pick,F1=3,2,0.5738,0.3337,0.7780
+Task 4 domain,F1=3,2,0.8998,0.7326,1.0000
+Task 1 intrusion,F1=4,2,0.7483,0.5551,0.8897
+Task 3 label pick,F1=4,2,0.5332,0.2939,0.7517
+Task 4 domain,F1=4,2,0.7216,0.4799,0.9072

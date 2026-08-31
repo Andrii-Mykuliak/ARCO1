@@ -1,0 +1,2 @@
+pipeline,n_clusters,noise_pct,ari_vs_canonical,mean_best_jaccard_vs_canonical,notes
+MiniLM+UMAP+HDBSCAN_mcs10,83,31.816398587681444,0.45590312177572984,0.8053226381059444,mcs=10 (BERTopic default size); vs canonical mcs=35

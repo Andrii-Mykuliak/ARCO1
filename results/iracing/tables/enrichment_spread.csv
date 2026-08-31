@@ -1,0 +1,2 @@
+clusters,vocabulary_terms,candidate_pairs,total_enriched_pairs,mean_per_cluster,median_per_cluster,min_per_cluster,max_per_cluster,clusters_with_zero,frac_clusters_ge5_terms,pct_bigram
+31,2030,62930,656,21.2,14.0,3,83,0,0.935,45.4

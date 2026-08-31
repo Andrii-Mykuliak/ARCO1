@@ -1,0 +1,35 @@
+cluster_id,thematic_label,domain_manual,size,meso_K4,meso_K5,meso_K6,meso_K8,meso_K10
+12,Podium finishes,Narrative & meta,139,1,1,1,1,1
+6,Grand Prix wins,Narrative & meta,465,1,1,1,2,2
+7,Race start lights,Race dynamics,36,1,1,1,2,2
+9,Formula 1 milestones,Narrative & meta,134,1,1,1,2,2
+13,Championship & title,Narrative & meta,158,1,1,1,1,1
+2,Lights-out race starts,Race dynamics,54,2,2,2,3,3
+5,Weather conditions,Strategy & technical,43,2,2,2,3,3
+11,Team radio celebrations,Narrative & meta,55,2,3,3,4,4
+23,Circuit action,Race dynamics,72,3,4,4,6,7
+22,Wheel-to-wheel,Race dynamics,71,3,4,4,6,6
+21,Braking & lockups,Race dynamics,128,3,4,4,6,6
+17,Gap & pace,Strategy & technical,67,3,4,4,5,5
+30,Lap pace & timing,Strategy & technical,136,3,4,4,5,5
+15,Tires & compounds,Strategy & technical,379,3,4,4,6,6
+16,Safety car deployment,Regulatory,122,3,4,4,6,6
+24,Inter-car distance,Strategy & technical,60,3,4,4,6,6
+10,Chicane moves,Race dynamics,62,3,4,4,6,7
+8,Race control flags,Regulatory,118,3,4,4,6,7
+31,Race leader changes,Race dynamics,162,3,4,4,6,7
+3,Mirror checks defending,Race dynamics,47,3,4,4,6,7
+1,Time penalties,Regulatory,118,3,4,4,5,5
+14,Pit stops,Strategy & technical,185,3,4,4,6,7
+25,Driver & team references,Narrative & meta,69,3,4,4,6,6
+29,Corner specific moves,Race dynamics,60,4,5,5,7,8
+28,Corner battles,Race dynamics,82,4,5,5,7,8
+27,Overtake battles,Race dynamics,762,4,5,5,7,8
+0,DRS-assisted battles,Race dynamics,205,4,5,6,8,10
+20,Wing & car damage,Strategy & technical,61,4,5,6,8,9
+19,Race lead holding,Race dynamics,115,4,5,5,7,8
+18,Team dynamics,Narrative & meta,600,4,5,5,7,8
+32,Front position changes,Race dynamics,45,4,5,5,7,8
+4,Race start launch,Race dynamics,42,4,5,6,8,9
+26,Defending & attacking,Race dynamics,110,4,5,5,7,8
+33,Field position changes,Race dynamics,122,4,5,5,7,8

@@ -1,0 +1,1041 @@
+{
+  "_meta": {
+    "version": "v3_verified",
+    "source": "Cleaned from v2 by corpus-occurrence verification",
+    "v2_dropped_zero_hit_variants": 47,
+    "v2_dropped_common_word_variants": 1,
+    "v2_dropped_no_hit_entries": 12,
+    "category_codes": {
+      "PERSON": "driver / commentator / personnel name",
+      "TEAM": "race team / car livery / motorsport organization",
+      "PLACE": "circuit / venue / geographic location",
+      "DROP": "broadcaster/sponsor meta — replace with space"
+    }
+  },
+  "entries": [
+    {
+      "canonical": "Mai Rigby",
+      "category": "PERSON",
+      "variants": [
+        "Mai Rigby",
+        "Mai Riby",
+        "Kai Rigby",
+        "Kai Riby",
+        "Mica Rigby",
+        "Mica Riggsby"
+      ],
+      "total_freq": 110,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Max the Flippy",
+      "category": "PERSON",
+      "variants": [
+        "Max the Flippy",
+        "Flippy"
+      ],
+      "total_freq": 100,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Mason Ward",
+      "category": "PERSON",
+      "variants": [
+        "Mason Ward"
+      ],
+      "total_freq": 89,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Logan Hamilton",
+      "category": "PERSON",
+      "variants": [
+        "Logan Hamilton"
+      ],
+      "total_freq": 81,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Uncle Tank",
+      "category": "PERSON",
+      "variants": [
+        "Uncle Tank",
+        "Uncle Tang",
+        "Uncle Tag"
+      ],
+      "total_freq": 73,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Keegan Shelton",
+      "category": "PERSON",
+      "variants": [
+        "Keegan Shelton",
+        "Shelton"
+      ],
+      "total_freq": 67,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Cody Gibson",
+      "category": "PERSON",
+      "variants": [
+        "Cody Gibson"
+      ],
+      "total_freq": 61,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Tier One Setup Shop",
+      "category": "DROP",
+      "variants": [
+        "Tier One Setup Shop",
+        "tier one setup shop"
+      ],
+      "total_freq": 60,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Stephen Hasset",
+      "category": "PERSON",
+      "variants": [
+        "Stephen Hasset",
+        "Stephen Hass",
+        "Stephen Hassler",
+        "Stephen Hazit",
+        "Stephen Haz",
+        "Steven Hasset",
+        "Steven Hassler",
+        "Steven Hassett",
+        "Steven Seager",
+        "Steven Seagars",
+        "Steve Siegers",
+        "Stephen has it",
+        "abrahams",
+        "hazit"
+      ],
+      "total_freq": 57,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "McCoy Beni",
+      "category": "PERSON",
+      "variants": [
+        "McCoy Beni",
+        "McCoy Benkey",
+        "Boy Beni",
+        "boy Beni",
+        "the boy Beni"
+      ],
+      "total_freq": 54,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Tim Averill",
+      "category": "PERSON",
+      "variants": [
+        "Tim Averill",
+        "Tim Abro",
+        "Tim Abrah"
+      ],
+      "total_freq": 52,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Tier One",
+      "category": "TEAM",
+      "variants": [
+        "Tier One",
+        "Tier 1"
+      ],
+      "total_freq": 52,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Knox Thompson",
+      "category": "PERSON",
+      "variants": [
+        "Knox Thompson"
+      ],
+      "total_freq": 50,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Chase Bullard",
+      "category": "PERSON",
+      "variants": [
+        "Chase Bullard",
+        "Chase Bullet"
+      ],
+      "total_freq": 47,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Josh Duncan",
+      "category": "PERSON",
+      "variants": [
+        "Josh Duncan"
+      ],
+      "total_freq": 47,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Kyle Wellman",
+      "category": "PERSON",
+      "variants": [
+        "Kyle Wellman",
+        "Kyle Welman",
+        "Kyle Wman"
+      ],
+      "total_freq": 45,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Brandon Feifer",
+      "category": "PERSON",
+      "variants": [
+        "Brandon Feifer",
+        "Brandon Fifer",
+        "Brandon Fiper",
+        "Brandon Fiverr"
+      ],
+      "total_freq": 44,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Logan Clark",
+      "category": "PERSON",
+      "variants": [
+        "Logan Clark",
+        "Logan Cluck"
+      ],
+      "total_freq": 43,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Sage Greco",
+      "category": "PERSON",
+      "variants": [
+        "Sage Greco",
+        "Sage Brecko",
+        "Sage Kreco",
+        "Sage Crecco",
+        "Sage Groko"
+      ],
+      "total_freq": 42,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Jacob Brown",
+      "category": "PERSON",
+      "variants": [
+        "Jacob Brown",
+        "JB"
+      ],
+      "total_freq": 40,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Drayton Cook",
+      "category": "PERSON",
+      "variants": [
+        "Drayton Cook",
+        "Drayden Cook"
+      ],
+      "total_freq": 33,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Joshua Smith",
+      "category": "PERSON",
+      "variants": [
+        "Joshua Smith"
+      ],
+      "total_freq": 31,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Jared Parks",
+      "category": "PERSON",
+      "variants": [
+        "Jared Parks"
+      ],
+      "total_freq": 27,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Nicholas Wheeler",
+      "category": "PERSON",
+      "variants": [
+        "Nicholas Wheeler"
+      ],
+      "total_freq": 26,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Admin Box",
+      "category": "DROP",
+      "variants": [
+        "Admin Box",
+        "Adminbox",
+        "Adminboxx"
+      ],
+      "total_freq": 26,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Cornwell barbecue",
+      "category": "DROP",
+      "variants": [
+        "Cornwell barbecue",
+        "Cornwell"
+      ],
+      "total_freq": 25,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Chris Lewis",
+      "category": "PERSON",
+      "variants": [
+        "Chris Lewis",
+        "Christopher Lewis"
+      ],
+      "total_freq": 23,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Bry Bernie",
+      "category": "PERSON",
+      "variants": [
+        "Bry",
+        "Bernie",
+        "Barney"
+      ],
+      "total_freq": 23,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Fearless Broadcasting",
+      "category": "DROP",
+      "variants": [
+        "Fearless Broadcasting",
+        "Fearless"
+      ],
+      "total_freq": 23,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Austin Smith",
+      "category": "PERSON",
+      "variants": [
+        "Austin Smith"
+      ],
+      "total_freq": 19,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Cody Brewer",
+      "category": "PERSON",
+      "variants": [
+        "Cody Brewer"
+      ],
+      "total_freq": 19,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Randy Cornwell",
+      "category": "PERSON",
+      "variants": [
+        "Randy Cornwell"
+      ],
+      "total_freq": 19,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Bruce Spencer",
+      "category": "PERSON",
+      "variants": [
+        "Bruce Spencer"
+      ],
+      "total_freq": 19,
+      "source": "ner"
+    },
+    {
+      "canonical": "Tom Wizard",
+      "category": "PERSON",
+      "variants": [
+        "Tom Wizard",
+        "Tom Wiza",
+        "Tom Wiz"
+      ],
+      "total_freq": 18,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Anthony Mullet",
+      "category": "PERSON",
+      "variants": [
+        "Anthony Mullet",
+        "Anthony Mo"
+      ],
+      "total_freq": 16,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Lance Higgins",
+      "category": "PERSON",
+      "variants": [
+        "Lance Higgins"
+      ],
+      "total_freq": 15,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Hunter Voy",
+      "category": "PERSON",
+      "variants": [
+        "Hunter Voy",
+        "Hunter Voice",
+        "Hunter Boyce",
+        "Hunter Fo Foist"
+      ],
+      "total_freq": 13,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Dean Baron",
+      "category": "PERSON",
+      "variants": [
+        "Dean Baron"
+      ],
+      "total_freq": 13,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Brady Davis",
+      "category": "PERSON",
+      "variants": [
+        "Brad Davis"
+      ],
+      "total_freq": 13,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Charlotte Motor Speedway",
+      "category": "PLACE",
+      "variants": [
+        "Charlotte Motor Speedway",
+        "Charlotte"
+      ],
+      "total_freq": 13,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Logan Halstead",
+      "category": "PERSON",
+      "variants": [
+        "Logan Halstead"
+      ],
+      "total_freq": 13,
+      "source": "ner"
+    },
+    {
+      "canonical": "Warren Cook",
+      "category": "PERSON",
+      "variants": [
+        "Warren Cook"
+      ],
+      "total_freq": 12,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Noah Delano",
+      "category": "PERSON",
+      "variants": [
+        "Noah Delano"
+      ],
+      "total_freq": 11,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Ron Milam",
+      "category": "PERSON",
+      "variants": [
+        "Ron Milam",
+        "Ron Millan",
+        "Ron Milm"
+      ],
+      "total_freq": 10,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Doc Thompson",
+      "category": "PERSON",
+      "variants": [
+        "Doc Thompson"
+      ],
+      "total_freq": 8,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Ian Menses",
+      "category": "PERSON",
+      "variants": [
+        "Ian Menses"
+      ],
+      "total_freq": 8,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Chicagoland",
+      "category": "PLACE",
+      "variants": [
+        "Chicagoland"
+      ],
+      "total_freq": 8,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Dalton Wilson",
+      "category": "PERSON",
+      "variants": [
+        "Dalton Wilson"
+      ],
+      "total_freq": 7,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Bristol",
+      "category": "PLACE",
+      "variants": [
+        "Bristol"
+      ],
+      "total_freq": 7,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Homestead-Miami",
+      "category": "PLACE",
+      "variants": [
+        "Homestead Miami",
+        "Homestead"
+      ],
+      "total_freq": 7,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Cameron Underwood",
+      "category": "PERSON",
+      "variants": [
+        "Cameron Underwood"
+      ],
+      "total_freq": 7,
+      "source": "ner"
+    },
+    {
+      "canonical": "Juicy Spider Motorsports",
+      "category": "TEAM",
+      "variants": [
+        "Juicy Spider Motorsports",
+        "Juicy Spider"
+      ],
+      "total_freq": 6,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Tier One Wraps",
+      "category": "DROP",
+      "variants": [
+        "Tier One Wraps",
+        "Tier 1 Wraps"
+      ],
+      "total_freq": 6,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Tier One subscription",
+      "category": "DROP",
+      "variants": [
+        "Tier One subscription",
+        "Tier 1 subscription"
+      ],
+      "total_freq": 6,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Saturday Night Racing League",
+      "category": "DROP",
+      "variants": [
+        "Saturday Night Racing League",
+        "Saturday Night Racing"
+      ],
+      "total_freq": 6,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Brady Zer",
+      "category": "PERSON",
+      "variants": [
+        "Brady Zer"
+      ],
+      "total_freq": 6,
+      "source": "ner"
+    },
+    {
+      "canonical": "Bo Guggley",
+      "category": "PERSON",
+      "variants": [
+        "Bo Guggley",
+        "Boagley",
+        "Gagley"
+      ],
+      "total_freq": 5,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Matthew Jordan",
+      "category": "PERSON",
+      "variants": [
+        "Matthew Scruffy Jordan"
+      ],
+      "total_freq": 5,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Tim Ambrose",
+      "category": "PERSON",
+      "variants": [
+        "Tim Ambrose"
+      ],
+      "total_freq": 5,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Steven Hazard",
+      "category": "PERSON",
+      "variants": [
+        "Steven Hazard"
+      ],
+      "total_freq": 5,
+      "source": "ner"
+    },
+    {
+      "canonical": "Skull Bandit",
+      "category": "TEAM",
+      "variants": [
+        "Skull Bandit",
+        "the skull bandit"
+      ],
+      "total_freq": 4,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Tyler Castleman",
+      "category": "PERSON",
+      "variants": [
+        "Tyler Castleman"
+      ],
+      "total_freq": 4,
+      "source": "ner"
+    },
+    {
+      "canonical": "Robin Hamilton",
+      "category": "PERSON",
+      "variants": [
+        "Robin Hamilton"
+      ],
+      "total_freq": 4,
+      "source": "ner"
+    },
+    {
+      "canonical": "Tommy Withers",
+      "category": "PERSON",
+      "variants": [
+        "Tommy Withers"
+      ],
+      "total_freq": 4,
+      "source": "ner"
+    },
+    {
+      "canonical": "Donnie Kite",
+      "category": "PERSON",
+      "variants": [
+        "Donnie Kite"
+      ],
+      "total_freq": 3,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Sebastian Marin",
+      "category": "PERSON",
+      "variants": [
+        "Sebastian Marin",
+        "Sebastian Harin"
+      ],
+      "total_freq": 3,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Hunter Senior",
+      "category": "PERSON",
+      "variants": [
+        "Hunter Senior"
+      ],
+      "total_freq": 3,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Josh Adams",
+      "category": "PERSON",
+      "variants": [
+        "Josh Adams"
+      ],
+      "total_freq": 3,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "TI Racing",
+      "category": "TEAM",
+      "variants": [
+        "TI Racing"
+      ],
+      "total_freq": 3,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Forever Rowdy",
+      "category": "TEAM",
+      "variants": [
+        "Forever Rowdy"
+      ],
+      "total_freq": 3,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Iowa",
+      "category": "PLACE",
+      "variants": [
+        "Iowa"
+      ],
+      "total_freq": 3,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Thomas Wren",
+      "category": "PERSON",
+      "variants": [
+        "Thomas Wren"
+      ],
+      "total_freq": 3,
+      "source": "ner"
+    },
+    {
+      "canonical": "James Greco",
+      "category": "PERSON",
+      "variants": [
+        "James Greco"
+      ],
+      "total_freq": 3,
+      "source": "ner"
+    },
+    {
+      "canonical": "TA3 Designs",
+      "category": "PERSON",
+      "variants": [
+        "TA3 Designs"
+      ],
+      "total_freq": 3,
+      "source": "ner"
+    },
+    {
+      "canonical": "Richard Coington",
+      "category": "PERSON",
+      "variants": [
+        "Richard Coington"
+      ],
+      "total_freq": 3,
+      "source": "ner"
+    },
+    {
+      "canonical": "Joshua DeFrain",
+      "category": "PERSON",
+      "variants": [
+        "Joshua DeFrain"
+      ],
+      "total_freq": 3,
+      "source": "ner"
+    },
+    {
+      "canonical": "Bas Ward",
+      "category": "PERSON",
+      "variants": [
+        "Bas Ward"
+      ],
+      "total_freq": 3,
+      "source": "ner"
+    },
+    {
+      "canonical": "Guy Rigby",
+      "category": "PERSON",
+      "variants": [
+        "Guy Rigby"
+      ],
+      "total_freq": 3,
+      "source": "ner"
+    },
+    {
+      "canonical": "Kyrie Riby",
+      "category": "PERSON",
+      "variants": [
+        "Kyrie Riby"
+      ],
+      "total_freq": 3,
+      "source": "ner"
+    },
+    {
+      "canonical": "Brent Singers",
+      "category": "PERSON",
+      "variants": [
+        "Brent Siegers"
+      ],
+      "total_freq": 2,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "James Weathers",
+      "category": "PERSON",
+      "variants": [
+        "James Weathers"
+      ],
+      "total_freq": 2,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Dale Marowski",
+      "category": "PERSON",
+      "variants": [
+        "Dale Marowski"
+      ],
+      "total_freq": 2,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Hart Pirate Millan",
+      "category": "PERSON",
+      "variants": [
+        "Art the Pirate",
+        "the Pirate"
+      ],
+      "total_freq": 2,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Skittles Car",
+      "category": "TEAM",
+      "variants": [
+        "Skittles",
+        "Skittles Car"
+      ],
+      "total_freq": 2,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Kyle Busch",
+      "category": "PERSON",
+      "variants": [
+        "Kyle Busch"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Logan Klutt",
+      "category": "PERSON",
+      "variants": [
+        "Logan Klutt"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Logan Matthews",
+      "category": "PERSON",
+      "variants": [
+        "Logan Matthews"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Brendan Medeiros",
+      "category": "PERSON",
+      "variants": [
+        "Brendan Medeiros"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Uncle Danny",
+      "category": "PERSON",
+      "variants": [
+        "Uncle Danny"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Brett Seagars",
+      "category": "PERSON",
+      "variants": [
+        "Brett Seagars"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Kristen Lewis",
+      "category": "PERSON",
+      "variants": [
+        "Kristen Lewis"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Nicholas Miller",
+      "category": "PERSON",
+      "variants": [
+        "Nicholas Miller"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Greg Woodcup",
+      "category": "PERSON",
+      "variants": [
+        "Greg Woodcup"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Kim Abernathy",
+      "category": "PERSON",
+      "variants": [
+        "Kim Abernathy"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Bri Piper",
+      "category": "PERSON",
+      "variants": [
+        "Bri Piper"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Graham Feifer",
+      "category": "PERSON",
+      "variants": [
+        "Graham Feifer"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Angel Delgado",
+      "category": "PERSON",
+      "variants": [
+        "Angel Delgado"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Stephen Johnson",
+      "category": "PERSON",
+      "variants": [
+        "Stephen Johnson"
+      ],
+      "total_freq": 2,
+      "source": "ner"
+    },
+    {
+      "canonical": "Joshua Dufrene",
+      "category": "PERSON",
+      "variants": [
+        "Joshua Dufrene"
+      ],
+      "total_freq": 1,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Randy Wall",
+      "category": "PERSON",
+      "variants": [
+        "Randy Wall"
+      ],
+      "total_freq": 1,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Andrew Swalheim",
+      "category": "PERSON",
+      "variants": [
+        "Andrew Swalheim"
+      ],
+      "total_freq": 1,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "JB Racing",
+      "category": "TEAM",
+      "variants": [
+        "JB Racing"
+      ],
+      "total_freq": 1,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Flow Racing",
+      "category": "TEAM",
+      "variants": [
+        "Flow Racing"
+      ],
+      "total_freq": 1,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Hamzo",
+      "category": "TEAM",
+      "variants": [
+        "Hamzo"
+      ],
+      "total_freq": 1,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "Kentucky",
+      "category": "PLACE",
+      "variants": [
+        "Kentucky"
+      ],
+      "total_freq": 1,
+      "source": "manual_boost"
+    },
+    {
+      "canonical": "O'Reilly Auto Parts",
+      "category": "DROP",
+      "variants": [
+        "O'Reilly"
+      ],
+      "total_freq": 1,
+      "source": "manual_boost"
+    }
+  ]
+}

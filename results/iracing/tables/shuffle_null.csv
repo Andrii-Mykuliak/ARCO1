@@ -1,0 +1,2 @@
+observed_universal,null_mean,null_sd,null_range,iterations,p_observed_or_fewer,p_observed_or_more,direction,testable
+2,2.0,0.0,"[2, 2]",1000,1.0,1.0,not distinguishable from chance,True

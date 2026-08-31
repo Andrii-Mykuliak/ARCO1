@@ -1,0 +1,18 @@
+# Normalise line endings so the repo is identical on Windows, macOS and Linux.
+# Without this, a checkout on another platform rewrites every text file and the
+# first diff a collaborator sees is 60 files of pure line-ending noise.
+* text=auto eol=lf
+
+# Data files: keep byte-exact. sentences.jsonl is line-oriented and its content
+# is quoted broadcast text, so no transformation should touch it.
+*.jsonl   text eol=lf
+*.csv     text eol=lf
+*.json    text eol=lf
+
+# Binary — never diff or transform.
+*.png     binary
+*.npy     binary
+*.parquet binary
+
+# Notebooks are JSON but diff badly; mark so tooling does not try to merge them.
+*.ipynb   text eol=lf -diff

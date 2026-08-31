@@ -1,0 +1,2 @@
+tau,retains_of_clustered_pct,clustered_below_tau,clustered_total,p1_of_clustered,admits_of_noise_pct,youden_j,separation_optimal_tau,separation_optimal_j
+0.4,98.33,44,2632,0.365,87.25,0.111,0.68,0.426

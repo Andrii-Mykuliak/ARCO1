@@ -1,0 +1,2 @@
+variant,n_clusters,noise_pct,ari_all,nmi_all,ari_co_clustered,n_co_clustered
+"default granularity (mcs=10), masked",91,35.5,0.4387,0.7495,0.923,4174

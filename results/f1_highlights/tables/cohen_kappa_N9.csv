@@ -1,0 +1,4 @@
+task,n_raters,n_pairs,mean_pairwise_cohen_kappa
+T1 intrusion,9,36,0.674
+T3 label pick,9,36,0.516
+T4 domain,9,36,0.691

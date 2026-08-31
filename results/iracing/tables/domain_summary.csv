@@ -1,0 +1,2 @@
+n_domains_requested,louvain_communities,network_edges,network_density,ward_louvain_agreement,chance_baseline
+4,7,81,0.174,0.6452,0.4004

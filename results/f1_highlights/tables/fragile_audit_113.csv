@@ -1,0 +1,4 @@
+cluster_id,label,size,n_enriched,cohesion,cohesion_rank,cohesion_n,domain_rate,domain_enrich,zero_enriched_rate,junk_score,verdict
+25,Driver nationalities,69,11,0.46210095286369324,13,25,0.4057971014492754,14.568687487242295,0.13043478260869565,2,BORDERLINE (real sub-theme + residual)
+29,Corner specific moves,60,7,0.3947635293006897,16,20,0.6833333333333333,10.47184368737475,0.06666666666666667,1,MOSTLY COHERENT (1 weak indicator)
+32,Front position changes,45,7,0.5606584548950195,2,16,0.9777777777777777,3.7973929236499067,0.1111111111111111,0,COHERENT (strong theme despite multipipeline fragility)

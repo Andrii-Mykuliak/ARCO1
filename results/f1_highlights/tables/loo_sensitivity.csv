@@ -1,0 +1,12 @@
+removed,majority_count,delta,abs_delta
+(none - all judges),28,0,0
+enc_all,28,0,0
+enc_bge,27,-1,1
+enc_gte,28,0,0
+kmeans,28,0,0
+ward,28,0,0
+optics,28,0,0
+leiden,27,-1,1
+res_mcs17,27,-1,1
+res_mcs52,27,-1,1
+seed_umap2,27,-1,1

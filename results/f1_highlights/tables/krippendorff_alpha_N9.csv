@@ -1,0 +1,4 @@
+task,n_raters,alpha,ci_lo,ci_hi
+T1 intrusion,9,0.6708,0.5566,0.7536
+T3 label pick,9,0.5160,0.3957,0.6229
+T4 domain,9,0.6874,0.5336,0.8030

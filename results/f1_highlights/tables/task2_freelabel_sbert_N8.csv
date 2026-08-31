@@ -1,0 +1,273 @@
+k,cluster_id,canonical,rater,F1,label,sbert_cosine
+1,22,Wheel-to-wheel,R1,2,Wheel to wheel racing,0.7645
+1,22,Wheel-to-wheel,R2,4,Battles,0.2128
+1,22,Wheel-to-wheel,R3,4,Wheel to wheel,0.9183
+1,22,Wheel-to-wheel,R4,2,competing drivers,0.2671
+1,22,Wheel-to-wheel,R5,3,figth on the track,0.3028
+1,22,Wheel-to-wheel,R6,2,Sparrings of two closest competitors,0.0687
+1,22,Wheel-to-wheel,R7,3,Race commentary transcription,0.1550
+1,22,Wheel-to-wheel,R8,5,The racing itself,0.2769
+2,0,DRS-assisted battles,R1,2,Some DRS,0.4710
+2,0,DRS-assisted battles,R2,4,Straight overtakes,0.1651
+2,0,DRS-assisted battles,R3,4,DRS,0.5427
+2,0,DRS-assisted battles,R4,2,DRS,0.5427
+2,0,DRS-assisted battles,R5,3,DRS,0.5427
+2,0,DRS-assisted battles,R6,2,Obstacles to break,0.2048
+2,0,DRS-assisted battles,R7,3,Aerodynamic overtake triggers,0.1385
+2,0,DRS-assisted battles,R8,5,DRS impact,0.5396
+3,32,Front position changes,R1,2,First of firsts,0.1333
+3,32,Front position changes,R2,4,Position changes,0.7308
+3,32,Front position changes,R3,4,Overtake,0.1367
+3,32,Front position changes,R4,2,score,0.0621
+3,32,Front position changes,R5,3,positions,0.3774
+3,32,Front position changes,R6,2,Racers placing,0.1735
+3,32,Front position changes,R7,3,Driver position updates,0.4331
+3,32,Front position changes,R8,5,Positions on grid,0.3330
+4,16,Safety car deployment,R1,2,A safety car,0.7566
+4,16,Safety car deployment,R2,4,Incidents,0.2274
+4,16,Safety car deployment,R3,4,Safety car,0.7748
+4,16,Safety car deployment,R4,2,safety,0.5813
+4,16,Safety car deployment,R5,3,Safety and risks,0.5630
+4,16,Safety car deployment,R6,2,Safety and race leaving,0.4732
+4,16,Safety car deployment,R7,3,Safety car time,0.6321
+4,16,Safety car deployment,R8,5,Safety car impact,0.6785
+5,8,Race control flags,R1,2,A moment in history,0.0855
+5,8,Race control flags,R2,4,Wins,0.1438
+5,8,Race control flags,R3,4,Finish,0.1549
+5,8,Race control flags,R4,2,checkered flag,0.5258
+5,8,Race control flags,R5,3,finish,0.1549
+5,8,Race control flags,R6,2,Champions of races,0.4315
+5,8,Race control flags,R7,3,Race finish,0.4400
+5,8,Race control flags,R8,5,Finish,0.1549
+6,18,Team dynamics,R1,2,Swapping places,0.1245
+6,18,Team dynamics,R2,4,Positions,0.3552
+6,18,Team dynamics,R3,4,Teammates' battle,0.6114
+6,18,Team dynamics,R4,2,overtakes,0.2586
+6,18,Team dynamics,R5,3,teamplay,0.6992
+6,18,Team dynamics,R6,2,close wheels,0.2087
+6,18,Team dynamics,R7,3,Intra-team battles,0.6705
+6,18,Team dynamics,R8,5,Team sport,0.6297
+7,15,Tires & compounds,R1,2,Softer tires,0.6251
+7,15,Tires & compounds,R2,4,Pits,0.1891
+7,15,Tires & compounds,R3,4,Tires,0.7883
+7,15,Tires & compounds,R4,2,tyres replacement,0.6351
+7,15,Tires & compounds,R5,3,tires,0.7883
+7,15,Tires & compounds,R6,2,Tires quality,0.5786
+7,15,Tires & compounds,R7,3,Tires,0.7883
+7,15,Tires & compounds,R8,5,Tyres management,0.6428
+8,26,Defending & attacking,R1,2,Fighting on the arena,0.4120
+8,26,Defending & attacking,R2,4,Midfield positions,0.3828
+8,26,Defending & attacking,R3,4,Battle for position,0.5262
+8,26,Defending & attacking,R4,2,battles,0.5157
+8,26,Defending & attacking,R5,3,fight,0.4420
+8,26,Defending & attacking,R6,2,figths on the road,0.2588
+8,26,Defending & attacking,R7,3,Track battles,0.3426
+8,26,Defending & attacking,R8,5,Race decisions,0.2415
+9,33,Field position changes,R1,2,Place changes,0.4274
+9,33,Field position changes,R2,4,Midfield positions,0.3788
+9,33,Field position changes,R3,4,Position improvement,0.4972
+9,33,Field position changes,R4,2,position,0.4932
+9,33,Field position changes,R5,3,postions,0.1502
+9,33,Field position changes,R6,2,Positions changings,0.6721
+9,33,Field position changes,R7,3,Driver position info,0.3570
+9,33,Field position changes,R8,5,Positions swap,0.5230
+10,11,Team radio celebrations,R1,2,Great congratulations,0.1774
+10,11,Team radio celebrations,R2,4,Radio,0.6340
+10,11,Team radio celebrations,R3,4,Team comms,0.3710
+10,11,Team radio celebrations,R4,2,thanks,0.0921
+10,11,Team radio celebrations,R5,3,celebrations,0.6075
+10,11,Team radio celebrations,R6,2,Thanks for the race,0.1376
+10,11,Team radio celebrations,R7,3,After-race team voice chat,0.3859
+10,11,Team radio celebrations,R8,5,Drivers commentary,0.2935
+11,23,Circuit action,R1,2,Final overtake,0.1583
+11,23,Circuit action,R2,4,Racing conditions,0.0702
+11,23,Circuit action,R3,4,Attacking spots on track,0.1181
+11,23,Circuit action,R4,2,race dynamics,0.1778
+11,23,Circuit action,R5,3,part of the track,0.1614
+11,23,Circuit action,R6,2,Last chances,0.1332
+11,23,Circuit action,R7,3,Track layout commentary,0.0312
+11,23,Circuit action,R8,5,Positions changes,0.2030
+12,4,Race start launch,R1,2,Perfect launch,0.5107
+12,4,Race start launch,R2,4,Race start,0.8608
+12,4,Race start launch,R3,4,Race start,0.8608
+12,4,Race start launch,R4,2,launch off,0.5752
+12,4,Race start launch,R5,3,start,0.5161
+12,4,Race start launch,R6,2,launch off the line,0.5373
+12,4,Race start launch,R7,3,Start launches,0.6970
+12,4,Race start launch,R8,5,Starting procedure,0.2342
+13,10,Chicane moves,R1,2,Chicane,0.7933
+13,10,Chicane moves,R2,4,Battles,0.2652
+13,10,Chicane moves,R3,4,Battles in chicanes,0.7016
+13,10,Chicane moves,R4,2,chicane,0.7933
+13,10,Chicane moves,R5,3,chicane,0.7933
+13,10,Chicane moves,R6,2,chicane,0.7933
+13,10,Chicane moves,R7,3,Chicane,0.7933
+13,10,Chicane moves,R8,5,Race actions,0.2508
+14,6,Grand Prix wins,R1,2,Best winners,0.4548
+14,6,Grand Prix wins,R2,4,Victories,0.4489
+14,6,Grand Prix wins,R3,4,Grand Prix win,0.9549
+14,6,Grand Prix wins,R4,2,winners,0.4725
+14,6,Grand Prix wins,R5,3,wins,0.3974
+14,6,Grand Prix wins,R6,2,Winners of Grand Prix,0.8741
+14,6,Grand Prix wins,R7,3,Victories,0.4489
+14,6,Grand Prix wins,R8,5,Winners,0.4725
+15,1,Time penalties,R1,2,Bad penalties,0.7187
+15,1,Time penalties,R2,4,Penalties,0.8003
+15,1,Time penalties,R3,4,Penalty,0.7623
+15,1,Time penalties,R4,2,penalties,0.8003
+15,1,Time penalties,R5,3,penalty,0.7623
+15,1,Time penalties,R6,2,5-second penalties,0.8273
+15,1,Time penalties,R7,3,Five-second penalties,0.8150
+15,1,Time penalties,R8,5,Time penalty,0.9218
+16,19,Race lead holding,R1,2,Take the lead,0.5313
+16,19,Race lead holding,R2,4,Front positions,0.2879
+16,19,Race lead holding,R3,4,Battle for first,0.3125
+16,19,Race lead holding,R4,2,leading racers,0.6370
+16,19,Race lead holding,R5,3,taking the lead,0.5709
+16,19,Race lead holding,R6,2,Taking lead,0.5657
+16,19,Race lead holding,R7,3,Track leadership,0.4017
+16,19,Race lead holding,R8,5,Leading position,0.4930
+17,13,Championship & title,R1,2,Retake the championship,0.7576
+17,13,Championship & title,R2,4,Race finishes,0.3455
+17,13,Championship & title,R3,4,Championship lead,0.7749
+17,13,Championship & title,R4,2,championship,0.8906
+17,13,Championship & title,R5,3,championship,0.8906
+17,13,Championship & title,R6,2,general favorites,0.2274
+17,13,Championship & title,R7,3,Championship battle storylines,0.6545
+17,13,Championship & title,R8,5,Championship battle,0.7480
+18,3,Mirror checks defending,R1,2,Lookin at the mirror,0.5252
+18,3,Mirror checks defending,R2,4,Race conditions,0.1818
+18,3,Mirror checks defending,R3,4,Defending,0.5199
+18,3,Mirror checks defending,R4,2,mirrors checking,0.7908
+18,3,Mirror checks defending,R5,3,mirror check,0.8015
+18,3,Mirror checks defending,R6,2,mirrors checking,0.7908
+18,3,Mirror checks defending,R7,3,Checking rearview mirrors,0.5890
+18,3,Mirror checks defending,R8,5,Mirror checks,0.8790
+19,14,Pit stops,R1,2,Pit stops now !,0.8499
+19,14,Pit stops,R2,4,Pot stops,0.5450
+19,14,Pit stops,R3,4,Pit stop,0.9159
+19,14,Pit stops,R4,2,pit stops,1.0000
+19,14,Pit stops,R5,3,pit stop,0.9159
+19,14,Pit stops,R6,2,Pit stops,1.0000
+19,14,Pit stops,R7,3,Pit stop battles,0.8245
+19,14,Pit stops,R8,5,Pit stops,1.0000
+20,12,Podium finishes,R1,2,Podium,0.8549
+20,12,Podium finishes,R2,4,Race finishes,0.6425
+20,12,Podium finishes,R3,4,Podium finish,0.9702
+20,12,Podium finishes,R4,2,podium,0.8549
+20,12,Podium finishes,R5,3,places/podium,0.7244
+20,12,Podium finishes,R6,2,Final results and placings,0.3708
+20,12,Podium finishes,R7,3,Podium results,0.8312
+20,12,Podium finishes,R8,5,Podiums,0.8164
+21,20,Wing & car damage,R1,2,Unexpected damage,0.4840
+21,20,Wing & car damage,R2,4,Incidents,0.1997
+21,20,Wing & car damage,R3,4,Contact in battles,0.0985
+21,20,Wing & car damage,R4,2,car damage,0.6953
+21,20,Wing & car damage,R5,3,front wing damage,0.8111
+21,20,Wing & car damage,R6,2,Car damages,0.6383
+21,20,Wing & car damage,R7,3,Front wing damage,0.8111
+21,20,Wing & car damage,R8,5,Car damage,0.6953
+22,21,Braking & lockups,R1,2,The first braking zone,0.5179
+22,21,Braking & lockups,R2,4,Incidents,0.2544
+22,21,Braking & lockups,R3,4,Braking,0.7104
+22,21,Braking & lockups,R4,2,braking,0.7104
+22,21,Braking & lockups,R5,3,corner battle,0.1793
+22,21,Braking & lockups,R6,2,Braking,0.7104
+22,21,Braking & lockups,R7,3,Braking zone battles,0.5450
+22,21,Braking & lockups,R8,5,Brakings,0.7177
+23,31,Race leader changes,R1,2,I’m behind you,0.0825
+23,31,Race leader changes,R2,4,Leadership changes,0.6224
+23,31,Race leader changes,R3,4,Race leader,0.8035
+23,31,Race leader changes,R4,2,race leaders,0.7557
+23,31,Race leader changes,R5,3,leading,0.4115
+23,31,Race leader changes,R6,2,leads and overtakes,0.2698
+23,31,Race leader changes,R7,3,Race lead changes,0.7263
+23,31,Race leader changes,R8,5,Race lead,0.6390
+24,5,Weather conditions,R1,2,Unexpected problems,0.2150
+24,5,Weather conditions,R2,4,Weather changes,0.7344
+24,5,Weather conditions,R3,4,Rain conditions,0.8106
+24,5,Weather conditions,R4,2,weather,0.8520
+24,5,Weather conditions,R5,3,Rain on track,0.4156
+24,5,Weather conditions,R6,2,Weather conditions,1.0000
+24,5,Weather conditions,R7,3,Rain,0.5933
+24,5,Weather conditions,R8,5,Wheather impact,0.0833
+25,30,Lap pace & timing,R1,2,The last lap,0.5010
+25,30,Lap pace & timing,R2,4,Oveetake plans,0.1623
+25,30,Lap pace & timing,R3,4,Previous lap,0.5144
+25,30,Lap pace & timing,R4,2,lap dynamics,0.4485
+25,30,Lap pace & timing,R5,3,lap time,0.7216
+25,30,Lap pace & timing,R6,2,"Diferent laps, different speed",0.5106
+25,30,Lap pace & timing,R7,3,Chasing cars ahead,0.3817
+25,30,Lap pace & timing,R8,5,Laps,0.4311
+26,29,Corner specific moves,R1,2,Another and another turn,0.3477
+26,29,Corner specific moves,R2,4,Positions on track,0.4862
+26,29,Corner specific moves,R3,4,Battles in corners,0.5742
+26,29,Corner specific moves,R4,2,corners,0.6923
+26,29,Corner specific moves,R5,3,corners,0.6923
+26,29,Corner specific moves,R6,2,Passing turns,0.4770
+26,29,Corner specific moves,R7,3,Corner action,0.7895
+26,29,Corner specific moves,R8,5,Circuit turns,0.2524
+27,2,Lights-out race starts,R1,2,Away we go,0.1921
+27,2,Lights-out race starts,R2,4,Race start,0.7559
+27,2,Lights-out race starts,R3,4,Race starts,0.7445
+27,2,Lights-out race starts,R4,2,start,0.3771
+27,2,Lights-out race starts,R5,3,lights out,0.5960
+27,2,Lights-out race starts,R6,2,Start lights,0.6757
+27,2,Lights-out race starts,R7,3,Start launches,0.3337
+27,2,Lights-out race starts,R8,5,Race start,0.7559
+28,7,Race start lights,R1,2,Racing in five lights,0.7207
+28,7,Race start lights,R2,4,Race start,0.7432
+28,7,Race start lights,R3,4,Race starts,0.7190
+28,7,Race start lights,R4,2,Grand Prix start,0.5236
+28,7,Race start lights,R5,3,race start,0.7432
+28,7,Race start lights,R6,2,Race starting,0.7312
+28,7,Race start lights,R7,3,Five starting lights,0.7021
+28,7,Race start lights,R8,5,Lights-out race starts,0.8821
+29,24,Inter-car distance,R1,2,Overtaking again,0.2253
+29,24,Inter-car distance,R2,4,Racing action,0.2591
+29,24,Inter-car distance,R3,4,Overtake battles,0.1406
+29,24,Inter-car distance,R4,2,distance,0.6227
+29,24,Inter-car distance,R5,3,close battle,0.1256
+29,24,Inter-car distance,R6,2,"Nothing, but metric system",0.2461
+29,24,Inter-car distance,R7,3,Car distance gaps,0.7675
+29,24,Inter-car distance,R8,5,Interval between cars,0.7553
+30,17,Gap & pace,R1,2,Gap and gap,0.7317
+30,17,Gap & pace,R2,4,Gap times,0.6921
+30,17,Gap & pace,R3,4,Stats,0.2313
+30,17,Gap & pace,R4,2,gaps,0.6470
+30,17,Gap & pace,R5,3,Gaps,0.6470
+30,17,Gap & pace,R6,2,speed differences,0.2342
+30,17,Gap & pace,R7,3,Time gaps,0.5634
+30,17,Gap & pace,R8,5,Driver pace,0.5435
+31,9,Formula 1 milestones,R1,2,Formula 1 wins,0.4807
+31,9,Formula 1 milestones,R2,4,First time victories,0.2759
+31,9,Formula 1 milestones,R3,4,Race win,0.1532
+31,9,Formula 1 milestones,R4,2,winners,0.1934
+31,9,Formula 1 milestones,R5,3,winning,0.1828
+31,9,Formula 1 milestones,R6,2,First time wins,0.1297
+31,9,Formula 1 milestones,R7,3,Winner,0.0498
+31,9,Formula 1 milestones,R8,5,Significant wins,0.2736
+32,25,Driver & team references,R1,2,Getting past,0.1165
+32,25,Driver & team references,R2,4,Driver references,0.7421
+32,25,Driver & team references,R3,4,Driver behind,0.4803
+32,25,Driver & team references,R4,2,race dynamics,0.1613
+32,25,Driver & team references,R5,3,position change,0.1122
+32,25,Driver & team references,R6,2,holding place,0.0854
+32,25,Driver & team references,R7,3,Overtake battles,0.2275
+32,25,Driver & team references,R8,5,Position defense,0.1705
+33,28,Corner battles,R1,2,Final fighting,0.4670
+33,28,Corner battles,R2,4,Racing action,0.3661
+33,28,Corner battles,R3,4,Pre-corner battle,0.8079
+33,28,Corner battles,R4,2,turns,0.3522
+33,28,Corner battles,R5,3,Overtake,0.3113
+33,28,Corner battles,R6,2,Between third and fourth turns,0.3318
+33,28,Corner battles,R7,3,Turns 3-4,0.2817
+33,28,Corner battles,R8,5,Corner battles,1.0000
+34,27,Overtake battles,R1,2,Position changes,0.1677
+34,27,Overtake battles,R2,4,Racing action,0.4249
+34,27,Overtake battles,R3,4,Overtake and defense,0.7664
+34,27,Overtake battles,R4,2,race dynamics,0.3122
+34,27,Overtake battles,R5,3,defending and overtake,0.7614
+34,27,Overtake battles,R6,2,Following strategies,0.2819
+34,27,Overtake battles,R7,3,Overtaking/Defending,0.7436
+34,27,Overtake battles,R8,5,Overtaking,0.7064

@@ -1,0 +1,4 @@
+pair,pearson_r
+Algorithm <-> Bootstrap,0.466
+Algorithm <-> Hierarchical,0.23
+Bootstrap <-> Hierarchical,-0.061

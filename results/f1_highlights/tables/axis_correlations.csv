@@ -1,0 +1,7 @@
+pair,pearson_r
+Algorithm <-> Bootstrap,0.552
+Algorithm <-> Hierarchical,0.214
+Bootstrap <-> Held-out,0.13
+Bootstrap <-> Hierarchical,0.078
+Held-out <-> Hierarchical,-0.206
+Algorithm <-> Held-out,-0.332

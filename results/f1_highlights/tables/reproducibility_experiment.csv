@@ -1,0 +1,225 @@
+phase,config,nc,noise_pct,ari,jaccard,max_diff,rows_diff,notes
+A,emb_compare,,,,,2.980e-08,0,canonical vs regenerated
+B,umap_repeat_seed42_njobs1,,,,,0.000e+00,0,5 UMAP runs deterministic=True
+B,umap_repeat_seed42_multithread,,,,,0.000e+00,,3 multi-thread runs
+C,hdb_mcs25_msNone_eom,38,29.45,0.8055,0.9148,,,grid on PHASE-B umap_ref
+C,hdb_mcs25_msNone_leaf,46,46.57,0.5460,0.8162,,,grid on PHASE-B umap_ref
+C,hdb_mcs25_ms5_eom,50,31.15,0.5831,0.8369,,,grid on PHASE-B umap_ref
+C,hdb_mcs25_ms5_leaf,63,47.39,0.3258,0.6804,,,grid on PHASE-B umap_ref
+C,hdb_mcs25_ms10_eom,50,34.77,0.5876,0.8507,,,grid on PHASE-B umap_ref
+C,hdb_mcs25_ms10_leaf,59,47.31,0.3661,0.7201,,,grid on PHASE-B umap_ref
+C,hdb_mcs25_ms15_eom,44,29.55,0.7159,0.8874,,,grid on PHASE-B umap_ref
+C,hdb_mcs25_ms15_leaf,55,48.74,0.3907,0.7535,,,grid on PHASE-B umap_ref
+C,hdb_mcs25_ms20_eom,43,30.31,0.7630,0.9067,,,grid on PHASE-B umap_ref
+C,hdb_mcs25_ms20_leaf,52,50.18,0.4017,0.7878,,,grid on PHASE-B umap_ref
+C,hdb_mcs25_ms25_eom,38,29.45,0.8055,0.9148,,,grid on PHASE-B umap_ref
+C,hdb_mcs25_ms25_leaf,46,46.57,0.5460,0.8162,,,grid on PHASE-B umap_ref
+C,hdb_mcs25_ms30_eom,35,34.38,0.9132,0.9492,,,grid on PHASE-B umap_ref
+C,hdb_mcs25_ms30_leaf,41,45.25,0.6572,0.8846,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_msNone_eom,36,31.63,0.8928,0.9425,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_msNone_leaf,43,42.68,0.6437,0.8636,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_ms5_eom,50,31.15,0.5831,0.8369,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_ms5_leaf,61,46.78,0.3353,0.6956,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_ms10_eom,43,28.77,0.6641,0.8698,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_ms10_leaf,56,47.61,0.3734,0.7311,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_ms15_eom,40,28.85,0.7066,0.8552,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_ms15_leaf,52,49.74,0.4071,0.7535,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_ms20_eom,39,31.65,0.7988,0.9067,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_ms20_leaf,47,45.94,0.5221,0.8099,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_ms25_eom,38,29.45,0.8055,0.9148,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_ms25_leaf,46,46.57,0.5460,0.8162,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_ms30_eom,35,34.38,0.9132,0.9492,,,grid on PHASE-B umap_ref
+C,hdb_mcs27_ms30_leaf,41,45.25,0.6572,0.8846,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_msNone_eom,36,31.61,0.8981,0.9458,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_msNone_leaf,42,42.19,0.6576,0.8820,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_ms5_eom,44,25.85,0.6171,0.8537,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_ms5_leaf,59,46.28,0.3455,0.6987,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_ms10_eom,40,29.83,0.6916,0.8698,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_ms10_leaf,52,49.03,0.3952,0.7311,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_ms15_eom,39,29.20,0.7160,0.8552,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_ms15_leaf,51,50.10,0.4136,0.7535,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_ms20_eom,37,32.35,0.8177,0.9067,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_ms20_leaf,45,46.65,0.5366,0.8099,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_ms25_eom,36,29.61,0.8203,0.9293,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_ms25_leaf,44,43.74,0.6180,0.8354,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_ms30_eom,35,34.38,0.9132,0.9492,,,grid on PHASE-B umap_ref
+C,hdb_mcs28_ms30_leaf,41,45.25,0.6572,0.8846,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_msNone_eom,35,33.73,0.8978,0.9442,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_msNone_leaf,41,44.25,0.6491,0.8804,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_ms5_eom,42,26.59,0.6361,0.8537,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_ms5_leaf,55,45.90,0.3760,0.7175,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_ms10_eom,39,30.19,0.7011,0.8698,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_ms10_leaf,51,49.39,0.4021,0.7311,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_ms15_eom,39,29.20,0.7160,0.8552,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_ms15_leaf,51,50.10,0.4136,0.7535,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_ms20_eom,37,32.35,0.8177,0.9067,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_ms20_leaf,45,46.65,0.5366,0.8099,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_ms25_eom,36,29.61,0.8203,0.9293,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_ms25_leaf,43,43.26,0.6293,0.8517,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_ms30_eom,35,34.38,0.9132,0.9492,,,grid on PHASE-B umap_ref
+C,hdb_mcs29_ms30_leaf,41,45.25,0.6572,0.8846,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_msNone_eom,35,34.38,0.9132,0.9492,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_msNone_leaf,41,45.25,0.6572,0.8846,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_ms5_eom,41,26.96,0.6459,0.8537,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_ms5_leaf,54,46.28,0.3832,0.7175,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_ms10_eom,38,30.57,0.7110,0.8698,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_ms10_leaf,49,48.84,0.4276,0.7455,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_ms15_eom,38,29.58,0.7261,0.8552,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_ms15_leaf,49,50.01,0.4298,0.7697,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_ms20_eom,36,32.73,0.8279,0.9067,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_ms20_leaf,43,46.55,0.5547,0.8261,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_ms25_eom,35,29.99,0.8308,0.9293,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_ms25_leaf,41,42.43,0.6611,0.8717,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_ms30_eom,35,34.38,0.9132,0.9492,,,grid on PHASE-B umap_ref
+C,hdb_mcs30_ms30_leaf,41,45.25,0.6572,0.8846,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_msNone_eom,34,33.06,0.8925,0.9232,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_msNone_leaf,40,43.65,0.6396,0.8584,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_ms5_eom,40,27.36,0.6561,0.8537,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_ms5_leaf,53,46.67,0.3907,0.7175,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_ms10_eom,38,30.57,0.7110,0.8698,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_ms10_leaf,48,48.33,0.4375,0.7627,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_ms15_eom,37,29.97,0.7365,0.8552,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_ms15_leaf,47,47.40,0.4923,0.7881,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_ms20_eom,36,32.73,0.8279,0.9067,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_ms20_leaf,43,46.55,0.5547,0.8261,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_ms25_eom,35,29.99,0.8308,0.9293,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_ms25_leaf,41,42.43,0.6611,0.8717,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_ms30_eom,35,34.38,0.9132,0.9492,,,grid on PHASE-B umap_ref
+C,hdb_mcs31_ms30_leaf,41,45.25,0.6572,0.8846,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_msNone_eom,35,32.95,0.9484,0.9597,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_msNone_leaf,40,44.02,0.6775,0.8941,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_ms5_eom,38,28.17,0.6774,0.8537,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_ms5_leaf,51,47.48,0.4063,0.7175,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_ms10_eom,38,30.57,0.7110,0.8698,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_ms10_leaf,48,48.33,0.4375,0.7627,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_ms15_eom,36,30.38,0.7473,0.8552,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_ms15_leaf,45,48.21,0.4952,0.7881,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_ms20_eom,36,32.73,0.8279,0.9067,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_ms20_leaf,43,46.55,0.5547,0.8261,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_ms25_eom,35,29.99,0.8308,0.9293,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_ms25_leaf,41,42.43,0.6611,0.8717,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_ms30_eom,35,34.38,0.9132,0.9492,,,grid on PHASE-B umap_ref
+C,hdb_mcs32_ms30_leaf,41,45.25,0.6572,0.8846,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_msNone_eom,35,33.27,0.9639,0.9721,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_msNone_leaf,39,43.53,0.7011,0.9097,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_ms5_eom,37,28.59,0.6884,0.8537,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_ms5_leaf,49,47.42,0.4237,0.7347,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_ms10_eom,37,30.99,0.7219,0.8698,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_ms10_leaf,47,48.75,0.4456,0.7627,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_ms15_eom,36,30.38,0.7473,0.8552,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_ms15_leaf,45,48.21,0.4952,0.7881,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_ms20_eom,36,32.73,0.8279,0.9067,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_ms20_leaf,43,46.55,0.5547,0.8261,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_ms25_eom,35,29.99,0.8308,0.9293,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_ms25_leaf,41,42.43,0.6611,0.8717,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_ms30_eom,35,34.38,0.9132,0.9492,,,grid on PHASE-B umap_ref
+C,hdb_mcs33_ms30_leaf,41,45.25,0.6572,0.8846,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_msNone_eom,34,33.52,1.0000,1.0000,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_msNone_leaf,37,36.29,0.9145,0.9601,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_ms5_eom,37,28.59,0.6884,0.8537,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_ms5_leaf,49,47.42,0.4237,0.7347,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_ms10_eom,37,30.99,0.7219,0.8698,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_ms10_leaf,47,48.75,0.4456,0.7627,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_ms15_eom,36,30.38,0.7473,0.8552,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_ms15_leaf,45,48.21,0.4952,0.7881,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_ms20_eom,36,32.73,0.8279,0.9067,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_ms20_leaf,43,46.55,0.5547,0.8261,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_ms25_eom,35,29.99,0.8308,0.9293,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_ms25_leaf,41,42.43,0.6611,0.8717,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_ms30_eom,35,34.38,0.9132,0.9492,,,grid on PHASE-B umap_ref
+C,hdb_mcs35_ms30_leaf,41,45.25,0.6572,0.8846,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_msNone_eom,33,34.17,0.9368,0.9620,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_msNone_leaf,35,36.47,0.8681,0.9117,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_ms5_eom,36,28.57,0.6892,0.8616,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_ms5_leaf,46,46.48,0.4377,0.7443,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_ms10_eom,36,30.86,0.7234,0.8788,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_ms10_leaf,43,49.05,0.4422,0.7866,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_ms15_eom,33,29.95,0.7543,0.8712,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_ms15_leaf,41,48.54,0.4925,0.7891,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_ms20_eom,33,32.39,0.8361,0.9232,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_ms20_leaf,38,43.35,0.6196,0.8438,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_ms25_eom,33,29.83,0.8344,0.9335,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_ms25_leaf,37,43.73,0.6433,0.8552,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_ms30_eom,32,32.51,0.8874,0.9492,,,grid on PHASE-B umap_ref
+C,hdb_mcs40_ms30_leaf,35,35.73,0.7987,0.8619,,,grid on PHASE-B umap_ref
+D,umap_nn10_md0.0_nc3_hdb_mcs30,35,30.18,0.6283,0.7722,,,UMAP grid
+D,umap_nn10_md0.0_nc5_hdb_mcs30,35,33.70,0.7446,0.8436,,,UMAP grid
+D,umap_nn10_md0.0_nc7_hdb_mcs30,34,32.76,0.6823,0.8029,,,UMAP grid
+D,umap_nn10_md0.0_nc10_hdb_mcs30,36,33.75,0.7306,0.8393,,,UMAP grid
+D,umap_nn10_md0.01_nc3_hdb_mcs30,36,32.37,0.6466,0.7970,,,UMAP grid
+D,umap_nn10_md0.01_nc5_hdb_mcs30,36,33.08,0.7441,0.8489,,,UMAP grid
+D,umap_nn10_md0.01_nc7_hdb_mcs30,34,32.65,0.7028,0.8150,,,UMAP grid
+D,umap_nn10_md0.01_nc10_hdb_mcs30,36,34.56,0.7320,0.8407,,,UMAP grid
+D,umap_nn10_md0.05_nc3_hdb_mcs30,35,35.19,0.6351,0.7957,,,UMAP grid
+D,umap_nn10_md0.05_nc5_hdb_mcs30,34,34.44,0.7033,0.8079,,,UMAP grid
+D,umap_nn10_md0.05_nc7_hdb_mcs30,34,34.75,0.7035,0.8075,,,UMAP grid
+D,umap_nn10_md0.05_nc10_hdb_mcs30,34,33.63,0.7092,0.8071,,,UMAP grid
+D,umap_nn10_md0.1_nc3_hdb_mcs30,5,0.20,0.0420,0.7688,,,UMAP grid
+D,umap_nn10_md0.1_nc5_hdb_mcs30,33,37.95,0.6785,0.8195,,,UMAP grid
+D,umap_nn10_md0.1_nc7_hdb_mcs30,33,39.36,0.6722,0.7775,,,UMAP grid
+D,umap_nn10_md0.1_nc10_hdb_mcs30,34,38.13,0.6922,0.7920,,,UMAP grid
+D,umap_nn12_md0.0_nc3_hdb_mcs30,34,33.83,0.6971,0.8029,,,UMAP grid
+D,umap_nn12_md0.0_nc5_hdb_mcs30,35,33.22,0.7435,0.8436,,,UMAP grid
+D,umap_nn12_md0.0_nc7_hdb_mcs30,35,33.65,0.7161,0.8530,,,UMAP grid
+D,umap_nn12_md0.0_nc10_hdb_mcs30,35,33.12,0.7294,0.8571,,,UMAP grid
+D,umap_nn12_md0.01_nc3_hdb_mcs30,37,37.35,0.6506,0.8202,,,UMAP grid
+D,umap_nn12_md0.01_nc5_hdb_mcs30,35,36.12,0.7397,0.8515,,,UMAP grid
+D,umap_nn12_md0.01_nc7_hdb_mcs30,35,35.06,0.7188,0.8527,,,UMAP grid
+D,umap_nn12_md0.01_nc10_hdb_mcs30,35,33.28,0.7429,0.8607,,,UMAP grid
+D,umap_nn12_md0.05_nc3_hdb_mcs30,35,40.09,0.6152,0.7568,,,UMAP grid
+D,umap_nn12_md0.05_nc5_hdb_mcs30,35,38.05,0.7305,0.8435,,,UMAP grid
+D,umap_nn12_md0.05_nc7_hdb_mcs30,35,37.09,0.7242,0.8492,,,UMAP grid
+D,umap_nn12_md0.05_nc10_hdb_mcs30,35,34.07,0.7183,0.8460,,,UMAP grid
+D,umap_nn12_md0.1_nc3_hdb_mcs30,33,37.53,0.6273,0.7529,,,UMAP grid
+D,umap_nn12_md0.1_nc5_hdb_mcs30,34,40.47,0.6872,0.8045,,,UMAP grid
+D,umap_nn12_md0.1_nc7_hdb_mcs30,33,40.51,0.6884,0.8431,,,UMAP grid
+D,umap_nn12_md0.1_nc10_hdb_mcs30,33,36.55,0.6961,0.8072,,,UMAP grid
+D,umap_nn15_md0.0_nc3_hdb_mcs30,35,35.61,0.7307,0.8614,,,UMAP grid
+D,umap_nn15_md0.0_nc5_hdb_mcs30,35,34.38,0.9132,0.9492,,,UMAP grid
+D,umap_nn15_md0.0_nc7_hdb_mcs30,35,34.21,0.8483,0.9114,,,UMAP grid
+D,umap_nn15_md0.0_nc10_hdb_mcs30,35,34.10,0.8146,0.9006,,,UMAP grid
+D,umap_nn15_md0.01_nc3_hdb_mcs30,33,30.23,0.6618,0.8322,,,UMAP grid
+D,umap_nn15_md0.01_nc5_hdb_mcs30,35,35.31,0.8874,0.9403,,,UMAP grid
+D,umap_nn15_md0.01_nc7_hdb_mcs30,35,35.49,0.8349,0.9095,,,UMAP grid
+D,umap_nn15_md0.01_nc10_hdb_mcs30,35,35.18,0.8159,0.9026,,,UMAP grid
+D,umap_nn15_md0.05_nc3_hdb_mcs30,34,35.78,0.7059,0.8092,,,UMAP grid
+D,umap_nn15_md0.05_nc5_hdb_mcs30,34,38.22,0.8218,0.8722,,,UMAP grid
+D,umap_nn15_md0.05_nc7_hdb_mcs30,35,39.54,0.7694,0.8910,,,UMAP grid
+D,umap_nn15_md0.05_nc10_hdb_mcs30,35,38.64,0.7768,0.8936,,,UMAP grid
+D,umap_nn15_md0.1_nc3_hdb_mcs30,4,0.00,0.0330,0.7565,,,UMAP grid
+D,umap_nn15_md0.1_nc5_hdb_mcs30,3,0.00,0.0284,0.6969,,,UMAP grid
+D,umap_nn15_md0.1_nc7_hdb_mcs30,33,40.34,0.7347,0.8268,,,UMAP grid
+D,umap_nn15_md0.1_nc10_hdb_mcs30,33,39.15,0.7416,0.8700,,,UMAP grid
+D,umap_nn18_md0.0_nc3_hdb_mcs30,34,32.61,0.6893,0.8176,,,UMAP grid
+D,umap_nn18_md0.0_nc5_hdb_mcs30,35,34.04,0.7854,0.8852,,,UMAP grid
+D,umap_nn18_md0.0_nc7_hdb_mcs30,35,33.63,0.8038,0.8846,,,UMAP grid
+D,umap_nn18_md0.0_nc10_hdb_mcs30,35,34.25,0.7826,0.8798,,,UMAP grid
+D,umap_nn18_md0.01_nc3_hdb_mcs30,34,34.22,0.7022,0.8113,,,UMAP grid
+D,umap_nn18_md0.01_nc5_hdb_mcs30,35,34.69,0.7905,0.8848,,,UMAP grid
+D,umap_nn18_md0.01_nc7_hdb_mcs30,35,34.95,0.7951,0.8858,,,UMAP grid
+D,umap_nn18_md0.01_nc10_hdb_mcs30,34,36.11,0.7777,0.8884,,,UMAP grid
+D,umap_nn18_md0.05_nc3_hdb_mcs30,32,33.79,0.6544,0.7901,,,UMAP grid
+D,umap_nn18_md0.05_nc5_hdb_mcs30,35,38.39,0.7464,0.8628,,,UMAP grid
+D,umap_nn18_md0.05_nc7_hdb_mcs30,33,35.48,0.7480,0.8802,,,UMAP grid
+D,umap_nn18_md0.05_nc10_hdb_mcs30,33,35.44,0.7601,0.8750,,,UMAP grid
+D,umap_nn18_md0.1_nc3_hdb_mcs30,33,42.84,0.5761,0.7327,,,UMAP grid
+D,umap_nn18_md0.1_nc5_hdb_mcs30,34,42.19,0.6941,0.8480,,,UMAP grid
+D,umap_nn18_md0.1_nc7_hdb_mcs30,33,40.54,0.6942,0.8396,,,UMAP grid
+D,umap_nn18_md0.1_nc10_hdb_mcs30,33,41.34,0.6958,0.8398,,,UMAP grid
+D,umap_nn20_md0.0_nc3_hdb_mcs30,35,34.51,0.6784,0.8250,,,UMAP grid
+D,umap_nn20_md0.0_nc5_hdb_mcs30,34,33.66,0.7575,0.8386,,,UMAP grid
+D,umap_nn20_md0.0_nc7_hdb_mcs30,34,33.71,0.7429,0.8420,,,UMAP grid
+D,umap_nn20_md0.0_nc10_hdb_mcs30,34,33.14,0.7595,0.8491,,,UMAP grid
+D,umap_nn20_md0.01_nc3_hdb_mcs30,35,36.90,0.6686,0.8217,,,UMAP grid
+D,umap_nn20_md0.01_nc5_hdb_mcs30,34,33.39,0.7554,0.8432,,,UMAP grid
+D,umap_nn20_md0.01_nc7_hdb_mcs30,35,36.25,0.7589,0.8726,,,UMAP grid
+D,umap_nn20_md0.01_nc10_hdb_mcs30,34,35.28,0.7336,0.8431,,,UMAP grid
+D,umap_nn20_md0.05_nc3_hdb_mcs30,35,38.03,0.6560,0.8018,,,UMAP grid
+D,umap_nn20_md0.05_nc5_hdb_mcs30,34,35.86,0.7376,0.8353,,,UMAP grid
+D,umap_nn20_md0.05_nc7_hdb_mcs30,34,37.39,0.7255,0.8249,,,UMAP grid
+D,umap_nn20_md0.05_nc10_hdb_mcs30,34,37.40,0.7347,0.8308,,,UMAP grid
+D,umap_nn20_md0.1_nc3_hdb_mcs30,3,0.00,0.0284,0.6981,,,UMAP grid
+D,umap_nn20_md0.1_nc5_hdb_mcs30,33,39.78,0.6926,0.8326,,,UMAP grid
+D,umap_nn20_md0.1_nc7_hdb_mcs30,33,40.81,0.6772,0.8337,,,UMAP grid
+D,umap_nn20_md0.1_nc10_hdb_mcs30,32,41.01,0.6807,0.8358,,,UMAP grid
+E,env_stamp,,,,,,,numpy=2.3.5 sklearn=1.7.2 umap=0.5.12 python=3.13.9

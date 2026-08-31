@@ -1,0 +1,2 @@
+tau,pooled_coverage_pct,bootstrap_mean_pct,ci95_lo,ci95_hi,ci_width_pp,sessions,per_session_min_pct,per_session_max_pct,resamples,resampling_unit
+0.4,89.94,89.91,88.7,91.0,2.3,4,88.44,91.33,10000,session

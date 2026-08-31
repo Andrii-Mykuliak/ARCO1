@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Smoke-test scratch output (the test itself is tracked)
+_smoke_results/
+_smoke_out.txt
+
+# ---------------------------------------------------------------------------
+# Intermediate cache: ~40 MB of regenerable .npy embeddings and .parquet frames.
+#
+# Excluded because it is derived data, not source: every file here is rebuilt
+# from data/ by the pipeline. Committing it would make the repository ~15x
+# larger to save a first-run cost.
+#
+# Consequence: a fresh clone has a cold cache, so the first run recomputes
+# everything regardless of mode ("prepared" simply finds nothing to reuse and
+# falls through to computing). That path is exercised by test_scratch_smoke.py.
+#
+# To ship the warm cache instead, delete the next line.
+results/*/cache/
+
+# Tables and figures ARE tracked — they are the artefacts a reader wants to see
+# without running anything.
+
+# Copyright-restricted corpora: folders exist for configuration, contents do not ship
+data/f1_highlights/*
+!data/f1_highlights/README.md
+data/f1_full/*
+!data/f1_full/README.md
+
+# Runtime artefact: cfg.save() rewrites this each run and it embeds absolute
+# local paths. The immutable configurations live in configs/.
+run_config.json
+
+# Test suite: development/CI only, not part of the published artefact.
+tests/
+
+# Per-rater survey exports carry the free-text label field (t2_free_label);
+# the released response data is letter choices and ratings only. The
+# de-identified normalised tables (survey_responses_normalized_N*.csv) ship.
+results/*/tables/survey_response_R*.csv
+
+# Authoring/organisational material: kept locally, not part of the published
+# experiment. pipeline/config.py is the single source of truth for presets.
+build_notebook.py
+CONTENTS.md
+configs/

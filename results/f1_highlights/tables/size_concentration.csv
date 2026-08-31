@@ -1,0 +1,2 @@
+clustered_sentences,top1_pct,top5_pct,top10_pct,largest,smallest,median,gini
+5130,15.4,47.1,62.6,792,41,112.5,0.456

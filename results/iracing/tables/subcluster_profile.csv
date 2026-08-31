@@ -1,0 +1,10 @@
+parent_handle,parent_size,sub_id,sub_size,share_of_parent,sub_keywords,density_subclusters,density_noise_pct
+K00,397,1,63,0.159,folks / farther / continue / right / going,5,45.3
+K00,397,2,114,0.287,let / going / look / right / grab,5,45.3
+K00,397,3,220,0.554,right / trying / going / inside / lead,5,45.3
+K01,321,1,203,0.632,laps / right / going / stage / end,4,24.9
+K01,321,2,70,0.218,lap / 80 / 100 / number / right,4,24.9
+K01,321,3,48,0.15,pitted / lap / stage / number / end,4,24.9
+K02,272,1,152,0.559,pit / pits / road / coming / drivers,3,11.8
+K02,272,2,53,0.195,fuel / guys / going / gas / tank,3,11.8
+K02,272,3,67,0.246,tires / going / taking / outside / inside,3,11.8
