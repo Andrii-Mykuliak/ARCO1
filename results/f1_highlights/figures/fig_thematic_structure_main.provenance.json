@@ -1,0 +1,15 @@
+{
+ "figure": "manuscript Figure 2 - thematic structure, map + numbered index",
+ "canonical_label_vector": "results/f1_highlights/cache/f1_highlights__labels__mcs35.npy",
+ "canonical_label_sha256": "1b1a89b7762f9872bd906eb506fd16ac48b30751fa247fb2db48c4a7387349a9",
+ "descriptive_projection": "results/f1_highlights/cache/umap2d_descriptive_s42.npy",
+ "descriptive_projection_sha256": "c97d17a9317b0e3d42312d79c88843b47b615db4b750a6f6e7ec041abe006eca",
+ "n_sentences": 7647,
+ "n_clustered": 5084,
+ "n_unassigned": 2563,
+ "n_categories": 34,
+ "prevalence_denominator": "assigned sentences (5,084)",
+ "map_numbering": "figure-local rank by descending category size, ties by canonical order; not the internal category identifier",
+ "frozen_figure_centroid_residual_pt": 5.133138643031998e-07,
+ "inference_rerun": false
+}

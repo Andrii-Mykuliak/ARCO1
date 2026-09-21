@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering\rmfamily\footnotesize
+\caption{The four complementary diagnostic dimensions. Each is reported separately; no aggregate score is computed across them. Full per-cell distributions are given in the supplement.}
+\label{tab:diagnostics}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.146\linewidth}>{\raggedright\arraybackslash}p{0.212\linewidth}>{\raggedright\arraybackslash}p{0.216\linewidth}>{\raggedright\arraybackslash}p{0.318\linewidth}}
+\toprule
+Diagnostic dimension & Design & Main result & Principal limitation \\
+\midrule
+Alternative-model recovery & 7 pre-specified alternative configurations & median 5 of 7; 29 of 34 recovered under at least three & recovery is near zero for a small minority of categories \\
+Resampling stability & 200 resamples at 80\%; 165 viable & median 0.756; 28 of 34 at or above 0.50 & environment-sensitive; values are conditional on the recorded software stack \\
+Held-out race replication & 50 seeds x 2 embedding realisations x 2 granularities (200 runs) & median 14-17 categories replicating per run across the four cells & 47 runs degenerate; reported distributionally, not from any single split \\
+Alternative-geometry separability & 100 replicates, 15 sentences per category & median 0.624; 29 of 34 at or above 0.50 & rises with per-category sample size; comparable across categories, not against an external scale \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,115 @@
+family,quantity,observed,canonical,agrees
+primary,sentences,7647,7647,True
+primary,events,113,113,True
+primary,categories,34,34,True
+primary,clustered sentences,5084,5084,True
+primary,unclustered sentences,2563,2563,True
+primary,unclustered fraction,0.3352,0.3352,True
+primary,categories with enriched vocabulary,34,34,True
+primary,significant category-term records,864,864,True
+second register,sentences,16876,16876,True
+second register,minimum cluster size,40,40,True
+second register,clusters,48,48,True
+second register,unclustered fraction,0.315537,0.315537,True
+second register,DBCV,0.3909595,0.3909595,True
+second register,silhouette,0.5776185,0.5776185,True
+second register,clusters with enriched vocabulary,48,48,True
+second register,degenerate seeds,0,0,True
+correspondence,above category-specific null,29,29,True
+correspondence,above within-primary reference,27,27,True
+correspondence,single match,19,19,True
+correspondence,split,5,5,True
+correspondence,merge,5,5,True
+correspondence,non recovery,5,5,True
+correspondence,well represented,6,6,True
+correspondence,sparse,19,19,True
+correspondence,effectively absent,9,9,True
+correspondence,well-represented non-recoveries,0,0,True
+correspondence,second-register clusters unmatched,22,22,True
+composition,raw median,-0.0973,-0.0973,True
+composition,raw sign-test p,0.002,0.002,True
+composition,raw events negative,10,10,True
+composition,raw leave-one-event-out stable,True,True,True
+composition,logit median,-0.5899,-0.5899,True
+composition,logit sign-test p,0.002,0.002,True
+composition,logit events negative,10,10,True
+composition,logit leave-one-event-out stable,True,True,True
+composition,clr median,-0.3382,-0.3382,True
+composition,clr sign-test p,0.0215,0.0215,True
+composition,clr events negative,9,9,True
+composition,clr leave-one-event-out stable,True,True,True
+composition,ilr median,-0.3906,-0.3906,True
+composition,ilr sign-test p,0.0215,0.0215,True
+composition,ilr events negative,9,9,True
+composition,ilr leave-one-event-out stable,True,True,True
+composition,events outside their own null,4,4,True
+resampling,replicates,200,200,True
+resampling,viable,165,165,True
+resampling,degenerate,35,35,True
+resampling,median category mean overlap,0.75633,0.75633,True
+resampling,categories at or above 0.50,28,28,True
+alternative geometry,replicates,100,100,True
+alternative geometry,degenerate,0,0,True
+alternative geometry,median,0.624,0.624,True
+alternative geometry,lower quartile,0.546,0.546,True
+alternative geometry,upper quartile,0.719,0.719,True
+alternative geometry,minimum,0.372,0.372,True
+alternative geometry,maximum,0.851,0.851,True
+alternative geometry,categories at or above 0.50,29,29,True
+held-out factorial,runs,200,200,True
+held-out factorial,degenerate,47,47,True
+held-out factorial,exactly the four expected cells,"['A30', 'A35', 'B30', 'B35']","['A30', 'A35', 'B30', 'B35']",True
+held-out factorial,no duplicate cell,4,4,True
+held-out factorial,A30 viable,44,44,True
+held-out factorial,A30 median,17.0,17,True
+held-out factorial,A30 lower quartile,15.0,15,True
+held-out factorial,A30 upper quartile,19.0,19,True
+held-out factorial,A30 degenerate,6,6,True
+held-out factorial,A35 viable,35,35,True
+held-out factorial,A35 median,14.0,14,True
+held-out factorial,A35 lower quartile,13.0,13,True
+held-out factorial,A35 upper quartile,16.0,16,True
+held-out factorial,A35 degenerate,15,15,True
+held-out factorial,B30 viable,43,43,True
+held-out factorial,B30 median,16.0,16,True
+held-out factorial,B30 lower quartile,15.0,15,True
+held-out factorial,B30 upper quartile,19.0,19,True
+held-out factorial,B30 degenerate,7,7,True
+held-out factorial,B35 viable,31,31,True
+held-out factorial,B35 median,14.0,14,True
+held-out factorial,B35 lower quartile,13.0,13,True
+held-out factorial,B35 upper quartile,15.0,15,True
+held-out factorial,B35 degenerate,19,19,True
+leave-one-category-out,exactly seven systematic removals,7,7,True
+leave-one-category-out,exactly the expected category identities,"['Gap & pace', 'Inter-car distance', 'Lap pace & timing', 'Pit stops', 'Tires & compounds', 'Weather conditions', 'Wing & car damage']","['Gap & pace', 'Inter-car distance', 'Lap pace & timing', 'Pit stops', 'Tires & compounds', 'Weather conditions', 'Wing & car damage']",True
+leave-one-category-out,no category removed twice,7,7,True
+leave-one-category-out,Weather conditions effect,-0.3874,-0.3874,True
+leave-one-category-out,Weather conditions events negative,8,8,True
+leave-one-category-out,Pit stops effect,-0.4148,-0.4148,True
+leave-one-category-out,Pit stops events negative,10,10,True
+leave-one-category-out,Tires & compounds effect,-0.4918,-0.4918,True
+leave-one-category-out,Tires & compounds events negative,9,9,True
+leave-one-category-out,Gap & pace effect,-0.3133,-0.3133,True
+leave-one-category-out,Gap & pace events negative,9,9,True
+leave-one-category-out,Wing & car damage effect,-0.4104,-0.4104,True
+leave-one-category-out,Wing & car damage events negative,9,9,True
+leave-one-category-out,Inter-car distance effect,-0.439,-0.439,True
+leave-one-category-out,Inter-car distance events negative,10,10,True
+leave-one-category-out,Lap pace & timing effect,-0.3912,-0.3912,True
+leave-one-category-out,Lap pace & timing events negative,9,9,True
+leave-one-category-out,direction negative under every removal,True,True,True
+boundary reassignment,exactly four exploratory scenarios,4,4,True
+boundary reassignment,exactly the expected scenario identities,"['Gap & pace', 'Pit stops', 'Pit stops, Gap & pace, Wing & car damage', 'Wing & car damage']","['Gap & pace', 'Pit stops', 'Pit stops, Gap & pace, Wing & car damage', 'Wing & car damage']",True
+boundary reassignment,no scenario repeated,4,4,True
+boundary reassignment,Pit stops effect,-0.4053,-0.4053,True
+boundary reassignment,Pit stops events negative,10,10,True
+boundary reassignment,Pit stops exploratory,True,True,True
+boundary reassignment,Gap & pace effect,-0.2878,-0.2878,True
+boundary reassignment,Gap & pace events negative,9,9,True
+boundary reassignment,Gap & pace exploratory,True,True,True
+boundary reassignment,Wing & car damage effect,-0.4069,-0.4069,True
+boundary reassignment,Wing & car damage events negative,9,9,True
+boundary reassignment,Wing & car damage exploratory,True,True,True
+boundary reassignment,"Pit stops, Gap & pace, Wing & car damage effect",-0.2459,-0.2459,True
+boundary reassignment,"Pit stops, Gap & pace, Wing & car damage events negative",9,9,True
+boundary reassignment,"Pit stops, Gap & pace, Wing & car damage exploratory",True,True,True

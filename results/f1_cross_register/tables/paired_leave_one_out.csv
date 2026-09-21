@@ -1,0 +1,681 @@
+category_id,category_name,omitted_event,metric,n_events_used,median_delta,sign
+0,DRS-assisted battles,2023_Australia_GP,all,9,-0.0029940119760479,-1
+0,DRS-assisted battles,2023_Australia_GP,assigned,9,-0.0041928721174004,-1
+0,DRS-assisted battles,2023_Qatar_GP,all,9,-0.0015748031496062,-1
+0,DRS-assisted battles,2023_Qatar_GP,assigned,9,-0.0041210337214839,-1
+0,DRS-assisted battles,2023_Singapore_GP,all,9,-0.0029940119760479,-1
+0,DRS-assisted battles,2023_Singapore_GP,assigned,9,-0.0041928721174004,-1
+0,DRS-assisted battles,2024_Bahrain_GP,all,9,-0.0015748031496062,-1
+0,DRS-assisted battles,2024_Bahrain_GP,assigned,9,-0.0041210337214839,-1
+0,DRS-assisted battles,2024_Italy_GP,all,9,-0.0015748031496062,-1
+0,DRS-assisted battles,2024_Italy_GP,assigned,9,-0.0041210337214839,-1
+0,DRS-assisted battles,2024_LasVegas_GP,all,9,-0.0029940119760479,-1
+0,DRS-assisted battles,2024_LasVegas_GP,assigned,9,-0.0041928721174004,-1
+0,DRS-assisted battles,2024_Qatar_GP,all,9,-0.0015748031496062,-1
+0,DRS-assisted battles,2024_Qatar_GP,assigned,9,-0.0041210337214839,-1
+0,DRS-assisted battles,2024_SaoPaulo_GP,all,9,-0.0029940119760479,-1
+0,DRS-assisted battles,2024_SaoPaulo_GP,assigned,9,-0.0041928721174004,-1
+0,DRS-assisted battles,2025_Belgium_GP,all,9,-0.0029940119760479,-1
+0,DRS-assisted battles,2025_Belgium_GP,assigned,9,-0.0041928721174004,-1
+0,DRS-assisted battles,2025_Japan_GP,all,9,-0.0015748031496062,-1
+0,DRS-assisted battles,2025_Japan_GP,assigned,9,-0.0041210337214839,-1
+1,Time penalties,2023_Australia_GP,all,9,0.008562874251497,1
+1,Time penalties,2023_Australia_GP,assigned,9,-0.0031017369727047,-1
+1,Time penalties,2023_Qatar_GP,all,9,-0.0022401433691756,-1
+1,Time penalties,2023_Qatar_GP,assigned,9,-0.0031017369727047,-1
+1,Time penalties,2023_Singapore_GP,all,9,-0.0022401433691756,-1
+1,Time penalties,2023_Singapore_GP,assigned,9,-0.0032088307020921,-1
+1,Time penalties,2024_Bahrain_GP,all,9,0.008562874251497,1
+1,Time penalties,2024_Bahrain_GP,assigned,9,-0.0031017369727047,-1
+1,Time penalties,2024_Italy_GP,all,9,-0.0022401433691756,-1
+1,Time penalties,2024_Italy_GP,assigned,9,-0.0032088307020921,-1
+1,Time penalties,2024_LasVegas_GP,all,9,0.008562874251497,1
+1,Time penalties,2024_LasVegas_GP,assigned,9,-0.0031017369727047,-1
+1,Time penalties,2024_Qatar_GP,all,9,-0.0022401433691756,-1
+1,Time penalties,2024_Qatar_GP,assigned,9,-0.0032088307020921,-1
+1,Time penalties,2024_SaoPaulo_GP,all,9,-0.0022401433691756,-1
+1,Time penalties,2024_SaoPaulo_GP,assigned,9,-0.0032088307020921,-1
+1,Time penalties,2025_Belgium_GP,all,9,0.008562874251497,1
+1,Time penalties,2025_Belgium_GP,assigned,9,-0.0032088307020921,-1
+1,Time penalties,2025_Japan_GP,all,9,0.008562874251497,1
+1,Time penalties,2025_Japan_GP,assigned,9,-0.0031017369727047,-1
+2,Lights-out race starts,2023_Australia_GP,all,9,-0.0018393623543838,-1
+2,Lights-out race starts,2023_Australia_GP,assigned,9,-0.0024489795918367,-1
+2,Lights-out race starts,2023_Qatar_GP,all,9,-0.0034293552812071,-1
+2,Lights-out race starts,2023_Qatar_GP,assigned,9,-0.0045413260672116,-1
+2,Lights-out race starts,2023_Singapore_GP,all,9,-0.0034293552812071,-1
+2,Lights-out race starts,2023_Singapore_GP,assigned,9,-0.0045413260672116,-1
+2,Lights-out race starts,2024_Bahrain_GP,all,9,-0.0018393623543838,-1
+2,Lights-out race starts,2024_Bahrain_GP,assigned,9,-0.0024489795918367,-1
+2,Lights-out race starts,2024_Italy_GP,all,9,-0.0018393623543838,-1
+2,Lights-out race starts,2024_Italy_GP,assigned,9,-0.0024489795918367,-1
+2,Lights-out race starts,2024_LasVegas_GP,all,9,-0.0034293552812071,-1
+2,Lights-out race starts,2024_LasVegas_GP,assigned,9,-0.0045413260672116,-1
+2,Lights-out race starts,2024_Qatar_GP,all,9,-0.0034293552812071,-1
+2,Lights-out race starts,2024_Qatar_GP,assigned,9,-0.0045413260672116,-1
+2,Lights-out race starts,2024_SaoPaulo_GP,all,9,-0.0034293552812071,-1
+2,Lights-out race starts,2024_SaoPaulo_GP,assigned,9,-0.0045413260672116,-1
+2,Lights-out race starts,2025_Belgium_GP,all,9,-0.0018393623543838,-1
+2,Lights-out race starts,2025_Belgium_GP,assigned,9,-0.0024489795918367,-1
+2,Lights-out race starts,2025_Japan_GP,all,9,-0.0018393623543838,-1
+2,Lights-out race starts,2025_Japan_GP,assigned,9,-0.0024489795918367,-1
+3,Mirror checks defending,2023_Australia_GP,all,9,-0.0010498687664041,-1
+3,Mirror checks defending,2023_Australia_GP,assigned,9,-0.0014074595355383,-1
+3,Mirror checks defending,2023_Qatar_GP,all,9,-0.0010498687664041,-1
+3,Mirror checks defending,2023_Qatar_GP,assigned,9,-0.0014074595355383,-1
+3,Mirror checks defending,2023_Singapore_GP,all,9,0.0085938813245923,1
+3,Mirror checks defending,2023_Singapore_GP,assigned,9,0.0073296968945639,1
+3,Mirror checks defending,2024_Bahrain_GP,all,9,-0.0010498687664041,-1
+3,Mirror checks defending,2024_Bahrain_GP,assigned,9,-0.0014074595355383,-1
+3,Mirror checks defending,2024_Italy_GP,all,9,0.0085938813245923,1
+3,Mirror checks defending,2024_Italy_GP,assigned,9,0.0073296968945639,1
+3,Mirror checks defending,2024_LasVegas_GP,all,9,0.0085938813245923,1
+3,Mirror checks defending,2024_LasVegas_GP,assigned,9,0.0073296968945639,1
+3,Mirror checks defending,2024_Qatar_GP,all,9,-0.0010498687664041,-1
+3,Mirror checks defending,2024_Qatar_GP,assigned,9,-0.0014074595355383,-1
+3,Mirror checks defending,2024_SaoPaulo_GP,all,9,0.0085938813245923,1
+3,Mirror checks defending,2024_SaoPaulo_GP,assigned,9,0.0073296968945639,1
+3,Mirror checks defending,2025_Belgium_GP,all,9,0.0085938813245923,1
+3,Mirror checks defending,2025_Belgium_GP,assigned,9,0.0073296968945639,1
+3,Mirror checks defending,2025_Japan_GP,all,9,-0.0010498687664041,-1
+3,Mirror checks defending,2025_Japan_GP,assigned,9,-0.0014074595355383,-1
+4,Race start launch,2023_Australia_GP,all,9,0.0091136169567542,1
+4,Race start launch,2023_Australia_GP,assigned,9,0.0092581943645773,1
+4,Race start launch,2023_Qatar_GP,all,9,-0.0026246719160104,-1
+4,Race start launch,2023_Qatar_GP,assigned,9,-0.0035186488388458,-1
+4,Race start launch,2023_Singapore_GP,all,9,-0.0026246719160104,-1
+4,Race start launch,2023_Singapore_GP,assigned,9,-0.0035186488388458,-1
+4,Race start launch,2024_Bahrain_GP,all,9,0.0091136169567542,1
+4,Race start launch,2024_Bahrain_GP,assigned,9,0.0092581943645773,1
+4,Race start launch,2024_Italy_GP,all,9,-0.0026246719160104,-1
+4,Race start launch,2024_Italy_GP,assigned,9,-0.0035186488388458,-1
+4,Race start launch,2024_LasVegas_GP,all,9,0.0091136169567542,1
+4,Race start launch,2024_LasVegas_GP,assigned,9,0.0092581943645773,1
+4,Race start launch,2024_Qatar_GP,all,9,-0.0026246719160104,-1
+4,Race start launch,2024_Qatar_GP,assigned,9,-0.0035186488388458,-1
+4,Race start launch,2024_SaoPaulo_GP,all,9,0.0091136169567542,1
+4,Race start launch,2024_SaoPaulo_GP,assigned,9,0.0092581943645773,1
+4,Race start launch,2025_Belgium_GP,all,9,0.0091136169567542,1
+4,Race start launch,2025_Belgium_GP,assigned,9,0.0092581943645773,1
+4,Race start launch,2025_Japan_GP,all,9,-0.0026246719160104,-1
+4,Race start launch,2025_Japan_GP,assigned,9,-0.0035186488388458,-1
+5,Weather conditions,2023_Australia_GP,all,9,-0.0030581039755351,-1
+5,Weather conditions,2023_Australia_GP,assigned,9,-0.0038080731150038,-1
+5,Weather conditions,2023_Qatar_GP,all,9,-0.0036496350364963,-1
+5,Weather conditions,2023_Qatar_GP,assigned,9,-0.0050647158131682,-1
+5,Weather conditions,2023_Singapore_GP,all,9,-0.0036496350364963,-1
+5,Weather conditions,2023_Singapore_GP,assigned,9,-0.0050647158131682,-1
+5,Weather conditions,2024_Bahrain_GP,all,9,-0.0036496350364963,-1
+5,Weather conditions,2024_Bahrain_GP,assigned,9,-0.0050647158131682,-1
+5,Weather conditions,2024_Italy_GP,all,9,-0.0036496350364963,-1
+5,Weather conditions,2024_Italy_GP,assigned,9,-0.0050647158131682,-1
+5,Weather conditions,2024_LasVegas_GP,all,9,-0.0030581039755351,-1
+5,Weather conditions,2024_LasVegas_GP,assigned,9,-0.0038080731150038,-1
+5,Weather conditions,2024_Qatar_GP,all,9,-0.0036496350364963,-1
+5,Weather conditions,2024_Qatar_GP,assigned,9,-0.0050647158131682,-1
+5,Weather conditions,2024_SaoPaulo_GP,all,9,-0.0030581039755351,-1
+5,Weather conditions,2024_SaoPaulo_GP,assigned,9,-0.0038080731150038,-1
+5,Weather conditions,2025_Belgium_GP,all,9,-0.0030581039755351,-1
+5,Weather conditions,2025_Belgium_GP,assigned,9,-0.0038080731150038,-1
+5,Weather conditions,2025_Japan_GP,all,9,-0.0030581039755351,-1
+5,Weather conditions,2025_Japan_GP,assigned,9,-0.0038080731150038,-1
+6,Grand Prix wins,2023_Australia_GP,all,9,0.0194237661979597,1
+6,Grand Prix wins,2023_Australia_GP,assigned,9,0.0062034739454094,1
+6,Grand Prix wins,2023_Qatar_GP,all,9,0.0194237661979597,1
+6,Grand Prix wins,2023_Qatar_GP,assigned,9,0.0084447572132301,1
+6,Grand Prix wins,2023_Singapore_GP,all,9,0.0194237661979597,1
+6,Grand Prix wins,2023_Singapore_GP,assigned,9,0.0062034739454094,1
+6,Grand Prix wins,2024_Bahrain_GP,all,9,0.0201197604790419,1
+6,Grand Prix wins,2024_Bahrain_GP,assigned,9,0.0084447572132301,1
+6,Grand Prix wins,2024_Italy_GP,all,9,0.0201197604790419,1
+6,Grand Prix wins,2024_Italy_GP,assigned,9,0.0084447572132301,1
+6,Grand Prix wins,2024_LasVegas_GP,all,9,0.0201197604790419,1
+6,Grand Prix wins,2024_LasVegas_GP,assigned,9,0.0084447572132301,1
+6,Grand Prix wins,2024_Qatar_GP,all,9,0.0194237661979597,1
+6,Grand Prix wins,2024_Qatar_GP,assigned,9,0.0062034739454094,1
+6,Grand Prix wins,2024_SaoPaulo_GP,all,9,0.0201197604790419,1
+6,Grand Prix wins,2024_SaoPaulo_GP,assigned,9,0.0062034739454094,1
+6,Grand Prix wins,2025_Belgium_GP,all,9,0.0201197604790419,1
+6,Grand Prix wins,2025_Belgium_GP,assigned,9,0.0084447572132301,1
+6,Grand Prix wins,2025_Japan_GP,all,9,0.0194237661979597,1
+6,Grand Prix wins,2025_Japan_GP,assigned,9,0.0062034739454094,1
+7,Race start lights,2023_Australia_GP,all,9,-0.0022455089820359,-1
+7,Race start lights,2023_Australia_GP,assigned,9,-0.003046458492003,-1
+7,Race start lights,2023_Qatar_GP,all,9,-0.0024464831804281,-1
+7,Race start lights,2023_Qatar_GP,assigned,9,-0.003046458492003,-1
+7,Race start lights,2023_Singapore_GP,all,9,-0.0022455089820359,-1
+7,Race start lights,2023_Singapore_GP,assigned,9,-0.0031446540880503,-1
+7,Race start lights,2024_Bahrain_GP,all,9,-0.0024464831804281,-1
+7,Race start lights,2024_Bahrain_GP,assigned,9,-0.0031446540880503,-1
+7,Race start lights,2024_Italy_GP,all,9,-0.0024464831804281,-1
+7,Race start lights,2024_Italy_GP,assigned,9,-0.0031446540880503,-1
+7,Race start lights,2024_LasVegas_GP,all,9,-0.0022455089820359,-1
+7,Race start lights,2024_LasVegas_GP,assigned,9,-0.003046458492003,-1
+7,Race start lights,2024_Qatar_GP,all,9,-0.0024464831804281,-1
+7,Race start lights,2024_Qatar_GP,assigned,9,-0.0031446540880503,-1
+7,Race start lights,2024_SaoPaulo_GP,all,9,-0.0024464831804281,-1
+7,Race start lights,2024_SaoPaulo_GP,assigned,9,-0.0031446540880503,-1
+7,Race start lights,2025_Belgium_GP,all,9,-0.0022455089820359,-1
+7,Race start lights,2025_Belgium_GP,assigned,9,-0.003046458492003,-1
+7,Race start lights,2025_Japan_GP,all,9,-0.0022455089820359,-1
+7,Race start lights,2025_Japan_GP,assigned,9,-0.003046458492003,-1
+8,Race control flags,2023_Australia_GP,all,9,0.003510498687664,1
+8,Race control flags,2023_Australia_GP,assigned,9,-0.0002345765892563,-1
+8,Race control flags,2023_Qatar_GP,all,9,0.0050595238095238,1
+8,Race control flags,2023_Qatar_GP,assigned,9,0.0020691744946106,1
+8,Race control flags,2023_Singapore_GP,all,9,0.0050595238095238,1
+8,Race control flags,2023_Singapore_GP,assigned,9,0.0020691744946106,1
+8,Race control flags,2024_Bahrain_GP,all,9,0.0050595238095238,1
+8,Race control flags,2024_Bahrain_GP,assigned,9,0.0020691744946106,1
+8,Race control flags,2024_Italy_GP,all,9,0.0050595238095238,1
+8,Race control flags,2024_Italy_GP,assigned,9,0.0020691744946106,1
+8,Race control flags,2024_LasVegas_GP,all,9,0.003510498687664,1
+8,Race control flags,2024_LasVegas_GP,assigned,9,-0.0002345765892563,-1
+8,Race control flags,2024_Qatar_GP,all,9,0.003510498687664,1
+8,Race control flags,2024_Qatar_GP,assigned,9,-0.0002345765892563,-1
+8,Race control flags,2024_SaoPaulo_GP,all,9,0.0050595238095238,1
+8,Race control flags,2024_SaoPaulo_GP,assigned,9,0.0020691744946106,1
+8,Race control flags,2025_Belgium_GP,all,9,0.003510498687664,1
+8,Race control flags,2025_Belgium_GP,assigned,9,-0.0002345765892563,-1
+8,Race control flags,2025_Japan_GP,all,9,0.003510498687664,1
+8,Race control flags,2025_Japan_GP,assigned,9,-0.0002345765892563,-1
+9,Formula 1 milestones,2023_Australia_GP,all,9,0.0050299401197604,1
+9,Formula 1 milestones,2023_Australia_GP,assigned,9,-0.0005561973216959,-1
+9,Formula 1 milestones,2023_Qatar_GP,all,9,0.0021349172272315,1
+9,Formula 1 milestones,2023_Qatar_GP,assigned,9,-0.0020605168607419,-1
+9,Formula 1 milestones,2023_Singapore_GP,all,9,0.0021349172272315,1
+9,Formula 1 milestones,2023_Singapore_GP,assigned,9,-0.0020605168607419,-1
+9,Formula 1 milestones,2024_Bahrain_GP,all,9,0.0050299401197604,1
+9,Formula 1 milestones,2024_Bahrain_GP,assigned,9,-0.0005561973216959,-1
+9,Formula 1 milestones,2024_Italy_GP,all,9,0.0050299401197604,1
+9,Formula 1 milestones,2024_Italy_GP,assigned,9,-0.0005561973216959,-1
+9,Formula 1 milestones,2024_LasVegas_GP,all,9,0.0021349172272315,1
+9,Formula 1 milestones,2024_LasVegas_GP,assigned,9,-0.0020605168607419,-1
+9,Formula 1 milestones,2024_Qatar_GP,all,9,0.0050299401197604,1
+9,Formula 1 milestones,2024_Qatar_GP,assigned,9,-0.0005561973216959,-1
+9,Formula 1 milestones,2024_SaoPaulo_GP,all,9,0.0050299401197604,1
+9,Formula 1 milestones,2024_SaoPaulo_GP,assigned,9,-0.0005561973216959,-1
+9,Formula 1 milestones,2025_Belgium_GP,all,9,0.0021349172272315,1
+9,Formula 1 milestones,2025_Belgium_GP,assigned,9,-0.0020605168607419,-1
+9,Formula 1 milestones,2025_Japan_GP,all,9,0.0021349172272315,1
+9,Formula 1 milestones,2025_Japan_GP,assigned,9,-0.0020605168607419,-1
+10,Chicane moves,2023_Australia_GP,all,9,0.0,0
+10,Chicane moves,2023_Australia_GP,assigned,9,0.0,0
+10,Chicane moves,2023_Qatar_GP,all,9,0.0,0
+10,Chicane moves,2023_Qatar_GP,assigned,9,0.0,0
+10,Chicane moves,2023_Singapore_GP,all,9,0.0,0
+10,Chicane moves,2023_Singapore_GP,assigned,9,0.0,0
+10,Chicane moves,2024_Bahrain_GP,all,9,0.0,0
+10,Chicane moves,2024_Bahrain_GP,assigned,9,0.0,0
+10,Chicane moves,2024_Italy_GP,all,9,0.0,0
+10,Chicane moves,2024_Italy_GP,assigned,9,0.0,0
+10,Chicane moves,2024_LasVegas_GP,all,9,0.0,0
+10,Chicane moves,2024_LasVegas_GP,assigned,9,0.0,0
+10,Chicane moves,2024_Qatar_GP,all,9,0.0,0
+10,Chicane moves,2024_Qatar_GP,assigned,9,0.0,0
+10,Chicane moves,2024_SaoPaulo_GP,all,9,0.0,0
+10,Chicane moves,2024_SaoPaulo_GP,assigned,9,0.0,0
+10,Chicane moves,2025_Belgium_GP,all,9,0.0,0
+10,Chicane moves,2025_Belgium_GP,assigned,9,0.0,0
+10,Chicane moves,2025_Japan_GP,all,9,0.0,0
+10,Chicane moves,2025_Japan_GP,assigned,9,0.0,0
+11,Team radio celebrations,2023_Australia_GP,all,9,-0.0073394495412844,-1
+11,Team radio celebrations,2023_Australia_GP,assigned,9,-0.0124069478908188,-1
+11,Team radio celebrations,2023_Qatar_GP,all,9,-0.0073394495412844,-1
+11,Team radio celebrations,2023_Qatar_GP,assigned,9,-0.0124069478908188,-1
+11,Team radio celebrations,2023_Singapore_GP,all,9,-0.010948905109489,-1
+11,Team radio celebrations,2023_Singapore_GP,assigned,9,-0.0145322434150772,-1
+11,Team radio celebrations,2024_Bahrain_GP,all,9,-0.010948905109489,-1
+11,Team radio celebrations,2024_Bahrain_GP,assigned,9,-0.0145322434150772,-1
+11,Team radio celebrations,2024_Italy_GP,all,9,-0.0073394495412844,-1
+11,Team radio celebrations,2024_Italy_GP,assigned,9,-0.0124069478908188,-1
+11,Team radio celebrations,2024_LasVegas_GP,all,9,-0.0073394495412844,-1
+11,Team radio celebrations,2024_LasVegas_GP,assigned,9,-0.0124069478908188,-1
+11,Team radio celebrations,2024_Qatar_GP,all,9,-0.010948905109489,-1
+11,Team radio celebrations,2024_Qatar_GP,assigned,9,-0.0145322434150772,-1
+11,Team radio celebrations,2024_SaoPaulo_GP,all,9,-0.0073394495412844,-1
+11,Team radio celebrations,2024_SaoPaulo_GP,assigned,9,-0.0124069478908188,-1
+11,Team radio celebrations,2025_Belgium_GP,all,9,-0.010948905109489,-1
+11,Team radio celebrations,2025_Belgium_GP,assigned,9,-0.0145322434150772,-1
+11,Team radio celebrations,2025_Japan_GP,all,9,-0.010948905109489,-1
+11,Team radio celebrations,2025_Japan_GP,assigned,9,-0.0145322434150772,-1
+12,Podium finishes,2023_Australia_GP,all,9,-0.0005825692100201,-1
+12,Podium finishes,2023_Australia_GP,assigned,9,-0.0035077630822311,-1
+12,Podium finishes,2023_Qatar_GP,all,9,-0.0022935779816513,-1
+12,Podium finishes,2023_Qatar_GP,assigned,9,-0.0069433866463569,-1
+12,Podium finishes,2023_Singapore_GP,all,9,-0.0005825692100201,-1
+12,Podium finishes,2023_Singapore_GP,assigned,9,-0.0035077630822311,-1
+12,Podium finishes,2024_Bahrain_GP,all,9,-0.0005825692100201,-1
+12,Podium finishes,2024_Bahrain_GP,assigned,9,-0.0035077630822311,-1
+12,Podium finishes,2024_Italy_GP,all,9,-0.0005825692100201,-1
+12,Podium finishes,2024_Italy_GP,assigned,9,-0.0035077630822311,-1
+12,Podium finishes,2024_LasVegas_GP,all,9,-0.0022935779816513,-1
+12,Podium finishes,2024_LasVegas_GP,assigned,9,-0.0069433866463569,-1
+12,Podium finishes,2024_Qatar_GP,all,9,-0.0005825692100201,-1
+12,Podium finishes,2024_Qatar_GP,assigned,9,-0.0035077630822311,-1
+12,Podium finishes,2024_SaoPaulo_GP,all,9,-0.0022935779816513,-1
+12,Podium finishes,2024_SaoPaulo_GP,assigned,9,-0.0069433866463569,-1
+12,Podium finishes,2025_Belgium_GP,all,9,-0.0022935779816513,-1
+12,Podium finishes,2025_Belgium_GP,assigned,9,-0.0069433866463569,-1
+12,Podium finishes,2025_Japan_GP,all,9,-0.0022935779816513,-1
+12,Podium finishes,2025_Japan_GP,assigned,9,-0.0069433866463569,-1
+13,Championship & title,2023_Australia_GP,all,9,0.0008379420144125,1
+13,Championship & title,2023_Australia_GP,assigned,9,-0.0078609221466364,-1
+13,Championship & title,2023_Qatar_GP,all,9,0.0008379420144125,1
+13,Championship & title,2023_Qatar_GP,assigned,9,-0.0078609221466364,-1
+13,Championship & title,2023_Singapore_GP,all,9,0.0008379420144125,1
+13,Championship & title,2023_Singapore_GP,assigned,9,-0.0078609221466364,-1
+13,Championship & title,2024_Bahrain_GP,all,9,0.0008379420144125,1
+13,Championship & title,2024_Bahrain_GP,assigned,9,-0.0078609221466364,-1
+13,Championship & title,2024_Italy_GP,all,9,0.0008379420144125,1
+13,Championship & title,2024_Italy_GP,assigned,9,-0.0078609221466364,-1
+13,Championship & title,2024_LasVegas_GP,all,9,-0.0024550898203592,-1
+13,Championship & title,2024_LasVegas_GP,assigned,9,-0.011038377615197,-1
+13,Championship & title,2024_Qatar_GP,all,9,-0.0024550898203592,-1
+13,Championship & title,2024_Qatar_GP,assigned,9,-0.011038377615197,-1
+13,Championship & title,2024_SaoPaulo_GP,all,9,-0.0024550898203592,-1
+13,Championship & title,2024_SaoPaulo_GP,assigned,9,-0.011038377615197,-1
+13,Championship & title,2025_Belgium_GP,all,9,-0.0024550898203592,-1
+13,Championship & title,2025_Belgium_GP,assigned,9,-0.011038377615197,-1
+13,Championship & title,2025_Japan_GP,all,9,-0.0024550898203592,-1
+13,Championship & title,2025_Japan_GP,assigned,9,-0.011038377615197,-1
+14,Pit stops,2023_Australia_GP,all,9,-0.0018786902844873,-1
+14,Pit stops,2023_Australia_GP,assigned,9,-0.009925558312655,-1
+14,Pit stops,2023_Qatar_GP,all,9,-0.0031367778254854,-1
+14,Pit stops,2023_Qatar_GP,assigned,9,-0.009925558312655,-1
+14,Pit stops,2023_Singapore_GP,all,9,-0.0031367778254854,-1
+14,Pit stops,2023_Singapore_GP,assigned,9,-0.009925558312655,-1
+14,Pit stops,2024_Bahrain_GP,all,9,-0.0031367778254854,-1
+14,Pit stops,2024_Bahrain_GP,assigned,9,-0.009925558312655,-1
+14,Pit stops,2024_Italy_GP,all,9,-0.0031367778254854,-1
+14,Pit stops,2024_Italy_GP,assigned,9,-0.0093762174797627,-1
+14,Pit stops,2024_LasVegas_GP,all,9,-0.0031367778254854,-1
+14,Pit stops,2024_LasVegas_GP,assigned,9,-0.009925558312655,-1
+14,Pit stops,2024_Qatar_GP,all,9,-0.0018786902844873,-1
+14,Pit stops,2024_Qatar_GP,assigned,9,-0.0093762174797627,-1
+14,Pit stops,2024_SaoPaulo_GP,all,9,-0.0018786902844873,-1
+14,Pit stops,2024_SaoPaulo_GP,assigned,9,-0.0093762174797627,-1
+14,Pit stops,2025_Belgium_GP,all,9,-0.0018786902844873,-1
+14,Pit stops,2025_Belgium_GP,assigned,9,-0.0093762174797627,-1
+14,Pit stops,2025_Japan_GP,all,9,-0.0018786902844873,-1
+14,Pit stops,2025_Japan_GP,assigned,9,-0.0093762174797627,-1
+15,Tires & compounds,2023_Australia_GP,all,9,-0.0138392857142857,-1
+15,Tires & compounds,2023_Australia_GP,assigned,9,-0.0214712248605023,-1
+15,Tires & compounds,2023_Qatar_GP,all,9,-0.0138392857142857,-1
+15,Tires & compounds,2023_Qatar_GP,assigned,9,-0.0214712248605023,-1
+15,Tires & compounds,2023_Singapore_GP,all,9,-0.0138392857142857,-1
+15,Tires & compounds,2023_Singapore_GP,assigned,9,-0.0214712248605023,-1
+15,Tires & compounds,2024_Bahrain_GP,all,9,-0.0138392857142857,-1
+15,Tires & compounds,2024_Bahrain_GP,assigned,9,-0.0214712248605023,-1
+15,Tires & compounds,2024_Italy_GP,all,9,-0.0166790362868794,-1
+15,Tires & compounds,2024_Italy_GP,assigned,9,-0.0274410580793559,-1
+15,Tires & compounds,2024_LasVegas_GP,all,9,-0.0166790362868794,-1
+15,Tires & compounds,2024_LasVegas_GP,assigned,9,-0.0274410580793559,-1
+15,Tires & compounds,2024_Qatar_GP,all,9,-0.0166790362868794,-1
+15,Tires & compounds,2024_Qatar_GP,assigned,9,-0.0274410580793559,-1
+15,Tires & compounds,2024_SaoPaulo_GP,all,9,-0.0166790362868794,-1
+15,Tires & compounds,2024_SaoPaulo_GP,assigned,9,-0.0274410580793559,-1
+15,Tires & compounds,2025_Belgium_GP,all,9,-0.0166790362868794,-1
+15,Tires & compounds,2025_Belgium_GP,assigned,9,-0.0274410580793559,-1
+15,Tires & compounds,2025_Japan_GP,all,9,-0.0138392857142857,-1
+15,Tires & compounds,2025_Japan_GP,assigned,9,-0.0214712248605023,-1
+16,Safety car deployment,2023_Australia_GP,all,9,0.0045887300789261,1
+16,Safety car deployment,2023_Australia_GP,assigned,9,-0.0018610421836228,-1
+16,Safety car deployment,2023_Qatar_GP,all,9,-0.0034349506225848,-1
+16,Safety car deployment,2023_Qatar_GP,assigned,9,-0.0099909173478655,-1
+16,Safety car deployment,2023_Singapore_GP,all,9,-0.0034349506225848,-1
+16,Safety car deployment,2023_Singapore_GP,assigned,9,-0.0099909173478655,-1
+16,Safety car deployment,2024_Bahrain_GP,all,9,0.0045887300789261,1
+16,Safety car deployment,2024_Bahrain_GP,assigned,9,-0.0018610421836228,-1
+16,Safety car deployment,2024_Italy_GP,all,9,0.0045887300789261,1
+16,Safety car deployment,2024_Italy_GP,assigned,9,-0.0018610421836228,-1
+16,Safety car deployment,2024_LasVegas_GP,all,9,0.0045887300789261,1
+16,Safety car deployment,2024_LasVegas_GP,assigned,9,-0.0018610421836228,-1
+16,Safety car deployment,2024_Qatar_GP,all,9,0.0045887300789261,1
+16,Safety car deployment,2024_Qatar_GP,assigned,9,-0.0018610421836228,-1
+16,Safety car deployment,2024_SaoPaulo_GP,all,9,-0.0034349506225848,-1
+16,Safety car deployment,2024_SaoPaulo_GP,assigned,9,-0.0099909173478655,-1
+16,Safety car deployment,2025_Belgium_GP,all,9,-0.0034349506225848,-1
+16,Safety car deployment,2025_Belgium_GP,assigned,9,-0.0099909173478655,-1
+16,Safety car deployment,2025_Japan_GP,all,9,-0.0034349506225848,-1
+16,Safety car deployment,2025_Japan_GP,assigned,9,-0.0099909173478655,-1
+17,Gap & pace,2023_Australia_GP,all,9,-0.0175840978593272,-1
+17,Gap & pace,2023_Australia_GP,assigned,9,-0.0259837522213759,-1
+17,Gap & pace,2023_Qatar_GP,all,9,-0.0173892918990958,-1
+17,Gap & pace,2023_Qatar_GP,assigned,9,-0.0256354226566992,-1
+17,Gap & pace,2023_Singapore_GP,all,9,-0.0173892918990958,-1
+17,Gap & pace,2023_Singapore_GP,assigned,9,-0.0256354226566992,-1
+17,Gap & pace,2024_Bahrain_GP,all,9,-0.0175840978593272,-1
+17,Gap & pace,2024_Bahrain_GP,assigned,9,-0.0259837522213759,-1
+17,Gap & pace,2024_Italy_GP,all,9,-0.0175840978593272,-1
+17,Gap & pace,2024_Italy_GP,assigned,9,-0.0259837522213759,-1
+17,Gap & pace,2024_LasVegas_GP,all,9,-0.0173892918990958,-1
+17,Gap & pace,2024_LasVegas_GP,assigned,9,-0.0256354226566992,-1
+17,Gap & pace,2024_Qatar_GP,all,9,-0.0173892918990958,-1
+17,Gap & pace,2024_Qatar_GP,assigned,9,-0.0256354226566992,-1
+17,Gap & pace,2024_SaoPaulo_GP,all,9,-0.0173892918990958,-1
+17,Gap & pace,2024_SaoPaulo_GP,assigned,9,-0.0256354226566992,-1
+17,Gap & pace,2025_Belgium_GP,all,9,-0.0175840978593272,-1
+17,Gap & pace,2025_Belgium_GP,assigned,9,-0.0259837522213759,-1
+17,Gap & pace,2025_Japan_GP,all,9,-0.0175840978593272,-1
+17,Gap & pace,2025_Japan_GP,assigned,9,-0.0259837522213759,-1
+18,Team dynamics,2023_Australia_GP,all,9,0.0508737400846901,1
+18,Team dynamics,2023_Australia_GP,assigned,9,0.0289695934496455,1
+18,Team dynamics,2023_Qatar_GP,all,9,0.0115813648293963,1
+18,Team dynamics,2023_Qatar_GP,assigned,9,0.0007037297677691,1
+18,Team dynamics,2023_Singapore_GP,all,9,0.0115813648293963,1
+18,Team dynamics,2023_Singapore_GP,assigned,9,0.0007037297677691,1
+18,Team dynamics,2024_Bahrain_GP,all,9,0.0115813648293963,1
+18,Team dynamics,2024_Bahrain_GP,assigned,9,0.0007037297677691,1
+18,Team dynamics,2024_Italy_GP,all,9,0.0115813648293963,1
+18,Team dynamics,2024_Italy_GP,assigned,9,0.0007037297677691,1
+18,Team dynamics,2024_LasVegas_GP,all,9,0.0508737400846901,1
+18,Team dynamics,2024_LasVegas_GP,assigned,9,0.0289695934496455,1
+18,Team dynamics,2024_Qatar_GP,all,9,0.0508737400846901,1
+18,Team dynamics,2024_Qatar_GP,assigned,9,0.0289695934496455,1
+18,Team dynamics,2024_SaoPaulo_GP,all,9,0.0508737400846901,1
+18,Team dynamics,2024_SaoPaulo_GP,assigned,9,0.0289695934496455,1
+18,Team dynamics,2025_Belgium_GP,all,9,0.0508737400846901,1
+18,Team dynamics,2025_Belgium_GP,assigned,9,0.0289695934496455,1
+18,Team dynamics,2025_Japan_GP,all,9,0.0115813648293963,1
+18,Team dynamics,2025_Japan_GP,assigned,9,0.0007037297677691,1
+19,Race lead holding,2023_Australia_GP,all,9,0.0123853211009174,1
+19,Race lead holding,2023_Australia_GP,assigned,9,0.0113353643056613,1
+19,Race lead holding,2023_Qatar_GP,all,9,0.0123853211009174,1
+19,Race lead holding,2023_Qatar_GP,assigned,9,0.0113353643056613,1
+19,Race lead holding,2023_Singapore_GP,all,9,0.0091136169567542,1
+19,Race lead holding,2023_Singapore_GP,assigned,9,0.0092581943645773,1
+19,Race lead holding,2024_Bahrain_GP,all,9,0.0091136169567542,1
+19,Race lead holding,2024_Bahrain_GP,assigned,9,0.0092581943645773,1
+19,Race lead holding,2024_Italy_GP,all,9,0.0091136169567542,1
+19,Race lead holding,2024_Italy_GP,assigned,9,0.0092581943645773,1
+19,Race lead holding,2024_LasVegas_GP,all,9,0.0123853211009174,1
+19,Race lead holding,2024_LasVegas_GP,assigned,9,0.0113353643056613,1
+19,Race lead holding,2024_Qatar_GP,all,9,0.0091136169567542,1
+19,Race lead holding,2024_Qatar_GP,assigned,9,0.0092581943645773,1
+19,Race lead holding,2024_SaoPaulo_GP,all,9,0.0091136169567542,1
+19,Race lead holding,2024_SaoPaulo_GP,assigned,9,0.0092581943645773,1
+19,Race lead holding,2025_Belgium_GP,all,9,0.0123853211009174,1
+19,Race lead holding,2025_Belgium_GP,assigned,9,0.0113353643056613,1
+19,Race lead holding,2025_Japan_GP,all,9,0.0123853211009174,1
+19,Race lead holding,2025_Japan_GP,assigned,9,0.0113353643056613,1
+20,Wing & car damage,2023_Australia_GP,all,9,-0.0053763440860215,-1
+20,Wing & car damage,2023_Australia_GP,assigned,9,-0.0074441687344913,-1
+20,Wing & car damage,2023_Qatar_GP,all,9,-0.0031249999999999,-1
+20,Wing & car damage,2023_Qatar_GP,assigned,9,-0.0052209665314291,-1
+20,Wing & car damage,2023_Singapore_GP,all,9,-0.0031249999999999,-1
+20,Wing & car damage,2023_Singapore_GP,assigned,9,-0.0052209665314291,-1
+20,Wing & car damage,2024_Bahrain_GP,all,9,-0.0031249999999999,-1
+20,Wing & car damage,2024_Bahrain_GP,assigned,9,-0.0052209665314291,-1
+20,Wing & car damage,2024_Italy_GP,all,9,-0.0031249999999999,-1
+20,Wing & car damage,2024_Italy_GP,assigned,9,-0.0052209665314291,-1
+20,Wing & car damage,2024_LasVegas_GP,all,9,-0.0053763440860215,-1
+20,Wing & car damage,2024_LasVegas_GP,assigned,9,-0.0074441687344913,-1
+20,Wing & car damage,2024_Qatar_GP,all,9,-0.0053763440860215,-1
+20,Wing & car damage,2024_Qatar_GP,assigned,9,-0.0074441687344913,-1
+20,Wing & car damage,2024_SaoPaulo_GP,all,9,-0.0053763440860215,-1
+20,Wing & car damage,2024_SaoPaulo_GP,assigned,9,-0.0074441687344913,-1
+20,Wing & car damage,2025_Belgium_GP,all,9,-0.0031249999999999,-1
+20,Wing & car damage,2025_Belgium_GP,assigned,9,-0.0052209665314291,-1
+20,Wing & car damage,2025_Japan_GP,all,9,-0.0053763440860215,-1
+20,Wing & car damage,2025_Japan_GP,assigned,9,-0.0074441687344913,-1
+21,Braking & lockups,2023_Australia_GP,all,9,0.0104669887278582,1
+21,Braking & lockups,2023_Australia_GP,assigned,9,0.0053275855057139,1
+21,Braking & lockups,2023_Qatar_GP,all,9,0.0055059523809523,1
+21,Braking & lockups,2023_Qatar_GP,assigned,9,0.0036981846264289,1
+21,Braking & lockups,2023_Singapore_GP,all,9,0.0055059523809523,1
+21,Braking & lockups,2023_Singapore_GP,assigned,9,0.0036981846264289,1
+21,Braking & lockups,2024_Bahrain_GP,all,9,0.0104669887278582,1
+21,Braking & lockups,2024_Bahrain_GP,assigned,9,0.0053275855057139,1
+21,Braking & lockups,2024_Italy_GP,all,9,0.0055059523809523,1
+21,Braking & lockups,2024_Italy_GP,assigned,9,0.0036981846264289,1
+21,Braking & lockups,2024_LasVegas_GP,all,9,0.0104669887278582,1
+21,Braking & lockups,2024_LasVegas_GP,assigned,9,0.0053275855057139,1
+21,Braking & lockups,2024_Qatar_GP,all,9,0.0055059523809523,1
+21,Braking & lockups,2024_Qatar_GP,assigned,9,0.0036981846264289,1
+21,Braking & lockups,2024_SaoPaulo_GP,all,9,0.0104669887278582,1
+21,Braking & lockups,2024_SaoPaulo_GP,assigned,9,0.0053275855057139,1
+21,Braking & lockups,2025_Belgium_GP,all,9,0.0055059523809523,1
+21,Braking & lockups,2025_Belgium_GP,assigned,9,0.0036981846264289,1
+21,Braking & lockups,2025_Japan_GP,all,9,0.0104669887278582,1
+21,Braking & lockups,2025_Japan_GP,assigned,9,0.0053275855057139,1
+22,Wheel-to-wheel,2023_Australia_GP,all,9,0.0148318042813455,1
+22,Wheel-to-wheel,2023_Australia_GP,assigned,9,0.0143818227976643,1
+22,Wheel-to-wheel,2023_Qatar_GP,all,9,0.0148318042813455,1
+22,Wheel-to-wheel,2023_Qatar_GP,assigned,9,0.0143818227976643,1
+22,Wheel-to-wheel,2023_Singapore_GP,all,9,0.0221267966839625,1
+22,Wheel-to-wheel,2023_Singapore_GP,assigned,9,0.0207680941342334,1
+22,Wheel-to-wheel,2024_Bahrain_GP,all,9,0.0221267966839625,1
+22,Wheel-to-wheel,2024_Bahrain_GP,assigned,9,0.0207680941342334,1
+22,Wheel-to-wheel,2024_Italy_GP,all,9,0.0148318042813455,1
+22,Wheel-to-wheel,2024_Italy_GP,assigned,9,0.0143818227976643,1
+22,Wheel-to-wheel,2024_LasVegas_GP,all,9,0.0221267966839625,1
+22,Wheel-to-wheel,2024_LasVegas_GP,assigned,9,0.0207680941342334,1
+22,Wheel-to-wheel,2024_Qatar_GP,all,9,0.0148318042813455,1
+22,Wheel-to-wheel,2024_Qatar_GP,assigned,9,0.0143818227976643,1
+22,Wheel-to-wheel,2024_SaoPaulo_GP,all,9,0.0148318042813455,1
+22,Wheel-to-wheel,2024_SaoPaulo_GP,assigned,9,0.0143818227976643,1
+22,Wheel-to-wheel,2025_Belgium_GP,all,9,0.0221267966839625,1
+22,Wheel-to-wheel,2025_Belgium_GP,assigned,9,0.0207680941342334,1
+22,Wheel-to-wheel,2025_Japan_GP,all,9,0.0221267966839625,1
+22,Wheel-to-wheel,2025_Japan_GP,assigned,9,0.0207680941342334,1
+23,Circuit action,2023_Australia_GP,all,9,-0.0017065868263473,-1
+23,Circuit action,2023_Australia_GP,assigned,9,-0.0099901595858469,-1
+23,Circuit action,2023_Qatar_GP,all,9,-0.0008249261468145,-1
+23,Circuit action,2023_Qatar_GP,assigned,9,-0.0084447572132301,-1
+23,Circuit action,2023_Singapore_GP,all,9,-0.0008249261468145,-1
+23,Circuit action,2023_Singapore_GP,assigned,9,-0.0084447572132301,-1
+23,Circuit action,2024_Bahrain_GP,all,9,-0.0008249261468145,-1
+23,Circuit action,2024_Bahrain_GP,assigned,9,-0.0084447572132301,-1
+23,Circuit action,2024_Italy_GP,all,9,-0.0017065868263473,-1
+23,Circuit action,2024_Italy_GP,assigned,9,-0.0099901595858469,-1
+23,Circuit action,2024_LasVegas_GP,all,9,-0.0008249261468145,-1
+23,Circuit action,2024_LasVegas_GP,assigned,9,-0.0084447572132301,-1
+23,Circuit action,2024_Qatar_GP,all,9,-0.0017065868263473,-1
+23,Circuit action,2024_Qatar_GP,assigned,9,-0.0099901595858469,-1
+23,Circuit action,2024_SaoPaulo_GP,all,9,-0.0017065868263473,-1
+23,Circuit action,2024_SaoPaulo_GP,assigned,9,-0.0099901595858469,-1
+23,Circuit action,2025_Belgium_GP,all,9,-0.0008249261468145,-1
+23,Circuit action,2025_Belgium_GP,assigned,9,-0.0084447572132301,-1
+23,Circuit action,2025_Japan_GP,all,9,-0.0017065868263473,-1
+23,Circuit action,2025_Japan_GP,assigned,9,-0.0099901595858469,-1
+24,Inter-car distance,2023_Australia_GP,all,9,-0.0071865443425076,-1
+24,Inter-car distance,2023_Australia_GP,assigned,9,-0.0108991825613079,-1
+24,Inter-car distance,2023_Qatar_GP,all,9,-0.0004832744999159,-1
+24,Inter-car distance,2023_Qatar_GP,assigned,9,-0.0055831265508684,-1
+24,Inter-car distance,2023_Singapore_GP,all,9,-0.0004832744999159,-1
+24,Inter-car distance,2023_Singapore_GP,assigned,9,-0.0055831265508684,-1
+24,Inter-car distance,2024_Bahrain_GP,all,9,-0.0071865443425076,-1
+24,Inter-car distance,2024_Bahrain_GP,assigned,9,-0.0108991825613079,-1
+24,Inter-car distance,2024_Italy_GP,all,9,-0.0004832744999159,-1
+24,Inter-car distance,2024_Italy_GP,assigned,9,-0.0055831265508684,-1
+24,Inter-car distance,2024_LasVegas_GP,all,9,-0.0071865443425076,-1
+24,Inter-car distance,2024_LasVegas_GP,assigned,9,-0.0108991825613079,-1
+24,Inter-car distance,2024_Qatar_GP,all,9,-0.0071865443425076,-1
+24,Inter-car distance,2024_Qatar_GP,assigned,9,-0.0108991825613079,-1
+24,Inter-car distance,2024_SaoPaulo_GP,all,9,-0.0004832744999159,-1
+24,Inter-car distance,2024_SaoPaulo_GP,assigned,9,-0.0055831265508684,-1
+24,Inter-car distance,2025_Belgium_GP,all,9,-0.0071865443425076,-1
+24,Inter-car distance,2025_Belgium_GP,assigned,9,-0.0108991825613079,-1
+24,Inter-car distance,2025_Japan_GP,all,9,-0.0004832744999159,-1
+24,Inter-car distance,2025_Japan_GP,assigned,9,-0.0055831265508684,-1
+25,Driver & team references,2023_Australia_GP,all,9,0.0033233532934131,1
+25,Driver & team references,2023_Australia_GP,assigned,9,-0.0104419330628582,-1
+25,Driver & team references,2023_Qatar_GP,all,9,0.0116556382685414,1
+25,Driver & team references,2023_Qatar_GP,assigned,9,0.0006203473945409,1
+25,Driver & team references,2023_Singapore_GP,all,9,0.0033233532934131,1
+25,Driver & team references,2023_Singapore_GP,assigned,9,-0.0104419330628582,-1
+25,Driver & team references,2024_Bahrain_GP,all,9,0.0033233532934131,1
+25,Driver & team references,2024_Bahrain_GP,assigned,9,-0.0104419330628582,-1
+25,Driver & team references,2024_Italy_GP,all,9,0.0033233532934131,1
+25,Driver & team references,2024_Italy_GP,assigned,9,-0.0104419330628582,-1
+25,Driver & team references,2024_LasVegas_GP,all,9,0.0116556382685414,1
+25,Driver & team references,2024_LasVegas_GP,assigned,9,0.0006203473945409,1
+25,Driver & team references,2024_Qatar_GP,all,9,0.0116556382685414,1
+25,Driver & team references,2024_Qatar_GP,assigned,9,0.0006203473945409,1
+25,Driver & team references,2024_SaoPaulo_GP,all,9,0.0116556382685414,1
+25,Driver & team references,2024_SaoPaulo_GP,assigned,9,0.0006203473945409,1
+25,Driver & team references,2025_Belgium_GP,all,9,0.0033233532934131,1
+25,Driver & team references,2025_Belgium_GP,assigned,9,-0.0104419330628582,-1
+25,Driver & team references,2025_Japan_GP,all,9,0.0116556382685414,1
+25,Driver & team references,2025_Japan_GP,assigned,9,0.0006203473945409,1
+26,Defending & attacking,2023_Australia_GP,all,9,0.0035188167233255,1
+26,Defending & attacking,2023_Australia_GP,assigned,9,0.0003931297192511,1
+26,Defending & attacking,2023_Qatar_GP,all,9,0.0035188167233255,1
+26,Defending & attacking,2023_Qatar_GP,assigned,9,0.0003931297192511,1
+26,Defending & attacking,2023_Singapore_GP,all,9,0.0202263779527559,1
+26,Defending & attacking,2023_Singapore_GP,assigned,9,0.0197044334975369,1
+26,Defending & attacking,2024_Bahrain_GP,all,9,0.0035188167233255,1
+26,Defending & attacking,2024_Bahrain_GP,assigned,9,0.0003931297192511,1
+26,Defending & attacking,2024_Italy_GP,all,9,0.0202263779527559,1
+26,Defending & attacking,2024_Italy_GP,assigned,9,0.0197044334975369,1
+26,Defending & attacking,2024_LasVegas_GP,all,9,0.0035188167233255,1
+26,Defending & attacking,2024_LasVegas_GP,assigned,9,0.0003931297192511,1
+26,Defending & attacking,2024_Qatar_GP,all,9,0.0202263779527559,1
+26,Defending & attacking,2024_Qatar_GP,assigned,9,0.0197044334975369,1
+26,Defending & attacking,2024_SaoPaulo_GP,all,9,0.0035188167233255,1
+26,Defending & attacking,2024_SaoPaulo_GP,assigned,9,0.0003931297192511,1
+26,Defending & attacking,2025_Belgium_GP,all,9,0.0202263779527559,1
+26,Defending & attacking,2025_Belgium_GP,assigned,9,0.0197044334975369,1
+26,Defending & attacking,2025_Japan_GP,all,9,0.0202263779527559,1
+26,Defending & attacking,2025_Japan_GP,assigned,9,0.0197044334975369,1
+27,Overtake battles,2023_Australia_GP,all,9,0.0402611186924912,1
+27,Overtake battles,2023_Australia_GP,assigned,9,0.0173778033352501,1
+27,Overtake battles,2023_Qatar_GP,all,9,0.0447916666666666,1
+27,Overtake battles,2023_Qatar_GP,assigned,9,0.0173778033352501,1
+27,Overtake battles,2023_Singapore_GP,all,9,0.0447916666666666,1
+27,Overtake battles,2023_Singapore_GP,assigned,9,0.0173778033352501,1
+27,Overtake battles,2024_Bahrain_GP,all,9,0.0402611186924912,1
+27,Overtake battles,2024_Bahrain_GP,assigned,9,0.0122245790225531,1
+27,Overtake battles,2024_Italy_GP,all,9,0.0447916666666666,1
+27,Overtake battles,2024_Italy_GP,assigned,9,0.0173778033352501,1
+27,Overtake battles,2024_LasVegas_GP,all,9,0.0402611186924912,1
+27,Overtake battles,2024_LasVegas_GP,assigned,9,0.0122245790225531,1
+27,Overtake battles,2024_Qatar_GP,all,9,0.0447916666666666,1
+27,Overtake battles,2024_Qatar_GP,assigned,9,0.0173778033352501,1
+27,Overtake battles,2024_SaoPaulo_GP,all,9,0.0402611186924912,1
+27,Overtake battles,2024_SaoPaulo_GP,assigned,9,0.0122245790225531,1
+27,Overtake battles,2025_Belgium_GP,all,9,0.0402611186924912,1
+27,Overtake battles,2025_Belgium_GP,assigned,9,0.0122245790225531,1
+27,Overtake battles,2025_Japan_GP,all,9,0.0447916666666666,1
+27,Overtake battles,2025_Japan_GP,assigned,9,0.0122245790225531,1
+28,Corner battles,2023_Australia_GP,all,9,0.0108595800524934,1
+28,Corner battles,2023_Australia_GP,assigned,9,0.009617640159512,1
+28,Corner battles,2023_Qatar_GP,all,9,0.0110633983419812,1
+28,Corner battles,2023_Qatar_GP,assigned,9,0.010355253212396,1
+28,Corner battles,2023_Singapore_GP,all,9,0.0108595800524934,1
+28,Corner battles,2023_Singapore_GP,assigned,9,0.009617640159512,1
+28,Corner battles,2024_Bahrain_GP,all,9,0.0110633983419812,1
+28,Corner battles,2024_Bahrain_GP,assigned,9,0.010355253212396,1
+28,Corner battles,2024_Italy_GP,all,9,0.0108595800524934,1
+28,Corner battles,2024_Italy_GP,assigned,9,0.009617640159512,1
+28,Corner battles,2024_LasVegas_GP,all,9,0.0108595800524934,1
+28,Corner battles,2024_LasVegas_GP,assigned,9,0.009617640159512,1
+28,Corner battles,2024_Qatar_GP,all,9,0.0108595800524934,1
+28,Corner battles,2024_Qatar_GP,assigned,9,0.009617640159512,1
+28,Corner battles,2024_SaoPaulo_GP,all,9,0.0110633983419812,1
+28,Corner battles,2024_SaoPaulo_GP,assigned,9,0.010355253212396,1
+28,Corner battles,2025_Belgium_GP,all,9,0.0110633983419812,1
+28,Corner battles,2025_Belgium_GP,assigned,9,0.010355253212396,1
+28,Corner battles,2025_Japan_GP,all,9,0.0110633983419812,1
+28,Corner battles,2025_Japan_GP,assigned,9,0.010355253212396,1
+29,Corner specific moves,2023_Australia_GP,all,9,-0.0055180870631514,-1
+29,Corner specific moves,2023_Australia_GP,assigned,9,-0.0073469387755102,-1
+29,Corner specific moves,2023_Qatar_GP,all,9,-0.0055180870631514,-1
+29,Corner specific moves,2023_Qatar_GP,assigned,9,-0.0073469387755102,-1
+29,Corner specific moves,2023_Singapore_GP,all,9,-0.0020576131687242,-1
+29,Corner specific moves,2023_Singapore_GP,assigned,9,-0.0027247956403269,-1
+29,Corner specific moves,2024_Bahrain_GP,all,9,-0.0055180870631514,-1
+29,Corner specific moves,2024_Bahrain_GP,assigned,9,-0.0073469387755102,-1
+29,Corner specific moves,2024_Italy_GP,all,9,-0.0055180870631514,-1
+29,Corner specific moves,2024_Italy_GP,assigned,9,-0.0073469387755102,-1
+29,Corner specific moves,2024_LasVegas_GP,all,9,-0.0020576131687242,-1
+29,Corner specific moves,2024_LasVegas_GP,assigned,9,-0.0027247956403269,-1
+29,Corner specific moves,2024_Qatar_GP,all,9,-0.0020576131687242,-1
+29,Corner specific moves,2024_Qatar_GP,assigned,9,-0.0027247956403269,-1
+29,Corner specific moves,2024_SaoPaulo_GP,all,9,-0.0055180870631514,-1
+29,Corner specific moves,2024_SaoPaulo_GP,assigned,9,-0.0073469387755102,-1
+29,Corner specific moves,2025_Belgium_GP,all,9,-0.0020576131687242,-1
+29,Corner specific moves,2025_Belgium_GP,assigned,9,-0.0027247956403269,-1
+29,Corner specific moves,2025_Japan_GP,all,9,-0.0020576131687242,-1
+29,Corner specific moves,2025_Japan_GP,assigned,9,-0.0027247956403269,-1
+30,Lap pace & timing,2023_Australia_GP,all,9,-0.0031043756533952,-1
+30,Lap pace & timing,2023_Australia_GP,assigned,9,-0.009568717653824,-1
+30,Lap pace & timing,2023_Qatar_GP,all,9,-0.0123129937804673,-1
+30,Lap pace & timing,2023_Qatar_GP,assigned,9,-0.0252221375983752,-1
+30,Lap pace & timing,2023_Singapore_GP,all,9,-0.0031043756533952,-1
+30,Lap pace & timing,2023_Singapore_GP,assigned,9,-0.009568717653824,-1
+30,Lap pace & timing,2024_Bahrain_GP,all,9,-0.0031043756533952,-1
+30,Lap pace & timing,2024_Bahrain_GP,assigned,9,-0.009568717653824,-1
+30,Lap pace & timing,2024_Italy_GP,all,9,-0.0123129937804673,-1
+30,Lap pace & timing,2024_Italy_GP,assigned,9,-0.0252221375983752,-1
+30,Lap pace & timing,2024_LasVegas_GP,all,9,-0.0031043756533952,-1
+30,Lap pace & timing,2024_LasVegas_GP,assigned,9,-0.009568717653824,-1
+30,Lap pace & timing,2024_Qatar_GP,all,9,-0.0031043756533952,-1
+30,Lap pace & timing,2024_Qatar_GP,assigned,9,-0.009568717653824,-1
+30,Lap pace & timing,2024_SaoPaulo_GP,all,9,-0.0123129937804673,-1
+30,Lap pace & timing,2024_SaoPaulo_GP,assigned,9,-0.0252221375983752,-1
+30,Lap pace & timing,2025_Belgium_GP,all,9,-0.0123129937804673,-1
+30,Lap pace & timing,2025_Belgium_GP,assigned,9,-0.0252221375983752,-1
+30,Lap pace & timing,2025_Japan_GP,all,9,-0.0123129937804673,-1
+30,Lap pace & timing,2025_Japan_GP,assigned,9,-0.0252221375983752,-1
+31,Race leader changes,2023_Australia_GP,all,9,-0.002976689251199,-1
+31,Race leader changes,2023_Australia_GP,assigned,9,-0.0148821161587119,-1
+31,Race leader changes,2023_Qatar_GP,all,9,-0.002976689251199,-1
+31,Race leader changes,2023_Qatar_GP,assigned,9,-0.0148821161587119,-1
+31,Race leader changes,2023_Singapore_GP,all,9,-0.0128444881889763,-1
+31,Race leader changes,2023_Singapore_GP,assigned,9,-0.0246305418719211,-1
+31,Race leader changes,2024_Bahrain_GP,all,9,-0.0128444881889763,-1
+31,Race leader changes,2024_Bahrain_GP,assigned,9,-0.0246305418719211,-1
+31,Race leader changes,2024_Italy_GP,all,9,-0.0128444881889763,-1
+31,Race leader changes,2024_Italy_GP,assigned,9,-0.0246305418719211,-1
+31,Race leader changes,2024_LasVegas_GP,all,9,-0.002976689251199,-1
+31,Race leader changes,2024_LasVegas_GP,assigned,9,-0.0148821161587119,-1
+31,Race leader changes,2024_Qatar_GP,all,9,-0.0128444881889763,-1
+31,Race leader changes,2024_Qatar_GP,assigned,9,-0.0246305418719211,-1
+31,Race leader changes,2024_SaoPaulo_GP,all,9,-0.002976689251199,-1
+31,Race leader changes,2024_SaoPaulo_GP,assigned,9,-0.0148821161587119,-1
+31,Race leader changes,2025_Belgium_GP,all,9,-0.002976689251199,-1
+31,Race leader changes,2025_Belgium_GP,assigned,9,-0.0148821161587119,-1
+31,Race leader changes,2025_Japan_GP,all,9,-0.0128444881889763,-1
+31,Race leader changes,2025_Japan_GP,assigned,9,-0.0246305418719211,-1
+32,Front position changes,2023_Australia_GP,all,9,0.0097811176716168,1
+32,Front position changes,2023_Australia_GP,assigned,9,0.0044193202922716,1
+32,Front position changes,2023_Qatar_GP,all,9,0.0097811176716168,1
+32,Front position changes,2023_Qatar_GP,assigned,9,0.0044193202922716,1
+32,Front position changes,2023_Singapore_GP,all,9,0.0097811176716168,1
+32,Front position changes,2023_Singapore_GP,assigned,9,0.0044193202922716,1
+32,Front position changes,2024_Bahrain_GP,all,9,0.0097811176716168,1
+32,Front position changes,2024_Bahrain_GP,assigned,9,0.0044193202922716,1
+32,Front position changes,2024_Italy_GP,all,9,0.012380134535566,1
+32,Front position changes,2024_Italy_GP,assigned,9,0.0071338903077788,1
+32,Front position changes,2024_LasVegas_GP,all,9,0.0097811176716168,1
+32,Front position changes,2024_LasVegas_GP,assigned,9,0.0044193202922716,1
+32,Front position changes,2024_Qatar_GP,all,9,0.012380134535566,1
+32,Front position changes,2024_Qatar_GP,assigned,9,0.0071338903077788,1
+32,Front position changes,2024_SaoPaulo_GP,all,9,0.012380134535566,1
+32,Front position changes,2024_SaoPaulo_GP,assigned,9,0.0071338903077788,1
+32,Front position changes,2025_Belgium_GP,all,9,0.012380134535566,1
+32,Front position changes,2025_Belgium_GP,assigned,9,0.0071338903077788,1
+32,Front position changes,2025_Japan_GP,all,9,0.012380134535566,1
+32,Front position changes,2025_Japan_GP,assigned,9,0.0071338903077788,1
+33,Field position changes,2023_Australia_GP,all,9,0.0098877157700687,1
+33,Field position changes,2023_Australia_GP,assigned,9,0.0047958596894767,1
+33,Field position changes,2023_Qatar_GP,all,9,0.0010476978218913,1
+33,Field position changes,2023_Qatar_GP,assigned,9,-0.0037220843672456,-1
+33,Field position changes,2023_Singapore_GP,all,9,0.0098877157700687,1
+33,Field position changes,2023_Singapore_GP,assigned,9,0.0047958596894767,1
+33,Field position changes,2024_Bahrain_GP,all,9,0.0098877157700687,1
+33,Field position changes,2024_Bahrain_GP,assigned,9,0.0047958596894767,1
+33,Field position changes,2024_Italy_GP,all,9,0.0098877157700687,1
+33,Field position changes,2024_Italy_GP,assigned,9,0.0047958596894767,1
+33,Field position changes,2024_LasVegas_GP,all,9,0.0010476978218913,1
+33,Field position changes,2024_LasVegas_GP,assigned,9,-0.0037220843672456,-1
+33,Field position changes,2024_Qatar_GP,all,9,0.0010476978218913,1
+33,Field position changes,2024_Qatar_GP,assigned,9,-0.0037220843672456,-1
+33,Field position changes,2024_SaoPaulo_GP,all,9,0.0010476978218913,1
+33,Field position changes,2024_SaoPaulo_GP,assigned,9,-0.0037220843672456,-1
+33,Field position changes,2025_Belgium_GP,all,9,0.0098877157700687,1
+33,Field position changes,2025_Belgium_GP,assigned,9,0.0047958596894767,1
+33,Field position changes,2025_Japan_GP,all,9,0.0010476978218913,1
+33,Field position changes,2025_Japan_GP,assigned,9,-0.0037220843672456,-1

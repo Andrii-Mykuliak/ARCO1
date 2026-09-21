@@ -1,0 +1,80 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=22mm]{geometry}
+\usepackage{booktabs,longtable,array,graphicx,microtype,tabularx,caption}
+\usepackage{ragged2e}
+\uchyph=1
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\footnotesize What Commentators Talk About --- Supplementary Materials}
+\fancyhead[R]{\footnotesize Supplement A}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+% Long snake_case identifiers are unbreakable in \texttt, which is the sole
+% cause of the overfull boxes. \idt inserts a discretionary break after every
+% underscore, so identifiers wrap instead of running into the margin. No
+% character of any identifier is changed.
+\newcommand{\idt}[1]{\texttt{\seqallowbreak #1}}
+\newcommand{\seqallowbreak}{}
+\makeatletter
+% capture the ORIGINAL \_ before re-letting it, else \ubreak recurses
+\let\origunderscore\_
+\def\ubreak{\origunderscore\allowbreak}
+\makeatother
+\sloppy
+\setlength{\emergencystretch}{3em}
+\raggedbottom
+\title{\vspace{-14mm}\large Supplement A --- Thematic Structure}
+\author{}\date{}
+\begin{document}\maketitle\thispagestyle{fancy}
+\subsection*{\texttt{category\_\allowbreak{}diagnostic\_\allowbreak{}profiles.csv}}
+34 rows x 10 columns.
+
+{\raggedright Columns: \texttt{cluster\_\allowbreak{}id}, \texttt{label}, \texttt{domain}, \texttt{size}, \texttt{alternative\_\allowbreak{}model\_\allowbreak{}recovery}, \texttt{resampling\_\allowbreak{}stability}, \texttt{heldout\_\allowbreak{}replication}, \texttt{geometry\_\allowbreak{}separability}, \texttt{heldout\_\allowbreak{}rep\_\allowbreak{}strict}, \texttt{heldout\_\allowbreak{}rep\_\allowbreak{}direction}\par}
+
+\subsection*{\texttt{cluster\_\allowbreak{}cards.csv}}
+34 rows x 11 columns.
+
+{\raggedright Columns: \texttt{handle}, \texttt{cluster}, \texttt{size}, \texttt{share\_\allowbreak{}of\_\allowbreak{}clustered}, \texttt{keywords}, \texttt{n\_\allowbreak{}enriched}, \texttt{external\_\allowbreak{}label}, \texttt{exemplar\_\allowbreak{}1\_\allowbreak{}sha1}, \texttt{exemplar\_\allowbreak{}2\_\allowbreak{}sha1}, \texttt{exemplar\_\allowbreak{}3\_\allowbreak{}sha1}, \texttt{exemplars\_\allowbreak{}withheld}\par}
+
+\subsection*{\texttt{partition\_\allowbreak{}stats.csv}}
+1 rows x 6 columns.
+
+{\raggedright Columns: \texttt{min\_\allowbreak{}cluster\_\allowbreak{}size}, \texttt{n\_\allowbreak{}clusters}, \texttt{noise\_\allowbreak{}pct}, \texttt{clustered\_\allowbreak{}sentences}, \texttt{plateau\_\allowbreak{}lo}, \texttt{plateau\_\allowbreak{}hi}\par}
+
+\scriptsize
+\begin{longtable}{>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1579\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1805\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1128\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.2030\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1579\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1579\textwidth-2\tabcolsep\relax}}
+\toprule
+\textbf{min\_cluster\_size} & \textbf{n\_clusters} & \textbf{noise\_pct} & \textbf{clustered\_sentences} & \textbf{plateau\_lo} & \textbf{plateau\_hi} \\
+\midrule\endhead
+35 & 34 & 32.8 & 5130 & 30 & 35 \\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\subsection*{\texttt{size\_\allowbreak{}concentration.csv}}
+1 rows x 8 columns.
+
+{\raggedright Columns: \texttt{clustered\_\allowbreak{}sentences}, \texttt{top1\_\allowbreak{}pct}, \texttt{top5\_\allowbreak{}pct}, \texttt{top10\_\allowbreak{}pct}, \texttt{largest}, \texttt{smallest}, \texttt{median}, \texttt{gini}\par}
+
+\tiny
+\begin{longtable}{>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1819\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.0808\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.0808\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1010\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1415\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1617\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1212\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1010\textwidth-2\tabcolsep\relax}}
+\toprule
+\textbf{clustered\_sentences} & \textbf{top1\_pct} & \textbf{top5\_pct} & \textbf{top10\_pct} & \textbf{largest} & \textbf{smallest} & \textbf{median} & \textbf{gini} \\
+\midrule\endhead
+5130 & 15.4 & 47.1 & 62.6 & 792 & 41 & 112.5 & 0.456 \\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\subsection*{Figures}
+\begin{figure}[htbp]\centering
+\includegraphics[width=0.92\textwidth,height=0.80\textheight,keepaspectratio]{results/f1_highlights/figures/figA_highlight_thematic_structure.png}
+\caption*{\footnotesize Thematic structure of Formula 1 highlight commentary. Descriptive two-dimensional projection; clustering was performed in the five-component reduced space, not in this plane.}
+\end{figure}
+\clearpage
+\end{document}

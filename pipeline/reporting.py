@@ -175,3 +175,106 @@ def show(df: pd.DataFrame, n: int = 20, title: str | None = None):
         display(Markdown(f"**{title}**"))
     with pd.option_context("display.max_colwidth", 70, "display.width", 200):
         display(df.head(n))
+
+
+def run_summary(configuration, cfg, docs, labels, runtime=None, ext=None,
+                cfg2=None, docs2=None, second=None, corr=None, paired=None,
+                tables=None, figures=None, release_root=None):
+    """Print the values this execution computed.
+
+    Nothing here is compared against a stored result: the numbers are whatever
+    the analyses produced.
+    """
+    from pathlib import Path
+
+    import numpy as np
+
+    from . import clustering
+
+    ext = ext or {}
+    print(f"configuration   : {configuration['name']} - "
+          f"{configuration['description']}")
+    if runtime is not None:
+        print(f"runtime         : {runtime:.0f}s")
+    print()
+
+    print("Primary corpus")
+    print(f"  events                {docs['session'].nunique()}")
+    print(f"  sentences             {len(docs):,}")
+    print(f"  categories            {clustering.n_clusters(labels)}")
+    print(f"  clustered             {int((labels != -1).sum()):,}")
+    print(f"  unclustered           {int((labels == -1).sum()):,}")
+    print(f"  unclustered fraction  {clustering.noise_rate(labels):.4f}")
+    print(f"  minimum cluster size  {cfg.min_cluster_size}")
+
+    if "resampling" in ext:
+        s = ext["resampling"]["summary"]
+        print("\nResampling stability")
+        print(f"  replicates            {s['n_replicates']}")
+        print(f"  viable                {s['n_viable']}")
+        print(f"  degenerate            {s['n_degenerate']}")
+        print(f"  median category mean  {s['median_category_mean_jaccard']}")
+        print(f"  categories scored     {s['n_categories']}")
+
+    if "factorial" in ext:
+        s = ext["factorial"]["summary"]
+        print("\nHeld-out replication factorial")
+        print(f"  runs                  {s['n_runs']}")
+        print(f"  degenerate            {s['n_degenerate']}")
+        for _, r in ext["factorial"]["cell_summary"].iterrows():
+            print(f"  {r.cell:<20}  median {r['median']:.0f}, "
+                  f"IQR {r.iqr_lo:.0f}-{r.iqr_hi:.0f}, "
+                  f"{int(r.n_viable)} viable, {int(r.n_degenerate)} degenerate")
+
+    if "geometry" in ext:
+        v = ext["geometry"]["category_summary"].mean_jaccard.to_numpy()
+        print("\nAlternative geometry")
+        print(f"  replicates            {ext['geometry']['summary']['n_replicates']}")
+        print(f"  median                {np.median(v):.4f}")
+        print(f"  IQR                   {np.percentile(v, 25):.4f}-"
+              f"{np.percentile(v, 75):.4f}")
+        print(f"  range                 {v.min():.4f}-{v.max():.4f}")
+        print(f"  categories scored     {len(v)}")
+
+    if second is not None:
+        print("\nSecond register")
+        print(f"  events                {docs2['session'].nunique()}")
+        print(f"  sentences             {len(docs2):,}")
+        print(f"  clusters              {second['n_clusters']}")
+        print(f"  minimum cluster size  {second['selected_min_cluster_size']}")
+        print(f"  unclustered fraction  {second['noise_fraction']:.6f}")
+        print(f"  DBCV                  {second['dbcv']:.7f}")
+        print(f"  silhouette            {second['silhouette']:.7f}")
+
+    if corr is not None:
+        c = corr["scalars"]
+        rel = corr["correspondence"].relation.value_counts()
+        av = corr["correspondence"].availability_class.value_counts()
+        print("\nCross-register correspondence")
+        print(f"  above own null        {c['exceeds_own_null']}/"
+              f"{c['n_primary_categories']}")
+        print(f"  above within-register {c['exceeds_within_register_reference']}/"
+              f"{c['n_primary_categories']}")
+        for k in ("SINGLE_MATCH", "SPLIT", "MERGE", "NON_RECOVERY"):
+            print(f"  {k.lower().replace('_', ' '):<20}  {int(rel.get(k, 0))}")
+        for k in ("WELL_REPRESENTED", "SPARSE", "EFFECTIVELY_ABSENT"):
+            print(f"  {k.lower().replace('_', ' '):<20}  {int(av.get(k, 0))}")
+
+    if paired is not None:
+        print(f"\nMatched-event composition ({paired['primary_domain']})")
+        for k, h in paired["headline"].items():
+            print(f"  {k:<20}  median {h['median']:+.4f}, "
+                  f"p {h['sign_test_p']:.4f}, "
+                  f"{h['n_negative']}/{paired['n_matched_events']} negative")
+        print(f"  outside own null      {paired['events_below_own_95_envelope']}/"
+              f"{paired['n_matched_events']}")
+
+    if tables is not None and figures is not None:
+        where = Path(cfg.results_dir)
+        if release_root:
+            try:
+                where = where.relative_to(Path(release_root))
+            except ValueError:
+                pass
+        print(f"\n{len(tables)} tables and {len(figures)} figures written "
+              f"under {where}")

@@ -1,0 +1,11 @@
+pair_id,event_id,second_register_event,n_primary_sentences,n_second_sentences
+P01,2023_Australia_GP,2023_australia,68,2466
+P02,2023_Qatar_GP,2023_qatar,50,1336
+P03,2023_Singapore_GP,2023_singapore,60,1635
+P04,2024_Bahrain_GP,2024_bahrain,72,1322
+P05,2024_SaoPaulo_GP,2024_brazil,96,1905
+P06,2024_Italy_GP,2024_italy,69,1458
+P07,2024_LasVegas_GP,2024_lasvegas,105,1344
+P08,2024_Qatar_GP,2024_qatar,55,1631
+P09,2025_Belgium_GP,2025_belgium,65,2232
+P10,2025_Japan_GP,2025_japan,81,1547

@@ -1,0 +1,10 @@
+**Formula 1 commentary corpora and their roles in the study.**
+
+| Characteristic     | Highlight commentary                                 | Full-race commentary                               |
+|:-------------------|:-----------------------------------------------------|:---------------------------------------------------|
+| Register           | condensed highlight commentary                       | continuous full-race commentary                    |
+| Events             | 113                                                  | 10                                                 |
+| Sentences          | 7,647                                                | 16,876                                             |
+| Coverage profile   | broad across events, comparatively shallow per event | narrow across events, comparatively deep per event |
+| Role in analysis   | thematic discovery and diagnostic characterisation   | independent thematic reconstruction                |
+| Matched-event role | 10 events used in the paired comparison              | the same 10 events used in the paired comparison   |

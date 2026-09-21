@@ -1,0 +1,35 @@
+cluster_id,alternative_model_recovery,resampling_stability,heldout_replication,geometry_separability,label,size,domain,heldout_rep_strict,heldout_rep_direction
+0,1.0,0.966643,0.5,0.819902,DRS-assisted battles,205,Race dynamics,0.5,0.625
+1,1.0,0.96557,0.925926,0.797917,Time penalties,118,Regulatory,0.925926,0.962963
+2,1.0,0.87593,0.6,0.702917,Lights-out race starts,54,Race dynamics,0.6,0.6
+3,1.0,0.532212,0.5625,0.727672,Mirror checks defending,47,Race dynamics,0.5625,0.625
+4,1.0,0.357596,0.6,0.861373,Race start launch,42,Race dynamics,0.6,0.6
+5,1.0,0.074885,0.666667,0.716034,Weather conditions,43,Strategy & technical,0.666667,0.666667
+6,0.571429,0.851928,0.5,0.686303,Grand Prix wins,465,Narrative & meta,0.5,0.774194
+7,0.428571,0.041137,0.636364,0.864485,Race start lights,36,Race dynamics,0.636364,0.818182
+8,0.857143,0.771984,0.604651,0.728824,Race control flags,118,Regulatory,0.604651,0.790698
+9,0.571429,0.797159,0.846154,0.671169,Formula 1 milestones,134,Narrative & meta,0.846154,0.923077
+10,0.857143,0.853236,1.0,0.82326,Chicane moves,62,Race dynamics,1.0,1.0
+11,0.714286,0.640254,0.7,0.768748,Team radio celebrations,55,Narrative & meta,0.7,0.8
+12,1.0,0.826374,0.461538,0.766865,Podium finishes,139,Narrative & meta,0.461538,0.615385
+13,0.714286,0.69311,0.6,0.491832,Championship & title,158,Narrative & meta,0.6,0.8
+14,1.0,0.775812,0.666667,0.446841,Pit stops,185,Strategy & technical,0.666667,0.722222
+15,0.857143,0.827438,0.384615,0.575147,Tires & compounds,379,Strategy & technical,0.384615,0.615385
+16,1.0,0.688725,0.5625,0.625658,Safety car deployment,122,Regulatory,0.5625,0.625
+17,1.0,0.460959,0.333333,0.601582,Gap & pace,67,Strategy & technical,0.333333,0.666667
+18,0.857143,0.708901,1.0,0.365429,Team dynamics,600,Narrative & meta,1.0,1.0
+19,0.857143,0.69391,0.3,0.619597,Race lead holding,115,Race dynamics,0.3,0.5
+20,0.714286,0.625832,0.625,0.669559,Wing & car damage,61,Strategy & technical,0.625,0.75
+21,0.571429,0.579301,0.6,0.531874,Braking & lockups,128,Race dynamics,0.6,0.6
+22,0.857143,0.710758,0.555556,0.639465,Wheel-to-wheel,71,Race dynamics,0.555556,0.777778
+23,0.142857,0.700187,0.4,0.585244,Circuit action,72,Race dynamics,0.4,0.4
+24,0.142857,0.411272,0.416667,0.47483,Inter-car distance,60,Strategy & technical,0.416667,0.5
+25,0.142857,0.471821,0.454545,0.480582,Driver & team references,69,Narrative & meta,0.454545,0.636364
+26,0.714286,0.664181,0.333333,0.481424,Defending & attacking,110,Race dynamics,0.333333,0.666667
+27,0.571429,0.688147,0.555556,0.33875,Overtake battles,762,Race dynamics,0.555556,0.777778
+28,0.571429,0.616816,0.5,0.674589,Corner battles,82,Race dynamics,0.5,0.833333
+29,0.142857,0.445305,0.375,0.716944,Corner specific moves,60,Race dynamics,0.375,0.75
+30,0.428571,0.697011,0.9,0.534262,Lap pace & timing,136,Strategy & technical,0.9,0.9
+31,0.571429,0.635146,0.5,0.605533,Race leader changes,162,Race dynamics,0.5,0.642857
+32,0.0,0.240853,,0.407461,Front position changes,45,Race dynamics,,
+33,0.571429,0.509916,0.619048,0.391927,Field position changes,122,Race dynamics,0.619048,0.809524

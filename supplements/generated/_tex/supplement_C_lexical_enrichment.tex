@@ -1,0 +1,44 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=22mm]{geometry}
+\usepackage{booktabs,longtable,array,graphicx,microtype,tabularx,caption}
+\usepackage{ragged2e}
+\uchyph=1
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\footnotesize What Commentators Talk About --- Supplementary Materials}
+\fancyhead[R]{\footnotesize Supplement C}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+% Long snake_case identifiers are unbreakable in \texttt, which is the sole
+% cause of the overfull boxes. \idt inserts a discretionary break after every
+% underscore, so identifiers wrap instead of running into the margin. No
+% character of any identifier is changed.
+\newcommand{\idt}[1]{\texttt{\seqallowbreak #1}}
+\newcommand{\seqallowbreak}{}
+\makeatletter
+% capture the ORIGINAL \_ before re-letting it, else \ubreak recurses
+\let\origunderscore\_
+\def\ubreak{\origunderscore\allowbreak}
+\makeatother
+\sloppy
+\setlength{\emergencystretch}{3em}
+\raggedbottom
+\title{\vspace{-14mm}\large Supplement C --- Lexical Enrichment}
+\author{}\date{}
+\begin{document}\maketitle\thispagestyle{fancy}
+\subsection*{\texttt{r3\_\allowbreak{}hypergeometric\_\allowbreak{}terms.csv}}
+864 rows x 10 columns.
+
+{\raggedright Columns: \texttt{cluster\_\allowbreak{}id}, \texttt{term}, \texttt{is\_\allowbreak{}bigram}, \texttt{in\_\allowbreak{}cluster}, \texttt{corpus\_\allowbreak{}docfreq}, \texttt{cluster\_\allowbreak{}size}, \texttt{expected}, \texttt{p\_\allowbreak{}value}, \texttt{q\_\allowbreak{}value\_\allowbreak{}fdr}, \texttt{significant}\par}
+
+\subsection*{\texttt{r3\_\allowbreak{}hypergeometric\_\allowbreak{}summary.csv}}
+2 rows x 16 columns.
+
+{\raggedright Columns: \texttt{variant}, \texttt{test}, \texttt{fdr}, \texttt{vocab\_\allowbreak{}total}, \texttt{clusters}, \texttt{pairs\_\allowbreak{}tested}, \texttt{significant\_\allowbreak{}pairs}, \texttt{significant\_\allowbreak{}bigrams}, \texttt{pct\_\allowbreak{}bigram}, \texttt{mean\_\allowbreak{}per\_\allowbreak{}cluster}, \texttt{min\_\allowbreak{}per\_\allowbreak{}cluster}, \texttt{max\_\allowbreak{}per\_\allowbreak{}cluster}, \texttt{clusters\_\allowbreak{}zero}, \texttt{min\_\allowbreak{}p}, \texttt{max\_\allowbreak{}sig\_\allowbreak{}p}, \texttt{bh\_\allowbreak{}boundary}\par}
+
+\end{document}

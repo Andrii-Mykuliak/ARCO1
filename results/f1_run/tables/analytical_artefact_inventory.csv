@@ -1,0 +1,66 @@
+artefact,name,type,applicability,status,path,stage
+Per-category separability under the alternative geometry,alternative_geometry_category_summary,table,applicable,AVAILABLE,results\f1_run\tables\robustness\alternative_geometry_category_summary.csv,14
+Headline statistic recomputed at each replicate checkpoint,alternative_geometry_convergence,table,applicable,AVAILABLE,results\f1_run\tables\robustness\alternative_geometry_convergence.csv,14
+One row per alternative-geometry replicate,alternative_geometry_run_records,machine-readable records,applicable,AVAILABLE,results\f1_run\tables\robustness\alternative_geometry_run_records.csv,14
+alternative_model_recovery_per_category,alternative_model_recovery_per_category,table,applicable,AVAILABLE,results\f1_run\tables\alternative_model_recovery_per_category.csv,14
+assignment_threshold_sensitivity,assignment_threshold_sensitivity,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\assignment_threshold_sensitivity.csv,14
+Matched-event availability class per category,category_availability_control,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\matched_event_availability.csv,14
+Per-category values on the four dimensions,category_diagnostic_profiles,table,applicable,AVAILABLE,results\f1_run\tables\category_diagnostic_profiles.csv,14
+"Category inventory: size, share, label, grouping, terms",category_inventory,table,applicable,AVAILABLE,results\f1_run\tables\category_inventory.csv,14
+Per-category lexical enrichment summary,category_lexical_enrichment_summary,table,applicable,AVAILABLE,results\f1_run\tables\category_lexical_enrichment_summary.csv,14
+category_lexical_signature_summary,category_lexical_signature_summary,table,applicable,AVAILABLE,results\f1_run\tables\category_lexical_signature_summary.csv,14
+Complete category-term enrichment records,category_term_enrichment_records,machine-readable records,applicable,AVAILABLE,results\f1_run\tables\category_term_enrichment_records.csv,14
+complete_compositional_sensitivity,complete_compositional_sensitivity,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\complete_compositional_sensitivity.csv,14
+"Per-event differences, every representation",compositional_event_differences,machine-readable records,applicable,AVAILABLE,results\f1_cross_register_run\tables\compositional_domain_effects.csv,14
+Robustness across compositional representations,compositional_robustness_summary,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\compositional_strategy_summary.csv,14
+corpus_roles_and_characteristics,corpus_roles_and_characteristics,table,applicable,AVAILABLE,results\f1_run\tables\corpus_roles_and_characteristics.csv,14
+"Corpus summary: sentences, sessions, categories",corpus_summary,table,applicable,AVAILABLE,results\f1_run\tables\corpus_summary.csv,14
+correspondence_outcome_criteria,correspondence_outcome_criteria,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\correspondence_outcome_criteria.csv,14
+Per-category cross-register outcome,cross_register_category_outcomes,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\cross_register_correspondence.csv,14
+Counts of each correspondence outcome,cross_register_correspondence_summary,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\cross_register_correspondence_summary.csv,14
+Category null thresholds and empirical p-values,cross_register_null_thresholds,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\cross_register_null.csv,14
+Primary category by second-register similarity,cross_register_similarity_matrix,matrix,applicable,AVAILABLE,results\f1_cross_register_run\tables\cross_register_similarity_matrix.csv,14
+"Diagnostic coverage per dimension, and what conditions it",diagnostic_run_summary,table,applicable,AVAILABLE,results\f1_run\tables\diagnostic_run_summary.csv,14
+exact_matched_event_comparison,exact_matched_event_comparison,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\exact_matched_event_comparison.csv,14
+"Boundary categories moved to the comparison domain; exploratory, not pre-specified",exploratory_boundary_reassignment,table,applicable,AVAILABLE,results\f1_run\tables\robustness\exploratory_boundary_reassignment.csv,14
+geometry_separability_per_category,geometry_separability_per_category,table,applicable,AVAILABLE,results\f1_run\tables\geometry_separability_per_category.csv,14
+"Primary granularity sweep, selection marked",granularity_sweep_primary,table,applicable,AVAILABLE,results\f1_run\tables\granularity_sweep_primary.csv,14
+Paired difference between embedding realisations at each granularity,heldout_embedding_sensitivity,table,applicable,AVAILABLE,results\f1_run\tables\robustness\heldout_embedding_sensitivity.csv,14
+How often each category replicates across viable splits,heldout_factorial_category_summary,table,applicable,AVAILABLE,results\f1_run\tables\robustness\heldout_factorial_category_summary.csv,14
+Replicated-category spread per realisation and training granularity,heldout_factorial_cell_summary,table,applicable,AVAILABLE,results\f1_run\tables\robustness\heldout_factorial_cell_summary.csv,14
+Degenerate-run counts and the aligned-category range per cell,heldout_factorial_degeneracy_summary,table,applicable,AVAILABLE,results\f1_run\tables\robustness\heldout_factorial_degeneracy_summary.csv,14
+"One row per factorial run: split, realisation, granularity, degeneracy, replicated categories",heldout_factorial_run_records,machine-readable records,applicable,AVAILABLE,results\f1_run\tables\robustness\heldout_factorial_run_records.csv,14
+Paired difference between training granularities within each realisation,heldout_granularity_sensitivity,table,applicable,AVAILABLE,results\f1_run\tables\robustness\heldout_granularity_sensitivity.csv,14
+Where the reference split sits in its cell's distribution,heldout_reference_split_location,table,applicable,AVAILABLE,results\f1_run\tables\robustness\heldout_reference_split_location.csv,14
+heldout_replication_per_category,heldout_replication_per_category,table,applicable,AVAILABLE,results\f1_run\tables\heldout_replication_per_category.csv,14
+"Distance to the replication threshold, per category",heldout_threshold_margins,table,applicable,AVAILABLE,results\f1_run\tables\robustness\heldout_threshold_margins.csv,14
+Leave-one-event-out results per category,leave_one_event_out,machine-readable records,applicable,AVAILABLE,results\f1_cross_register_run\tables\paired_leave_one_out.csv,14
+"Per-event, per-category register differences",matched_event_category_differences,machine-readable records,applicable,AVAILABLE,results\f1_cross_register_run\tables\matched_event_category_differences.csv,14
+"Per-event, per-register category shares",matched_event_category_shares,machine-readable records,applicable,AVAILABLE,results\f1_cross_register_run\tables\paired_category_prevalence.csv,14
+Assignment coverage per event and register,matched_event_coverage,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\paired_register_coverage.csv,14
+Matched-event pairing manifest,matched_event_manifest,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\paired_event_manifest.csv,14
+"Matched-length null, per-event variant",matched_length_null_by_event,machine-readable records,applicable,AVAILABLE,results\f1_cross_register_run\tables\matched_length_null_event.csv,14
+"Matched-length null, contiguous variant",matched_length_null_contiguous_variant,machine-readable records,applicable,AVAILABLE,results\f1_cross_register_run\tables\matched_length_null_contiguous.csv,14
+Per-event matched-length null intervals,matched_length_null_intervals,machine-readable records,applicable,AVAILABLE,results\f1_cross_register_run\tables\matched_length_null_summary.csv,14
+Per-category effects summarised over events,per_category_composition_effects,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\paired_category_effects.csv,14
+per_category_diagnostic_detail,per_category_diagnostic_detail,table,applicable,AVAILABLE,results\f1_run\tables\per_category_diagnostic_detail.csv,14
+Per category and replicate: best-overlap value and the cluster that achieved it,resampling_category_records,machine-readable records,applicable,AVAILABLE,results\f1_run\tables\robustness\resampling_category_records.csv,14
+Per-category stability over the viable replicates,resampling_category_summary,table,applicable,AVAILABLE,results\f1_run\tables\robustness\resampling_category_summary.csv,14
+"One row per resampling replicate: recovered clusters, unclustered fraction, degeneracy",resampling_run_records,machine-readable records,applicable,AVAILABLE,results\f1_run\tables\robustness\resampling_run_records.csv,14
+resampling_stability_per_category,resampling_stability_per_category,table,applicable,AVAILABLE,results\f1_run\tables\resampling_stability_per_category.csv,14
+Second-register cluster inventory,secondary_register_clusters,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\second_register_clusters.csv,14
+Second-corpus granularity sweep,secondary_register_granularity_sweep,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\second_register_granularity_sweep.csv,14
+Second-register reconstruction summary,secondary_register_reconstruction_summary,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\secondary_register_reconstruction_summary.csv,14
+Second-register seed stability,secondary_register_seed_stability,table,applicable,AVAILABLE,results\f1_cross_register_run\tables\second_register_seed_stability.csv,14
+"Each primary-domain category dropped in turn, all four representations",systematic_leave_one_strategy_category_out,table,applicable,AVAILABLE,results\f1_run\tables\robustness\systematic_leave_one_strategy_category_out.csv,14
+Availability against best-match similarity,category_availability_vs_correspondence,figure,applicable,AVAILABLE,results\f1_cross_register_run\figures\category_availability_vs_correspondence.png,15
+"Per-category diagnostic profile, shared scale",category_diagnostic_profiles,figure,applicable,AVAILABLE,results\f1_run\figures\category_diagnostic_profiles.png,15
+Cross-register centroid similarity structure,cross_register_similarity_structure,figure,applicable,AVAILABLE,results\f1_cross_register_run\figures\cross_register_similarity_structure.png,15
+Distribution of each diagnostic dimension,diagnostic_dimension_distributions,figure,applicable,AVAILABLE,results\f1_run\figures\diagnostic_dimension_distributions.png,15
+Domain-level compositional differences,domain_composition_differences,figure,applicable,AVAILABLE,results\f1_cross_register_run\figures\domain_composition_differences.png,15
+"Domain share by matched event, both registers",matched_event_domain_share,figure,applicable,AVAILABLE,results\f1_cross_register_run\figures\matched_event_domain_share.png,15
+Observed differences against their own nulls,matched_length_null_envelopes,figure,applicable,AVAILABLE,results\f1_cross_register_run\figures\matched_length_null_envelopes.png,15
+Per-category compositional effects,per_category_composition_effects,figure,applicable,AVAILABLE,results\f1_cross_register_run\figures\per_category_composition_effects.png,15
+Primary-corpus granularity selection,primary_granularity_selection,figure,applicable,AVAILABLE,results\f1_run\figures\primary_granularity_selection.png,15
+"Thematic structure, descriptive projection",primary_thematic_structure,figure,applicable,AVAILABLE,results\f1_run\figures\primary_thematic_structure.png,15
+Second-corpus granularity selection,secondary_granularity_selection,figure,applicable,AVAILABLE,results\f1_cross_register_run\figures\secondary_granularity_selection.png,15

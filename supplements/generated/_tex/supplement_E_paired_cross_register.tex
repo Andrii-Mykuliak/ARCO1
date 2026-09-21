@@ -1,0 +1,113 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=22mm]{geometry}
+\usepackage{booktabs,longtable,array,graphicx,microtype,tabularx,caption}
+\usepackage{ragged2e}
+\uchyph=1
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\footnotesize What Commentators Talk About --- Supplementary Materials}
+\fancyhead[R]{\footnotesize Supplement E}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+% Long snake_case identifiers are unbreakable in \texttt, which is the sole
+% cause of the overfull boxes. \idt inserts a discretionary break after every
+% underscore, so identifiers wrap instead of running into the margin. No
+% character of any identifier is changed.
+\newcommand{\idt}[1]{\texttt{\seqallowbreak #1}}
+\newcommand{\seqallowbreak}{}
+\makeatletter
+% capture the ORIGINAL \_ before re-letting it, else \ubreak recurses
+\let\origunderscore\_
+\def\ubreak{\origunderscore\allowbreak}
+\makeatother
+\sloppy
+\setlength{\emergencystretch}{3em}
+\raggedbottom
+\title{\vspace{-14mm}\large Supplement E --- Paired Cross Register}
+\author{}\date{}
+\begin{document}\maketitle\thispagestyle{fancy}
+\subsection*{\texttt{paired\_\allowbreak{}event\_\allowbreak{}manifest.csv}}
+10 rows x 10 columns.
+
+{\raggedright Columns: \texttt{pair\_\allowbreak{}id}, \texttt{event\_\allowbreak{}id}, \texttt{season}, \texttt{event\_\allowbreak{}name}, \texttt{highlight\_\allowbreak{}source}, \texttt{fullrace\_\allowbreak{}source}, \texttt{n\_\allowbreak{}highlight\_\allowbreak{}sentences}, \texttt{n\_\allowbreak{}fullrace\_\allowbreak{}sentences}, \texttt{match\_\allowbreak{}type}, \texttt{notes}\par}
+
+\subsection*{\texttt{paired\_\allowbreak{}category\_\allowbreak{}prevalence.csv}}
+2040 rows x 11 columns.
+
+{\raggedright Columns: \texttt{pair\_\allowbreak{}id}, \texttt{event\_\allowbreak{}id}, \texttt{threshold}, \texttt{category\_\allowbreak{}id}, \texttt{category\_\allowbreak{}name}, \texttt{register}, \texttt{n\_\allowbreak{}category}, \texttt{n\_\allowbreak{}total}, \texttt{n\_\allowbreak{}assigned}, \texttt{p\_\allowbreak{}all}, \texttt{p\_\allowbreak{}assigned}\par}
+
+\subsection*{\texttt{paired\_\allowbreak{}domain\_\allowbreak{}prevalence.csv}}
+24 rows x 9 columns.
+
+{\raggedright Columns: \texttt{threshold}, \texttt{domain}, \texttt{metric}, \texttt{n\_\allowbreak{}events}, \texttt{mean\_\allowbreak{}delta}, \texttt{median\_\allowbreak{}delta}, \texttt{sd}, \texttt{n\_\allowbreak{}positive}, \texttt{n\_\allowbreak{}negative}\par}
+
+\tiny
+\begin{longtable}{>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1091\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1212\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.0970\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.0727\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1334\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1334\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1091\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.0970\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.0970\textwidth-2\tabcolsep\relax}}
+\toprule
+\textbf{threshold} & \textbf{domain} & \textbf{metric} & \textbf{n\_events} & \textbf{mean\_delta} & \textbf{median\_delta} & \textbf{sd} & \textbf{n\_positive} & \textbf{n\_negative} \\
+\midrule\endhead
+0.35 & Narrative \& meta & all & 10 & 0.0673761 & 0.0521655 & 0.0643339 & 9 & 1 \\
+0.35 & Narrative \& meta & assigned & 10 & 0.0202984 & 0.00244385 & 0.0623258 & 5 & 5 \\
+0.35 & Race dynamics & all & 10 & 0.127472 & 0.140566 & 0.0607448 & 10 & 0 \\
+0.35 & Race dynamics & assigned & 10 & 0.0661416 & 0.0679999 & 0.059969 & 8 & 2 \\
+0.35 & Regulatory & all & 10 & 0.0131633 & 0.00243721 & 0.0382548 & 6 & 4 \\
+0.35 & Regulatory & assigned & 10 & 0.00408925 & -0.00535805 & 0.0370832 & 4 & 6 \\
+0.35 & Strategy \& technical & all & 10 & -0.04899 & -0.0463073 & 0.053187 & 1 & 9 \\
+0.35 & Strategy \& technical & assigned & 10 & -0.0905293 & -0.0983061 & 0.0512422 & 1 & 9 \\
+0.4 & Narrative \& meta & all & 10 & 0.0786306 & 0.0698183 & 0.0620062 & 9 & 1 \\
+0.4 & Narrative \& meta & assigned & 10 & 0.0203257 & 0.00543917 & 0.0599415 & 5 & 5 \\
+0.4 & Race dynamics & all & 10 & 0.144312 & 0.154124 & 0.0577981 & 10 & 0 \\
+0.4 & Race dynamics & assigned & 10 & 0.069208 & 0.0800807 & 0.0596178 & 8 & 2 \\
+0.4 & Regulatory & all & 10 & 0.0147565 & 0.00595435 & 0.0362037 & 6 & 4 \\
+0.4 & Regulatory & assigned & 10 & 0.00261772 & -0.00585462 & 0.0334511 & 4 & 6 \\
+0.4 & Strategy \& technical & all & 10 & -0.0380626 & -0.0332051 & 0.0492803 & 1 & 9 \\
+0.4 & Strategy \& technical & assigned & 10 & -0.0921514 & -0.097257 & 0.0462664 & 0 & 10 \\
+0.45 & Narrative \& meta & all & 10 & 0.0944436 & 0.0911328 & 0.06138 & 10 & 0 \\
+0.45 & Narrative \& meta & assigned & 10 & 0.0257057 & 0.00768095 & 0.0635626 & 6 & 4 \\
+0.45 & Race dynamics & all & 10 & 0.157553 & 0.1656 & 0.0624123 & 10 & 0 \\
+0.45 & Race dynamics & assigned & 10 & 0.0695723 & 0.0862755 & 0.0623904 & 8 & 2 \\
+0.45 & Regulatory & all & 10 & 0.0105328 & 0.00066493 & 0.0287276 & 6 & 4 \\
+0.45 & Regulatory & assigned & 10 & -0.00436104 & -0.0126026 & 0.0274606 & 4 & 6 \\
+0.45 & Strategy \& technical & all & 10 & -0.0247684 & -0.0277114 & 0.0552915 & 3 & 7 \\
+0.45 & Strategy \& technical & assigned & 10 & -0.0909169 & -0.0987833 & 0.0511206 & 1 & 9 \\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\subsection*{\texttt{matched\_\allowbreak{}length\_\allowbreak{}null\_\allowbreak{}summary.csv}}
+80 rows x 17 columns.
+
+{\raggedright Columns: \texttt{event\_\allowbreak{}id}, \texttt{domain}, \texttt{metric}, \texttt{H\_\allowbreak{}r}, \texttt{F\_\allowbreak{}r}, \texttt{observed\_\allowbreak{}effect}, \texttt{null\_\allowbreak{}mean}, \texttt{null\_\allowbreak{}sd}, \texttt{null\_\allowbreak{}p2.5}, \texttt{null\_\allowbreak{}p50}, \texttt{null\_\allowbreak{}p97.5}, \texttt{p\_\allowbreak{}one\_\allowbreak{}sided\_\allowbreak{}depletion}, \texttt{p\_\allowbreak{}one\_\allowbreak{}sided\_\allowbreak{}enrichment}, \texttt{p\_\allowbreak{}two\_\allowbreak{}sided}, \texttt{z\_\allowbreak{}vs\_\allowbreak{}null}, \texttt{outside\_\allowbreak{}central\_\allowbreak{}95}, \texttt{below\_\allowbreak{}null\_\allowbreak{}p2.5}\par}
+
+\subsection*{\texttt{compositional\_\allowbreak{}strategy\_\allowbreak{}summary.csv}}
+12 rows x 16 columns.
+
+{\raggedright Columns: \texttt{metric}, \texttt{column}, \texttt{median}, \texttt{mean}, \texttt{sd}, \texttt{q1}, \texttt{q3}, \texttt{iqr}, \texttt{min}, \texttt{max}, \texttt{n\_\allowbreak{}negative}, \texttt{n\_\allowbreak{}positive}, \texttt{sign\_\allowbreak{}test\_\allowbreak{}p}, \texttt{loo\_\allowbreak{}sign\_\allowbreak{}stable}, \texttt{loo\_\allowbreak{}median\_\allowbreak{}min}, \texttt{loo\_\allowbreak{}median\_\allowbreak{}max}\par}
+
+\subsection*{\texttt{paired\_\allowbreak{}leave\_\allowbreak{}one\_\allowbreak{}out.csv}}
+680 rows x 7 columns.
+
+{\raggedright Columns: \texttt{category\_\allowbreak{}id}, \texttt{category\_\allowbreak{}name}, \texttt{omitted\_\allowbreak{}event}, \texttt{metric}, \texttt{n\_\allowbreak{}events\_\allowbreak{}used}, \texttt{median\_\allowbreak{}delta}, \texttt{sign}\par}
+
+\subsection*{Figures}
+\begin{figure}[htbp]\centering
+\includegraphics[width=0.92\textwidth,height=0.80\textheight,keepaspectratio]{results/f1_cross_register/figures/figF_paired_category_effects.png}
+\caption*{\footnotesize Per-category paired effects; each dot is one of ten events.}
+\end{figure}
+\clearpage
+\begin{figure}[htbp]\centering
+\includegraphics[width=0.92\textwidth,height=0.80\textheight,keepaspectratio]{results/f1_cross_register/figures/figG_matched_length_null.png}
+\caption*{\footnotesize Observed event-level contrast against the matched-length null.}
+\end{figure}
+\clearpage
+\begin{figure}[htbp]\centering
+\includegraphics[width=0.92\textwidth,height=0.80\textheight,keepaspectratio]{results/f1_cross_register/figures/figG2_compositional_race_dynamics.png}
+\caption*{\footnotesize Race dynamics does not survive once Strategy is partitioned out.}
+\end{figure}
+\clearpage
+\end{document}

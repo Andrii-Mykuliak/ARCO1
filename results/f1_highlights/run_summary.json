@@ -1,0 +1,176 @@
+{
+ "primary_corpus": "f1_highlights",
+ "secondary_corpus": "f1_full",
+ "second_register_ready": true,
+ "correspondence_ready": true,
+ "matched_event_ready": true,
+ "counts": {
+  "COMPLETED": 18,
+  "NOT_APPLICABLE": 0,
+  "FAILED": 0
+ },
+ "stages": [
+  {
+   "stage": 0,
+   "description": "Environment and configuration",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "results\\f1_highlights",
+   "summary": "primary_corpus=f1_highlights, secondary_corpus=f1_full, second_registe"
+  },
+  {
+   "stage": 1,
+   "description": "Corpus loading, provenance and compatibility",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "",
+   "summary": "n_sentences=7647, n_sessions=113, second=2"
+  },
+  {
+   "stage": 2,
+   "description": "Entity masking",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "",
+   "summary": "placeholder=<PERSON>, sentences=5694, occurrences=9828"
+  },
+  {
+   "stage": 3,
+   "description": "Sentence embeddings",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "",
+   "summary": "shape=2"
+  },
+  {
+   "stage": 4,
+   "description": "Granularity analysis",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "",
+   "summary": "n_settings=14"
+  },
+  {
+   "stage": 5,
+   "description": "Canonical thematic clustering",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "",
+   "summary": "n_clusters=34, noise_rate=0.3352, min_cluster_size=35"
+  },
+  {
+   "stage": 6,
+   "description": "Lexical enrichment",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "",
+   "summary": "[{'cluster': 0, 'size': 205, 'n_enriched': 49, 'pct_bigram':"
+  },
+  {
+   "stage": 7,
+   "description": "Cluster interpretation",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "",
+   "summary": "n_cards=34"
+  },
+  {
+   "stage": 8,
+   "description": "Complementary diagnostic characterisation",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "results\\f1_highlights\\tables\\category_diagnostic_profiles.csv",
+   "summary": "dimensions=4, categories_profiled=34"
+  },
+  {
+   "stage": 9,
+   "description": "Descriptive centroid-level grouping",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "",
+   "summary": "n_domains_requested=4, louvain_communities=4, network_edges=322"
+  },
+  {
+   "stage": 10,
+   "description": "Independent second-register reconstruction",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "results\\cross_register_run\\tables\\second_register_granularity_sweep.cs",
+   "summary": "selected_min_cluster_size=35, n_clusters=55, noise_fraction=0.329403"
+  },
+  {
+   "stage": 11,
+   "description": "Cross-register correspondence",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "results\\cross_register_run\\tables\\cross_register_correspondence.csv; r",
+   "summary": "status=COMPLETED, n_primary_categories=34, n_second_clusters=55"
+  },
+  {
+   "stage": 12,
+   "description": "Matched-event paired comparison",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "results\\cross_register_run\\tables",
+   "summary": "status=COMPLETED, n_matched_events=10, inferential_unit=event"
+  },
+  {
+   "stage": 13,
+   "description": "Sensitivity and robustness",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "",
+   "summary": "computed=9, not_applicable=0"
+  },
+  {
+   "stage": 14,
+   "description": "Analytical tables",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "results\\cross_register_run\\tables\\compositional_domain_effects.csv; re",
+   "summary": "available=27, not_applicable=0"
+  },
+  {
+   "stage": 15,
+   "description": "Analytical figures",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "results\\cross_register_run\\figures\\category_availability_vs_correspond",
+   "summary": "written=11, not_applicable=0"
+  },
+  {
+   "stage": 16,
+   "description": "Artefact inventory",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "results\\f1_highlights\\tables\\analytical_artefact_inventory.csv",
+   "summary": "artefacts=38, available=38, not_applicable=0"
+  },
+  {
+   "stage": 17,
+   "description": "Run summary",
+   "applicability": "applicable",
+   "status": "COMPLETED",
+   "reason": "",
+   "outputs": "",
+   "summary": "stages_recorded=18"
+  }
+ ]
+}

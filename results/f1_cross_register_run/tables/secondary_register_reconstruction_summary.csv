@@ -1,0 +1,2 @@
+corpus,selected_minimum_cluster_size,clusters,unclustered_fraction,dbcv,silhouette,clusters_with_significant_vocabulary,cluster_count_plateau_exists,settings_swept,seeds,degenerate_seeds
+f1_full,40,48,0.3155,0.3909595031449056,0.5776184797286987,48,False,16,20,0

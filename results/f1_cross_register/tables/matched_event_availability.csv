@@ -1,0 +1,35 @@
+highlight_cluster,highlight_name,domain,canonical_total_sentences,matched10_sentences,matched10_events,share_of_canonical_total,availability_class
+0,DRS-assisted battles,Race dynamics,205,10,5,0.048780487804878,SPARSE
+1,Time penalties,Regulatory,118,11,4,0.0932203389830508,SPARSE
+2,Lights-out race starts,Race dynamics,54,1,1,0.0185185185185185,EFFECTIVELY_ABSENT
+3,Mirror checks defending,Race dynamics,47,6,6,0.1276595744680851,SPARSE
+4,Race start launch,Race dynamics,42,4,4,0.0952380952380952,EFFECTIVELY_ABSENT
+5,Weather conditions,Strategy & technical,43,3,3,0.0697674418604651,EFFECTIVELY_ABSENT
+6,Grand Prix wins,Narrative & meta,465,55,10,0.1182795698924731,WELL_REPRESENTED
+7,Race start lights,Race dynamics,36,3,3,0.0833333333333333,EFFECTIVELY_ABSENT
+8,Race control flags,Regulatory,118,11,6,0.0932203389830508,SPARSE
+9,Formula 1 milestones,Narrative & meta,134,12,8,0.0895522388059701,SPARSE
+10,Chicane moves,Race dynamics,62,5,2,0.0806451612903225,SPARSE
+11,Team radio celebrations,Narrative & meta,55,4,3,0.0727272727272727,EFFECTIVELY_ABSENT
+12,Podium finishes,Narrative & meta,139,8,5,0.0575539568345323,SPARSE
+13,Championship & title,Narrative & meta,158,18,8,0.1139240506329113,WELL_REPRESENTED
+14,Pit stops,Strategy & technical,185,17,8,0.0918918918918919,WELL_REPRESENTED
+15,Tires & compounds,Strategy & technical,379,32,8,0.0844327176781002,WELL_REPRESENTED
+16,Safety car deployment,Regulatory,122,12,6,0.0983606557377049,SPARSE
+17,Gap & pace,Strategy & technical,67,6,3,0.0895522388059701,SPARSE
+18,Team dynamics,Narrative & meta,600,67,10,0.1116666666666666,WELL_REPRESENTED
+19,Race lead holding,Race dynamics,115,8,7,0.0695652173913043,SPARSE
+20,Wing & car damage,Strategy & technical,61,4,3,0.0655737704918032,EFFECTIVELY_ABSENT
+21,Braking & lockups,Race dynamics,128,13,9,0.1015625,SPARSE
+22,Wheel-to-wheel,Race dynamics,71,7,5,0.0985915492957746,SPARSE
+23,Circuit action,Race dynamics,72,10,7,0.1388888888888889,SPARSE
+24,Inter-car distance,Strategy & technical,60,1,1,0.0166666666666666,EFFECTIVELY_ABSENT
+25,Driver & team references,Narrative & meta,69,13,9,0.1884057971014492,SPARSE
+26,Defending & attacking,Race dynamics,110,10,6,0.0909090909090909,SPARSE
+27,Overtake battles,Race dynamics,762,68,10,0.0892388451443569,WELL_REPRESENTED
+28,Corner battles,Race dynamics,82,4,3,0.048780487804878,EFFECTIVELY_ABSENT
+29,Corner specific moves,Race dynamics,60,8,3,0.1333333333333333,SPARSE
+30,Lap pace & timing,Strategy & technical,136,14,7,0.1029411764705882,SPARSE
+31,Race leader changes,Race dynamics,162,13,6,0.0802469135802469,SPARSE
+32,Front position changes,Race dynamics,45,2,2,0.0444444444444444,EFFECTIVELY_ABSENT
+33,Field position changes,Race dynamics,122,9,5,0.0737704918032786,SPARSE

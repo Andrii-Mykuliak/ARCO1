@@ -1,0 +1,200 @@
+{
+  "_provenance": {
+    "generated_by": "pipeline.publication.generate_publication_artifacts",
+    "all_values_read_from_computed_artifacts": true,
+    "tables_copied": 22,
+    "tables_missing": []
+  },
+  "highlight": {
+    "n_events": 113,
+    "n_sentences": 7647,
+    "n_clusters": 34,
+    "min_cluster_size": 35,
+    "min_samples": "None (resolves to min_cluster_size)",
+    "noise_fraction": 0.33516411664705115,
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+    "umap": {
+      "n_neighbors": 15,
+      "min_dist": 0.0,
+      "n_components": 5,
+      "metric": "cosine",
+      "random_state": 42
+    }
+  },
+  "fullrace": {
+    "n_events": 10,
+    "n_sentences": 16876,
+    "min_cluster_size": 40,
+    "min_cluster_size_selection": "independent full-race sweep; NOT scaled by corpus size",
+    "n_clusters": 48,
+    "noise_fraction": 0.3155368570751363,
+    "dbcv": 0.3909595031449056,
+    "silhouette": 0.5776184797286987,
+    "clusters_lexically_enriched": 48,
+    "sweep_values": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      60,
+      70,
+      80,
+      100,
+      125,
+      150,
+      200
+    ],
+    "cluster_count_plateau_exists": false,
+    "seed_stability_degenerate_seeds": 0
+  },
+  "cross_register": {
+    "above_null_p95": 29,
+    "above_within_highlight_reference": 27,
+    "one_to_one": 19,
+    "split": 5,
+    "merge": 5,
+    "none": 5,
+    "availability": {
+      "SPARSE": 19,
+      "EFFECTIVELY_ABSENT": 9,
+      "WELL_REPRESENTED": 6
+    },
+    "well_represented": {
+      "n": 6,
+      "one_to_one": 4,
+      "split": 1,
+      "merge": 1,
+      "none": 0
+    },
+    "interpretable_non_recovery": 0,
+    "strategy_above_null": 6,
+    "strategy_one_to_one": 5,
+    "lexical_weighted_jaccard_median": 0.3003389463862751
+  },
+  "paired": {
+    "n_events": 10,
+    "events": [
+      "2023_Australia_GP",
+      "2023_Qatar_GP",
+      "2023_Singapore_GP",
+      "2024_Bahrain_GP",
+      "2024_SaoPaulo_GP",
+      "2024_Italy_GP",
+      "2024_LasVegas_GP",
+      "2024_Qatar_GP",
+      "2025_Belgium_GP",
+      "2025_Japan_GP"
+    ],
+    "highlight_sentences": 721,
+    "fullrace_sentences": 16876,
+    "inferential_unit": "event",
+    "tau_primary": 0.4,
+    "tau_sensitivity": [
+      0.35,
+      0.4,
+      0.45
+    ],
+    "strategy_direction_consistency": "10/10",
+    "strategy_median_delta_assigned": -0.0972569502989391,
+    "events_outside_own_null_95": 4,
+    "strategy_logit_median": -0.5898789077934565,
+    "strategy_logit_n_negative": 10,
+    "strategy_loo_sign_stable": true,
+    "race_dynamics_independent_enrichment": false,
+    "race_dynamics_note": "does NOT survive compositional treatment once Strategy is partitioned out (ILR b2: 7/10, p=0.34)"
+  },
+  "guards": {
+    "aggregate_validation_vote_generated": false,
+    "verdict_bands_generated": false,
+    "corpus_size_scaled_mcs_used": false,
+    "raw_restricted_text_in_public_artifacts": false,
+    "diagnostics_closure_promoted": true
+  },
+  "diagnostics": {
+    "_note": "Final state of the four complementary diagnostic dimensions. Each dimension is reported separately; no aggregate score and no pass/fail vote is computed across them.",
+    "_source": "results/f1_highlights/diagnostics/diagnostic_dimensions_closure_summary.json",
+    "alternative_model_recovery": {
+      "n_pipelines": 7,
+      "recovery_jaccard": 0.3,
+      "status": "unchanged by this closure pass"
+    },
+    "resampling_stability": {
+      "n_resamples": 200,
+      "subsample_fraction": 0.8,
+      "n_degenerate": 35,
+      "n_viable": 165,
+      "prefix_reproduces_canonical": false,
+      "max_abs_diff_vs_historical": 0.0862287326186939,
+      "conditional_summary_basis": "viable runs only",
+      "interpretation": "The extended run exposes version-sensitive non-reproducibility of the historical 30-resample prefix rather than refining it. Neither the historical nor the extended pass count is a uniquely canonical stability truth."
+    },
+    "heldout_race_replication": {
+      "n_seeds": 50,
+      "n_embedding_caches": 2,
+      "n_mcs_settings": 2,
+      "total_runs": 200,
+      "failed_runs": 0,
+      "degenerate_runs": 47,
+      "cells": [
+        {
+          "cell": "A30",
+          "n_viable": 44,
+          "median": 17.0,
+          "iqr_lo": 15.0,
+          "iqr_hi": 19.0,
+          "seed42_n_pass": 24,
+          "seed42_degenerate": false,
+          "seed42_percentile_among_viable": 97.72727272727273
+        },
+        {
+          "cell": "A35",
+          "n_viable": 35,
+          "median": 14.0,
+          "iqr_lo": 13.0,
+          "iqr_hi": 16.0,
+          "seed42_n_pass": 18,
+          "seed42_degenerate": false,
+          "seed42_percentile_among_viable": 82.85714285714286
+        },
+        {
+          "cell": "B30",
+          "n_viable": 43,
+          "median": 16.0,
+          "iqr_lo": 15.0,
+          "iqr_hi": 19.0,
+          "seed42_n_pass": 22,
+          "seed42_degenerate": false,
+          "seed42_percentile_among_viable": 88.37209302325581
+        },
+        {
+          "cell": "B35",
+          "n_viable": 31,
+          "median": 14.0,
+          "iqr_lo": 13.0,
+          "iqr_hi": 15.0,
+          "seed42_n_pass": 3,
+          "seed42_degenerate": true,
+          "seed42_percentile_among_viable": NaN
+        }
+      ],
+      "interpretation": "The historical single-seed result is atypically optimistic and is not representative; distributional reporting supersedes it."
+    },
+    "alternative_geometry_separability": {
+      "n_replicates": 100,
+      "samples_per_category": 15,
+      "n_failed": 0,
+      "n_degenerate": 0,
+      "prefix_reproduces_canonical": true,
+      "measure": "continuous best-overlap Jaccard, conditional on K and per-category sample size",
+      "secondary_descriptive": {
+        "ward_K4": "descriptive only",
+        "louvain": "community count is resolution-sensitive; NOT a stable four-community result"
+      }
+    }
+  }
+}

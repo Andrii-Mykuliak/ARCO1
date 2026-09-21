@@ -45,3 +45,24 @@ def embed_with(model_name: str, texts, batch_size: int = 256) -> np.ndarray:
     X = model.encode(list(texts), batch_size=batch_size, show_progress_bar=False,
                      convert_to_numpy=True)
     return l2_normalise(np.asarray(X, dtype=np.float32))
+
+
+def audit(A, what: str) -> dict:
+    """Shape, dtype and numerical integrity of a sentence-by-feature matrix."""
+    import numpy as np
+
+    A = np.asarray(A)
+    finite = np.isfinite(A)
+    rep = {"what": what, "shape": list(A.shape), "dtype": str(A.dtype),
+           "n_nan": int(np.isnan(A).sum()), "n_inf": int(np.isinf(A).sum()),
+           "rows_all_finite": int(finite.all(axis=1).sum()),
+           "rows_any_nonfinite": int((~finite.all(axis=1)).sum())}
+    if rep["rows_all_finite"]:
+        ok = A[finite.all(axis=1)]
+        rep["min"] = round(float(ok.min()), 6)
+        rep["max"] = round(float(ok.max()), 6)
+        rep["mean_row_norm"] = round(float(np.linalg.norm(ok, axis=1).mean()), 6)
+    print(f"{what}: shape={rep['shape']} dtype={rep['dtype']} "
+          f"NaN={rep['n_nan']:,} Inf={rep['n_inf']:,} "
+          f"finite rows={rep['rows_all_finite']:,}/{A.shape[0]:,}")
+    return rep

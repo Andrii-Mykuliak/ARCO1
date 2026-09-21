@@ -1,0 +1,3 @@
+register,role_in_analysis,events,sentences,coverage_profile,matched_event_role,status
+f1_highlights,thematic discovery and diagnostic characterisation,113,7647,"broad across events, comparatively shallow per event",10 events used in the paired comparison,analysed
+f1_full,independent thematic reconstruction,10,16876,"narrow across events, comparatively deep per event",the same 10 events used in the paired comparison,analysed

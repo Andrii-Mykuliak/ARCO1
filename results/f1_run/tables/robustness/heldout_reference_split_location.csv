@@ -1,0 +1,5 @@
+cell,cache,mcs,reference_seed,reference_n_pass,reference_degenerate,n_viable,percentile_among_viable
+A30,A,30,42,24,False,44,97.72727272727273
+A35,A,35,42,18,False,35,82.85714285714286
+B30,B,30,42,22,False,43,88.37209302325581
+B35,B,35,42,3,True,31,

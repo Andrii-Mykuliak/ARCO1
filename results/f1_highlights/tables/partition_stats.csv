@@ -1,2 +1,2 @@
 min_cluster_size,n_clusters,noise_pct,clustered_sentences,plateau_lo,plateau_hi
-35,34,32.8,5130,30,35
+35,34,33.5,5084,30,35

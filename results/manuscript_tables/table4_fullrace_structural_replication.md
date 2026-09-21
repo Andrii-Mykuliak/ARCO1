@@ -1,0 +1,20 @@
+**Independent full-race structural replication and cross-register correspondence.**
+
+| Quantity                            | Value                                                                                                                                                                               |
+|:------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Selected minimum cluster size       | 40                                                                                                                                                                                  |
+| Selection basis                     | full-race-specific sweep; NOT scaled by corpus size                                                                                                                                 |
+| Cluster-count plateau               | none - count declines monotonically                                                                                                                                                 |
+| Full-race clusters                  | 48                                                                                                                                                                                  |
+| Noise fraction                      | 0.3155                                                                                                                                                                              |
+| DBCV                                | 0.3910                                                                                                                                                                              |
+| Silhouette                          | 0.5776                                                                                                                                                                              |
+| Lexical enrichment coverage         | 48/48 clusters                                                                                                                                                                      |
+| Degenerate outcomes across 20 seeds | 0                                                                                                                                                                                   |
+| Above category-specific null p95    | 29/34                                                                                                                                                                               |
+| Above within-highlight reference    | 27/34                                                                                                                                                                               |
+| Single-match                        | 19                                                                                                                                                                                  |
+| Split                               | 5                                                                                                                                                                                   |
+| Merge                               | 5                                                                                                                                                                                   |
+| Non-recovery                        | 5                                                                                                                                                                                   |
+| Availability control                | all 5 non-recoveries are categories absent or sparse in the matched events; among well-represented categories (n=6) the outcome is 4 single-match, 1 split, 1 merge, 0 non-recovery |

@@ -1,0 +1,12 @@
+Quantity,Value
+Matched events,10
+Highlight / full-race sentences,"721 / 16,876"
+Inferential unit,event
+"Strategy and technical, raw relative share","-0.0973 (10/10 negative, p = 0.0020)"
+"Strategy and technical, binary logit","-0.5899 (10/10 negative, p = 0.0020)"
+"Strategy and technical, centred log-ratio","-0.3382 (9/10 negative, p = 0.0215)"
+"Strategy and technical, isometric log-ratio balance","-0.3906 (9/10 negative, p = 0.0215)"
+Leave-one-event-out sign stability,stable
+Assignment-threshold sensitivity,median -0.0973 at the primary threshold; direction preserved at both alternative thresholds
+Individual events outside their own 95% null,4/10
+"Race dynamics, isometric log-ratio balance","+0.1489 (7/10 positive, p = 0.3438) - not independently supported"

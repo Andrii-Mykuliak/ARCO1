@@ -1,0 +1,8 @@
+**Operational criteria for the four cross-register correspondence outcomes.**
+
+| Correspondence   | Operational criterion                                                                                                                                                                       | Interpretation                                                    |
+|:-----------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------|
+| Non-recovery     | No full-race cluster exceeds the highlight category's null threshold.                                                                                                                       | No supported counterpart is recovered.                            |
+| Single-match     | Exactly one full-race cluster exceeds the threshold and does not satisfy the merge criterion.                                                                                               | One supported counterpart.                                        |
+| Split            | Two or more full-race clusters exceed the threshold.                                                                                                                                        | One highlight category corresponds to several full-race clusters. |
+| Merge            | Exactly one full-race cluster exceeds the category threshold, and that cluster is also a supported counterpart of at least one other highlight category under the stricter merge threshold. | Several highlight categories converge on one full-race cluster.   |

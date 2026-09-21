@@ -1,0 +1,7 @@
+assignment_threshold,denominator,categories,median_delta,mean_delta,categories_negative,categories_positive,direction
+0.35,all,7,-0.005424,-0.006999,7,0,negative
+0.4,all,7,-0.004251,-0.005438,7,0,negative
+0.45,all,7,-0.005754,-0.003538,7,0,negative
+0.35,assigned,7,-0.008044,-0.012933,7,0,negative
+0.4,assigned,7,-0.009651,-0.013164,7,0,negative
+0.45,assigned,7,-0.010132,-0.012988,7,0,negative

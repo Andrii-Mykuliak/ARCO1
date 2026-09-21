@@ -269,3 +269,63 @@ def masking_report(df: pd.DataFrame) -> pd.DataFrame:
                  "sentences": int(df["masked"].str.contains("<", regex=False).sum()),
                  "occurrences": int(df["masked"].str.count("<").sum())})
     return pd.DataFrame(rows)
+
+
+def load_registers(cfg, cfg2=None, matched_events=None) -> dict:
+    """Load the primary corpus and, when configured, the second register.
+
+    Two registers are checked for compatibility before any cross-register stage
+    is allowed to run, and the matched events are resolved against what is
+    actually present in both corpora. A corpus is never allowed to stand in as
+    its own second register.
+    """
+    from . import cross_register
+
+    docs = load_corpus(cfg)
+    out = {"docs": docs, "docs2": None, "matched_events": {},
+           "checks": [], "problems": [], "second_register_usable": False,
+           "n_sentences": len(docs),
+           "n_sessions": int(docs["session"].nunique())}
+
+    def check(name, ok, detail=""):
+        out["checks"].append({"check": name, "ok": bool(ok), "detail": detail})
+        if not ok:
+            out["problems"].append(f"{name}: {detail}" if detail else name)
+
+    if cfg2 is None:
+        return out
+
+    docs2 = load_corpus(cfg2)
+    out["docs2"] = docs2
+    out["second"] = {"n_sentences": len(docs2),
+                     "n_sessions": int(docs2["session"].nunique())}
+
+    check("second corpus non-empty", len(docs2) > 0)
+    check("second corpus carries a text column", "text" in docs2.columns)
+    check("second corpus carries session identifiers",
+          "session" in docs2.columns and docs2["session"].notna().all())
+    check("second corpus is a distinct corpus",
+          cfg2.corpus_name != cfg.corpus_name,
+          "a corpus cannot stand in as its own second register")
+    out["second_register_usable"] = not out["problems"]
+
+    # Matched events are a further requirement, checked separately: a second
+    # register can be reconstructable and comparable without being paired.
+    if matched_events:
+        requested, source = dict(matched_events), "configured"
+    else:
+        requested, pairing = cross_register.matched_events_between(
+            docs["session"], docs2["session"])
+        source = "derived from the two corpora"
+        out["matched_event_pairing"] = pairing.to_dict("records")
+    p_sess, s_sess = set(docs["session"]), set(docs2["session"])
+    have = {stem: rid for stem, rid in requested.items()
+            if stem in s_sess and rid in p_sess}
+    missing = sorted(set(requested) - set(have))
+    check("matched events present in both corpora", bool(have),
+          f"{len(have)}/{len(requested)} pairs resolved ({source})"
+          + (f"; missing {missing}" if missing else ""))
+    out["matched_events"] = have
+    out["matched_event_source"] = source
+    out["matched_events_missing"] = missing
+    return out

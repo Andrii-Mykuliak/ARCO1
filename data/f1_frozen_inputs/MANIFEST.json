@@ -1,0 +1,30 @@
+{
+  "description": "Frozen analytical inputs for the Monte-Carlo and factorial diagnostic experiments. These are derived numerical artefacts, not broadcast text: each is a float32 sentence-embedding matrix with no string content. The transcripts they encode are NOT redistributed.",
+  "why_not_regenerable": "The experiments are defined on these exact realisations and are hash-gated. Re-encoding the corpus in a different environment yields a different array and a different experiment.",
+  "inputs": {
+    "highlight_embedding_realisation_A.npy": {
+      "array_sha256": "afad0da43887d42bb201ac9db635393d87a4d30214207c505fcd501175822a46",
+      "shape": [
+        7647,
+        384
+      ],
+      "dtype": "float32",
+      "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+      "consumed_by": "resampling stability (200 resamples); alternative geometry (100 replicates); held-out factorial cell A"
+    },
+    "highlight_embedding_realisation_B.npy": {
+      "array_sha256": "d3daea4626a81cdec5f6408c15f5fbca688dd685e8363f0d46c10fc6c7aa1b7f",
+      "shape": [
+        7647,
+        384
+      ],
+      "dtype": "float32",
+      "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+      "consumed_by": "held-out factorial cell B"
+    }
+  },
+  "category_labels": {
+    "packaged": false,
+    "reason": "the canonical partition the experiments score against is reproduced byte-identically by this release (results/<corpus>/cache/<corpus>__labels__mcs35.npy), so no label file is shipped. The historical labels_113.csv additionally carried raw and masked transcript text and is deliberately NOT redistributed."
+  }
+}

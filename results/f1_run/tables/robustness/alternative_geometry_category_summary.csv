@@ -1,0 +1,35 @@
+category_id,category_label,n_replicates_scored,mean_jaccard,median_jaccard,sd,min,max,at_or_above_0.45,at_or_above_0.50,at_or_above_0.55
+0,DRS-assisted battles,100,0.809013,0.8125,0.118108,0.4,1.0,True,True,True
+1,Time penalties,100,0.8197,0.8125,0.119629,0.32,1.0,True,True,True
+2,Lights-out race starts,100,0.70034,0.6875,0.115985,0.4,1.0,True,True,True
+3,Mirror checks defending,100,0.725258,0.733333,0.129666,0.227273,1.0,True,True,True
+4,Race start launch,100,0.850541,0.866667,0.098635,0.6,1.0,True,True,True
+5,Weather conditions,100,0.769654,0.8,0.133534,0.375,1.0,True,True,True
+6,Grand Prix wins,100,0.617321,0.609524,0.204142,0.225806,1.0,True,True,True
+7,Race start lights,100,0.77448,0.8,0.138426,0.466667,1.0,True,True,True
+8,Race control flags,100,0.675365,0.674242,0.145682,0.333333,1.0,True,True,True
+9,Formula 1 milestones,100,0.619972,0.625,0.20654,0.212121,1.0,True,True,True
+10,Chicane moves,100,0.80913,0.85,0.136936,0.37037,1.0,True,True,True
+11,Team radio celebrations,100,0.778759,0.8125,0.133135,0.466667,1.0,True,True,True
+12,Podium finishes,100,0.740419,0.75,0.146429,0.342857,1.0,True,True,True
+13,Championship & title,100,0.527939,0.52381,0.167546,0.157895,0.9375,True,True,False
+14,Pit stops,100,0.5433,0.564474,0.21083,0.148148,1.0,True,True,False
+15,Tires & compounds,100,0.626396,0.647059,0.160574,0.24,0.933333,True,True,True
+16,Safety car deployment,100,0.667256,0.666667,0.181246,0.16,1.0,True,True,True
+17,Gap & pace,100,0.622054,0.628289,0.164264,0.178571,1.0,True,True,True
+18,Team dynamics,100,0.372243,0.36,0.150485,0.114286,0.777778,False,False,False
+19,Race lead holding,100,0.607866,0.605556,0.21664,0.178571,1.0,True,True,True
+20,Wing & car damage,100,0.669207,0.666667,0.142192,0.333333,1.0,True,True,True
+21,Braking & lockups,100,0.504845,0.5,0.180641,0.137931,0.875,True,True,False
+22,Wheel-to-wheel,100,0.644558,0.666667,0.180321,0.242424,1.0,True,True,True
+23,Circuit action,100,0.610683,0.628289,0.188439,0.178571,1.0,True,True,True
+24,Inter-car distance,100,0.490363,0.479871,0.167962,0.185185,0.875,True,False,False
+25,Driver & team references,100,0.531074,0.527864,0.169093,0.190476,1.0,True,True,False
+26,Defending & attacking,100,0.554038,0.583591,0.197263,0.185185,0.9375,True,True,True
+27,Overtake battles,100,0.388877,0.371711,0.139644,0.12,0.823529,False,False,False
+28,Corner battles,100,0.634574,0.683014,0.192459,0.25,1.0,True,True,True
+29,Corner specific moves,100,0.688585,0.702941,0.156876,0.25,0.9375,True,True,True
+30,Lap pace & timing,100,0.583571,0.611111,0.188219,0.15,0.875,True,True,True
+31,Race leader changes,100,0.619948,0.648529,0.177746,0.192308,1.0,True,True,True
+32,Front position changes,100,0.412737,0.414216,0.107289,0.145455,0.722222,False,False,False
+33,Field position changes,100,0.409911,0.382353,0.150189,0.181818,0.8125,False,False,False

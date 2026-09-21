@@ -1,2 +1,2 @@
-noise_sentences,noise_pct,median_nearest_cosine,pct_above_coverage_tau,mean_token_count,least_similar_example,most_similar_example
-2507,32.8,0.578,87.6,18.9,"Why can they not just say what they think, and then we decide?","<PERSON> finds himself up to fourth, losing a couple of positions was <PERSON>."
+noise_sentences,noise_pct,median_nearest_cosine,pct_above_coverage_tau,mean_token_count,examples_withheld
+2563,33.5,0.581,87.2,18.9,raw broadcast text withheld (restricted corpus)

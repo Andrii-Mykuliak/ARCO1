@@ -1,0 +1,21 @@
+stage,description,applicability,status,reason,outputs,summary
+0,Environment and configuration,applicable,COMPLETED,,results\f1_run,"config=f1, primary_corpus=f1_highlights, secondary_corpus=f1_full"
+1,"Corpus loading, provenance and compatibility",applicable,COMPLETED,,,"n_sentences=7647, n_sessions=113, second=2"
+2,Entity masking,applicable,COMPLETED,,,"placeholder=<PERSON>, sentences=5694, occurrences=9828"
+3,Sentence embeddings,applicable,COMPLETED,,,"shape=2, audit=10"
+4,Granularity analysis,applicable,COMPLETED,,,"n_settings=14, audit=10"
+5,Canonical thematic clustering,applicable,COMPLETED,,,"n_clusters=34, noise_rate=0.3352, min_cluster_size=35"
+6,Lexical enrichment,applicable,COMPLETED,,,"[{'cluster': 0, 'size': 205, 'n_enriched': 49, 'pct_bigram':"
+7,Cluster interpretation,applicable,COMPLETED,,,n_cards=34
+8,Complementary diagnostic characterisation,applicable,COMPLETED,,results\f1_run\tables\category_diagnostic_profiles.csv,"dimensions=4, categories_profiled=34"
+9,Descriptive centroid-level grouping,applicable,COMPLETED,,,"n_domains_requested=4, louvain_communities=4, network_edges=322"
+10,Independent second-register reconstruction,applicable,COMPLETED,,results\f1_cross_register_run\tables\second_register_granularity_sweep,"selected_min_cluster_size=40, n_clusters=48, noise_fraction=0.315537"
+11,Cross-register correspondence,applicable,COMPLETED,,results\f1_cross_register_run\tables\cross_register_correspondence.csv,"status=COMPLETED, n_primary_categories=34, n_second_clusters=48"
+12,Matched-event paired comparison,applicable,COMPLETED,,results\f1_cross_register_run\tables,"status=COMPLETED, n_matched_events=10, inferential_unit=event"
+13,Sensitivity and robustness,applicable,COMPLETED,,,"computed=9, not_applicable=0, extended=4"
+14,Analytical tables,applicable,COMPLETED,,results\f1_cross_register_run\tables\assignment_threshold_sensitivity.,"available=54, not_applicable=0"
+15,Analytical figures,applicable,COMPLETED,,results\f1_cross_register_run\figures\category_availability_vs_corresp,"written=11, not_applicable=0"
+16,Artefact inventory,applicable,COMPLETED,,results\f1_run\tables\analytical_artefact_inventory.csv,"artefacts=65, available=65, not_applicable=0"
+17,Artefact completeness gate,applicable,COMPLETED,,,"required=59, applicable=59, not_applicable=0"
+18,Canonical equivalence,applicable,COMPLETED,,results\f1_run\tables\canonical_equivalence.csv,"checked=114, agree=114, families=9"
+19,Run summary,applicable,COMPLETED,,,stages_recorded=20

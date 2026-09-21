@@ -1,0 +1,68 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=22mm]{geometry}
+\usepackage{booktabs,longtable,array,graphicx,microtype,tabularx,caption}
+\usepackage{ragged2e}
+\uchyph=1
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\footnotesize What Commentators Talk About --- Supplementary Materials}
+\fancyhead[R]{\footnotesize Supplement F}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+% Long snake_case identifiers are unbreakable in \texttt, which is the sole
+% cause of the overfull boxes. \idt inserts a discretionary break after every
+% underscore, so identifiers wrap instead of running into the margin. No
+% character of any identifier is changed.
+\newcommand{\idt}[1]{\texttt{\seqallowbreak #1}}
+\newcommand{\seqallowbreak}{}
+\makeatletter
+% capture the ORIGINAL \_ before re-letting it, else \ubreak recurses
+\let\origunderscore\_
+\def\ubreak{\origunderscore\allowbreak}
+\makeatother
+\sloppy
+\setlength{\emergencystretch}{3em}
+\raggedbottom
+\title{\vspace{-14mm}\large Supplement F --- Human Rater Study}
+\author{}\date{}
+\begin{document}\maketitle\thispagestyle{fancy}
+\subsection*{\texttt{krippendorff\_\allowbreak{}alpha\_\allowbreak{}N9.csv}}
+3 rows x 5 columns.
+
+{\raggedright Columns: \texttt{task}, \texttt{n\_\allowbreak{}raters}, \texttt{alpha}, \texttt{ci\_\allowbreak{}lo}, \texttt{ci\_\allowbreak{}hi}\par}
+
+\scriptsize
+\begin{longtable}{>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.2645\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1764\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1764\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1764\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1764\textwidth-2\tabcolsep\relax}}
+\toprule
+\textbf{task} & \textbf{n\_raters} & \textbf{alpha} & \textbf{ci\_lo} & \textbf{ci\_hi} \\
+\midrule\endhead
+T1 intrusion & 9 & 0.6708 & 0.5566 & 0.7536 \\
+T3 label pick & 9 & 0.516 & 0.3957 & 0.6229 \\
+T4 domain & 9 & 0.6874 & 0.5336 & 0.803 \\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\subsection*{\texttt{cohen\_\allowbreak{}kappa\_\allowbreak{}N9.csv}}
+3 rows x 4 columns.
+
+{\raggedright Columns: \texttt{task}, \texttt{n\_\allowbreak{}raters}, \texttt{n\_\allowbreak{}pairs}, \texttt{mean\_\allowbreak{}pairwise\_\allowbreak{}cohen\_\allowbreak{}kappa}\par}
+
+\scriptsize
+\begin{longtable}{>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.3118\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.2079\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1732\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.2771\textwidth-2\tabcolsep\relax}}
+\toprule
+\textbf{task} & \textbf{n\_raters} & \textbf{n\_pairs} & \textbf{mean\_pairwise\_cohen\_kappa} \\
+\midrule\endhead
+T1 intrusion & 9 & 36 & 0.674 \\
+T3 label pick & 9 & 36 & 0.516 \\
+T4 domain & 9 & 36 & 0.691 \\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\end{document}

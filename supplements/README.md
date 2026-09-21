@@ -1,21 +1,42 @@
 # Supplementary materials
 
-Split into five parts by what a reader is looking for. Section numbering (S1-S8)
-is preserved inside the parts, so citations in the manuscript resolve unchanged.
+Organised by what a reader is looking for, aligned to the current manuscript's
+four conceptual layers.
 
-| Part | Contains | Sections |
-|---|---|---|
-| A Taxonomy | the 34 validated clusters, each with domain, four-axis outcome, verdict band, lexical signature and representative sentences | S1 |
-| B Robustness | cross-pipeline survival, per-cluster axis scores behind the verdict bands, granularity and leave-one-out sensitivity | S3, S4, S8 |
-| C Lexical signatures | the complete set of FDR-significant (cluster, term) pairs from the exact hypergeometric analysis | S5 |
-| D Cross-register coverage | per-race coverage on full broadcasts and the leftover-cluster catalogue | S6, S7 |
-| E Human-rater study | the survey protocol and instrument as administered | S2 |
+| Part | Contains |
+|---|---|
+| **A Thematic structure** | the 34 highlight categories, each with domain, lexical signature and size. Representative sentences are **withheld** (restricted corpus); sha1 references are retained so rows stay auditable. |
+| **B Diagnostic characterisation** | the category-level diagnostic profile across complementary dimensions: alternative-model recovery, resampling stability, held-out race replication, alternative-geometry separability. Reported per dimension, per category. |
+| **C Lexical enrichment** | the complete set of FDR-significant (cluster, term) pairs from the exact hypergeometric analysis, single global BH family. |
+| **D Independent full-race structural replication** | the full-race granularity sweep, the independently selected solution (mcs = 40, 48 clusters) and its correspondence with the highlight categories, including the matched-event availability control. |
+| **E Paired cross-register analysis** | the ten matched events, event-level prevalence contrasts, the matched-length null, compositional (logit/CLR/ILR) treatment and leave-one-event-out. |
+| **F Human-rater study** | the survey protocol and instrument as administered. |
+| **G Sensitivity and robustness** | threshold, granularity, seed and regime sensitivity across all layers. |
 
-`Supplementary_Materials.pdf` remains available as the single combined document.
+> **Terminology.** These are **complementary diagnostic dimensions**, not
+> "validation axes". No aggregate pass/fail vote and no verdict band is reported:
+> support is heterogeneous across categories and dimensions, and collapsing it to
+> a single count misrepresents it.
 
-The underlying aggregate tables are in `../results/f1_highlights/tables/` and
-`../results/f1_full/tables/`.
+## What changed from the previous edition
 
-Excluded from publication because they contain raw broadcast sentences:
-`cluster_overview_table.csv`, `multi_race_coverage.csv`,
-`multi_race_leftover_clusters.csv`.
+The earlier supplement described "the 34 **validated** clusters … **four-axis
+outcome**, **verdict band**" and presented frozen-centroid **coverage** as the
+cross-register result. All three are superseded:
+
+- no aggregate validation vote is computed;
+- cross-register evidence is now the **independent full-race replication** plus
+  the **paired same-event analysis**;
+- coverage (highlight 0.945 vs full-race 0.746) is retained only as a
+  **descriptive** cross-register asymmetry. Because the taxonomy was learned on
+  highlights, register-level circularity is irreducible and coverage is **not**
+  evidence of editorial selection.
+
+## Data availability
+
+No raw Formula 1 broadcast sentences appear in any supplementary table or figure.
+Aggregate tables live in `../results/f1_highlights/tables/`,
+`../results/f1_full/tables/` and `../results/f1_cross_register/tables/`.
+
+The compiled PDFs in this folder predate the current manuscript and are retained
+for provenance; regenerate them from the current tables before submission.

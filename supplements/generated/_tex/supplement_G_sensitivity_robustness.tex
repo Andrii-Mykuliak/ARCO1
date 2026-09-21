@@ -1,0 +1,91 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=22mm]{geometry}
+\usepackage{booktabs,longtable,array,graphicx,microtype,tabularx,caption}
+\usepackage{ragged2e}
+\uchyph=1
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\footnotesize What Commentators Talk About --- Supplementary Materials}
+\fancyhead[R]{\footnotesize Supplement G}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+% Long snake_case identifiers are unbreakable in \texttt, which is the sole
+% cause of the overfull boxes. \idt inserts a discretionary break after every
+% underscore, so identifiers wrap instead of running into the margin. No
+% character of any identifier is changed.
+\newcommand{\idt}[1]{\texttt{\seqallowbreak #1}}
+\newcommand{\seqallowbreak}{}
+\makeatletter
+% capture the ORIGINAL \_ before re-letting it, else \ubreak recurses
+\let\origunderscore\_
+\def\ubreak{\origunderscore\allowbreak}
+\makeatother
+\sloppy
+\setlength{\emergencystretch}{3em}
+\raggedbottom
+\title{\vspace{-14mm}\large Supplement G --- Sensitivity Robustness}
+\author{}\date{}
+\begin{document}\maketitle\thispagestyle{fancy}
+\subsection*{\texttt{fullrace\_\allowbreak{}neighbour\_\allowbreak{}stability.csv}}
+15 rows x 12 columns.
+
+{\raggedright Columns: \texttt{mcs\_\allowbreak{}low}, \texttt{mcs\_\allowbreak{}high}, \texttt{n\_\allowbreak{}clusters\_\allowbreak{}low}, \texttt{n\_\allowbreak{}clusters\_\allowbreak{}high}, \texttt{ari\_\allowbreak{}all}, \texttt{ari\_\allowbreak{}co\_\allowbreak{}clustered}, \texttt{hungarian\_\allowbreak{}mean\_\allowbreak{}jaccard}, \texttt{median\_\allowbreak{}matched\_\allowbreak{}jaccard}, \texttt{recovery\_\allowbreak{}proportion}, \texttt{major\_\allowbreak{}splits}, \texttt{major\_\allowbreak{}merges}, \texttt{either\_\allowbreak{}degenerate}\par}
+
+\subsection*{\texttt{cross\_\allowbreak{}register\_\allowbreak{}regime\_\allowbreak{}sensitivity.csv}}
+5 rows x 7 columns.
+
+{\raggedright Columns: \texttt{mcs}, \texttt{is\_\allowbreak{}primary}, \texttt{n\_\allowbreak{}fr\_\allowbreak{}clusters}, \texttt{n\_\allowbreak{}above\_\allowbreak{}within\_\allowbreak{}ref}, \texttt{median\_\allowbreak{}best\_\allowbreak{}cosine}, \texttt{strategy\_\allowbreak{}above\_\allowbreak{}ref}, \texttt{strategy\_\allowbreak{}median\_\allowbreak{}cosine}\par}
+
+\tiny
+\begin{longtable}{>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.0606\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1415\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1617\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1212\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1617\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1617\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1617\textwidth-2\tabcolsep\relax}}
+\toprule
+\textbf{mcs} & \textbf{is\_primary} & \textbf{n\_fr\_clusters} & \textbf{n\_above\_within\_ref} & \textbf{median\_best\_cosine} & \textbf{strategy\_above\_ref} & \textbf{strategy\_median\_cosine} \\
+\midrule\endhead
+40 & True & 48 & 27 & 0.928537 & 6 & 0.933766 \\
+30 & False & 65 & 28 & 0.921831 & 7 & 0.925293 \\
+35 & False & 53 & 27 & 0.923647 & 6 & 0.930044 \\
+45 & False & 43 & 25 & 0.929355 & 6 & 0.933058 \\
+50 & False & 38 & 26 & 0.930937 & 6 & 0.932307 \\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\subsection*{\texttt{matched\_\allowbreak{}length\_\allowbreak{}null\_\allowbreak{}contiguous.csv}}
+40 rows x 11 columns.
+
+{\raggedright Columns: \texttt{event\_\allowbreak{}id}, \texttt{k\_\allowbreak{}blocks}, \texttt{n\_\allowbreak{}valid}, \texttt{n\_\allowbreak{}failed}, \texttt{observed\_\allowbreak{}effect}, \texttt{null\_\allowbreak{}mean}, \texttt{null\_\allowbreak{}sd}, \texttt{null\_\allowbreak{}p2.5}, \texttt{null\_\allowbreak{}p97.5}, \texttt{p\_\allowbreak{}one\_\allowbreak{}sided\_\allowbreak{}depletion}, \texttt{below\_\allowbreak{}null\_\allowbreak{}p2.5}\par}
+
+\subsection*{\texttt{mcs\_\allowbreak{}sensitivity.csv}}
+14 rows x 8 columns.
+
+{\raggedright Columns: \texttt{mcs}, \texttt{n\_\allowbreak{}clusters}, \texttt{noise\_\allowbreak{}rate}, \texttt{dbcv}, \texttt{silhouette}, \texttt{mean\_\allowbreak{}enriched}, \texttt{frac\_\allowbreak{}interp}, \texttt{time\_\allowbreak{}sec}\par}
+
+\tiny
+\begin{longtable}{>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.0576\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1281\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1281\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1281\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1601\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1281\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1281\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1120\textwidth-2\tabcolsep\relax}}
+\toprule
+\textbf{mcs} & \textbf{n\_clusters} & \textbf{noise\_rate} & \textbf{dbcv} & \textbf{silhouette} & \textbf{mean\_enriched} & \textbf{frac\_interp} & \textbf{time\_sec} \\
+\midrule\endhead
+15 & 62 & 0.35151 & 0.352509 & 0.633141 & 11.2581 & 0.887097 & 2.35014 \\
+20 & 44 & 0.30391 & 0.345994 & 0.6404 & 13.8182 & 0.909091 & 2.22617 \\
+25 & 38 & 0.294495 & 0.303152 & 0.634598 & 15.2632 & 0.973684 & 2.37658 \\
+30 & 35 & 0.343795 & 0.360472 & 0.666739 & 15.2857 & 0.942857 & 2.19671 \\
+35 & 34 & 0.335164 & 0.34772 & 0.662435 & 17.1765 & 1 & 2.19761 \\
+40 & 33 & 0.341703 & 0.322213 & 0.669103 & 16.7273 & 0.969697 & 2.19021 \\
+45 & 30 & 0.345757 & 0.316425 & 0.657663 & 16.8 & 1 & 2.07163 \\
+50 & 29 & 0.356872 & 0.328375 & 0.659681 & 17.0345 & 1 & 2.13222 \\
+55 & 3 & 0 & 0.359663 & 0.346939 & 18.6667 & 1 & 14.5896 \\
+60 & 3 & 0 & 0.359663 & 0.346939 & 18.6667 & 1 & 13.7242 \\
+70 & 3 & 0 & 0.359663 & 0.346939 & 18.6667 & 1 & 13.3763 \\
+80 & 3 & 0 & 0.359663 & 0.346939 & 18.6667 & 1 & 13.4461 \\
+100 & 3 & 0 & 0.359663 & 0.346939 & 18.6667 & 1 & 13.2361 \\
+120 & 2 & 0 & 0.332189 & 0.494477 & 15.5 & 0.5 & 13.5874 \\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\end{document}

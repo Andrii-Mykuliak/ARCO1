@@ -1,0 +1,37 @@
+[
+  {
+    "part": "A_thematic_structure",
+    "tables": 4,
+    "missing": 0
+  },
+  {
+    "part": "B_diagnostic_characterisation",
+    "tables": 4,
+    "missing": 0
+  },
+  {
+    "part": "C_lexical_enrichment",
+    "tables": 2,
+    "missing": 0
+  },
+  {
+    "part": "D_fullrace_replication",
+    "tables": 8,
+    "missing": 0
+  },
+  {
+    "part": "E_paired_cross_register",
+    "tables": 6,
+    "missing": 0
+  },
+  {
+    "part": "F_human_rater_study",
+    "tables": 2,
+    "missing": 0
+  },
+  {
+    "part": "G_sensitivity_robustness",
+    "tables": 4,
+    "missing": 0
+  }
+]

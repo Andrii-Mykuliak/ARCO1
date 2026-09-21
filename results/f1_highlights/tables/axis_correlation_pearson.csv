@@ -1,5 +1,0 @@
-,axis1_algorithm,axis2_bootstrap,axis3_heldout,axis4_hierarchical
-axis1_algorithm,1.0,0.7168,0.305,0.2595
-axis2_bootstrap,0.7168,1.0,0.3643,0.062
-axis3_heldout,0.305,0.3643,1.0,-0.0579
-axis4_hierarchical,0.2595,0.062,-0.0579,1.0

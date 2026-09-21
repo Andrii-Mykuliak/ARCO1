@@ -7,8 +7,34 @@ import pandas as pd
 from .io_utils import cached, l2_normalise, log
 
 
+def assert_finite(A: np.ndarray, what: str, expected_rows: int | None = None,
+                  remedy: str = "") -> np.ndarray:
+    """Stop at the array that went wrong, not three stages later."""
+    A = np.asarray(A)
+    if expected_rows is not None and A.shape[0] != expected_rows:
+        raise ValueError(f"{what}: {A.shape[0]} rows, expected {expected_rows}")
+    finite = np.isfinite(A)
+    if finite.all():
+        return A
+    bad_rows = int((~finite.all(axis=1)).sum())
+    raise ValueError(
+        f"{what} is not finite: {int(np.isnan(A).sum()):,} NaN and "
+        f"{int(np.isinf(A).sum()):,} Inf over {A.size:,} values; "
+        f"{bad_rows:,} of {A.shape[0]:,} rows carry a non-finite value. "
+        f"Downstream clustering would drop those rows and report an empty "
+        f"array instead of naming this cause. " + remedy)
+
+
+UMAP_NONFINITE_REMEDY = (
+    "A non-finite projection is a failure of the manifold fit in this "
+    "environment, not of the corpus: check that the embedding is finite, then "
+    "supply the archived projection through the configuration so the archived "
+    "realisation is reused rather than refitted.")
+
+
 def reduce_umap(cfg, X: np.ndarray, tag: str = "umap", seed: int | None = None) -> np.ndarray:
     seed = cfg.seed if seed is None else seed
+    assert_finite(X, f"the embedding passed to UMAP ({tag})")
 
     def _compute():
         import umap
@@ -29,12 +55,57 @@ def reduce_umap(cfg, X: np.ndarray, tag: str = "umap", seed: int | None = None) 
         U = np.load(path)
         if len(U) != len(X):
             raise ValueError(f"archived UMAP has {len(U)} rows, corpus has {len(X)}")
+        assert_finite(U, f"the archived UMAP projection {path.name}", len(X),
+                      UMAP_NONFINITE_REMEDY)
         log(f"umap: loaded archived {path.name} {U.shape} (no refit)")
         return U
 
     U = cached(cfg, f"{tag}__s{seed}.npy", _compute)
+    assert_finite(U, f"the UMAP projection ({tag}, seed {seed})", len(X),
+                  UMAP_NONFINITE_REMEDY)
     log(f"umap: {U.shape}")
     return U
+
+
+#: Archived two-dimensional descriptive layout, when one exists for the corpus.
+DESCRIPTIVE_2D = "umap2d_descriptive_s{seed}.npy"
+
+
+def descriptive_projection(cfg, X: np.ndarray) -> np.ndarray:
+    """Two-dimensional layout for display only; never used for clustering.
+
+    This is a two-component UMAP fit, not the first two axes of the clustering
+    projection: UMAP optimises the whole layout for its target dimensionality,
+    so a slice of the five-dimensional fit is a different arrangement. Where the
+    archived descriptive projection exists it is reused, for the same reason the
+    clustering projection is.
+    """
+    from pathlib import Path
+
+    archived = Path(cfg.cache_dir) / DESCRIPTIVE_2D.format(seed=cfg.seed)
+    if archived.exists():
+        U2 = np.load(archived)
+        if len(U2) != len(X):
+            raise ValueError(
+                f"archived descriptive projection {archived.name} has "
+                f"{len(U2)} rows, corpus has {len(X)}")
+        log(f"umap2d: loaded archived {archived.name} {U2.shape} (no refit)")
+        return U2
+
+    def _compute():
+        import umap
+        reducer = umap.UMAP(
+            n_neighbors=cfg.umap_n_neighbors,
+            min_dist=cfg.umap_min_dist,
+            n_components=2,
+            metric=cfg.umap_metric,
+            random_state=cfg.seed,
+        )
+        return reducer.fit_transform(X).astype(np.float32)
+
+    U2 = cached(cfg, f"umap2d_descriptive__s{cfg.seed}.npy", _compute)
+    log(f"umap2d: {U2.shape}")
+    return U2
 
 
 def cluster_ids(labels: np.ndarray) -> list[int]:
@@ -61,6 +132,7 @@ def centroids(X: np.ndarray, labels: np.ndarray):
 
 def cluster_hdbscan(U: np.ndarray, min_cluster_size: int, cfg) -> np.ndarray:
     import hdbscan
+    assert_finite(U, "the projection passed to HDBSCAN", remedy=UMAP_NONFINITE_REMEDY)
     cl = hdbscan.HDBSCAN(
         min_cluster_size=int(min_cluster_size),
         metric=cfg.hdbscan_metric,

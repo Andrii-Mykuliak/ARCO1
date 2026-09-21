@@ -1,0 +1,11 @@
+pair_id,event_id,season,event_name,n_highlight_sentences,n_fullrace_sentences,match_type,notes
+P01,2023_Australia_GP,2023,australia,68,2466,exact_normalised,"normalised key match (lowercase, drop _GP)"
+P02,2023_Qatar_GP,2023,qatar,50,1336,exact_normalised,"normalised key match (lowercase, drop _GP)"
+P03,2023_Singapore_GP,2023,singapore,60,1635,exact_normalised,"normalised key match (lowercase, drop _GP)"
+P04,2024_Bahrain_GP,2024,bahrain,72,1322,exact_normalised,"normalised key match (lowercase, drop _GP)"
+P05,2024_SaoPaulo_GP,2024,brazil,96,1905,alias_confirmed,"Sao Paulo GP == Brazilian GP, renamed 2021; confirmed from transcript content and approved"
+P06,2024_Italy_GP,2024,italy,69,1458,exact_normalised,"normalised key match (lowercase, drop _GP)"
+P07,2024_LasVegas_GP,2024,lasvegas,105,1344,exact_normalised,"normalised key match (lowercase, drop _GP)"
+P08,2024_Qatar_GP,2024,qatar,55,1631,exact_normalised,"normalised key match (lowercase, drop _GP)"
+P09,2025_Belgium_GP,2025,belgium,65,2232,exact_normalised,"normalised key match (lowercase, drop _GP)"
+P10,2025_Japan_GP,2025,japan,81,1547,exact_normalised,"normalised key match (lowercase, drop _GP)"

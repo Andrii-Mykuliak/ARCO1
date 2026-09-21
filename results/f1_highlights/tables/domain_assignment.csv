@@ -1,35 +1,35 @@
 cluster,ward_group,louvain_group,handle,size,keywords
-0,4,1,K04,204,drs / got / zone / open
-1,4,2,K15,118,penalty / second / causing collision / time
-2,2,1,K27,55,lights away / it's lights / away gets / away it's
-3,4,1,K29,46,mirrors / checking / checks / scarlet
-4,4,1,K32,41,launch / line / good / chops
-5,2,2,K30,43,rain / minutes / wet / falling
-6,2,2,K14,120,flag / checkered / yellow / green
-7,4,2,K03,385,tires / tyres / hard / medium
-8,1,2,K02,464,grand / prix / wins / british
-9,2,2,K33,41,lights / underway / grand / prix
-10,1,2,K09,137,formula / podium / world championship / career
-11,1,2,K08,143,podium / home / finish / completes
-12,4,1,K20,78,seconds / gap / hour / miles
-13,2,3,K28,52,thank / job / mate / guys
-14,1,2,K07,150,championship / world / title / constructors
-15,4,1,K06,181,pit / lane / stop / coming
-16,4,2,K13,121,safety car / virtual / deployed / car safety
-17,4,1,K23,63,chicane / he's gaining / gaining he's / braking
-18,3,1,K17,109,lead / holds
-19,3,1,K01,573,teammate / one-two / ahead / asking team
-20,4,1,K26,58,wing / puncture / damaged / bit contact
-21,4,1,K22,65,wheel / they're going / went
-22,3,1,K16,116,fight / defend / battle / defensive
-23,4,1,K25,59,car / length / width
-24,4,1,K12,127,braking / brakes / zone / brake pedal
-25,4,2,K18,83,driver / nation / we're board / contract
-26,4,2,K21,70,racetrack / dirty dusty / fireworks / rejoined
-27,3,1,K00,792,inside / door / corner / gets away
-28,4,2,K10,136,lap / fastest / opening / previous
-29,4,2,K05,183,race / lead
-30,3,1,K19,81,turn / abreast / run / inside comes
-31,3,1,K24,62,turn / heading / seven / try inside
-32,3,1,K11,132,seventh / place / sixth / fifth
-33,3,1,K31,42,fourth / place / position / second
+0,4,0,K04,205,drs / got / zone / open
+1,3,2,K14,118,penalty / second / causing collision / 10
+2,2,2,K28,54,lights away / away gets / away getting / start
+3,3,0,K29,47,mirrors / checking / scarlet / checks
+4,4,0,K32,42,launch / line / good / chops
+5,2,1,K31,43,rain / wet / minutes / falling
+6,1,1,K02,465,grand / prix / wins / british
+7,1,1,K33,36,lights / prix underway / grand / red
+8,3,1,K15,118,flag / checkered / yellow / green
+9,1,1,K10,134,formula / podium / world championship / career
+10,3,0,K23,62,chicane / braking / bold
+11,2,3,K27,55,thank / job / mate / weekend
+12,1,1,K08,139,podium / home / completes / places
+13,1,1,K07,158,championship / world / title / constructors
+14,3,0,K05,185,pit / lane / stop / comes
+15,3,1,K03,379,tires / tyres / hard / medium
+16,3,1,K12,122,safety / car / virtual / deployed
+17,3,0,K22,67,seconds / gap / tenths / hour
+18,4,0,K01,600,teammate / ahead / past
+19,4,0,K16,115,lead / holds / maintains
+20,4,2,K24,61,wing / puncture / damage / contact
+21,3,2,K11,128,braking / brakes / zone / late
+22,3,0,K20,71,wheel / went
+23,3,1,K19,72,racetrack
+24,3,2,K25,60,car / length / width
+25,3,1,K21,69,driver / nation / contract
+26,4,0,K17,110,fight / defend / battle / defensive
+27,4,0,K00,762,inside / door / corner / gets away
+28,4,0,K18,82,turn / abreast / run
+29,4,0,K26,60,turn / 11 / 13 / 12
+30,3,1,K09,136,lap / fastest / opening / previous
+31,3,1,K06,162,race / lead
+32,4,0,K30,45,fourth / place / position / second
+33,4,0,K13,122,seventh / place / sixth / fifth

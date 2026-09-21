@@ -6,6 +6,7 @@ unless the run mode says otherwise.
 """
 from __future__ import annotations
 
+import json
 import time
 from pathlib import Path
 
@@ -19,12 +20,51 @@ def log(msg: str):
     print(f"[{time.time() - _T0:7.1f}s] {msg}", flush=True)
 
 
+# Configuration a cached artefact depends on. A cache directory records these
+# once; a later run whose values differ is refusing to reuse it, because the
+# filename alone cannot tell a re-masked or re-embedded corpus from the original.
+CACHE_IDENTITY_FIELDS = (
+    "corpus_name", "sentences_path", "apply_masking", "entity_classes",
+    "gazetteer_path", "min_tokens", "encoder", "umap_n_neighbors",
+    "umap_min_dist", "umap_n_components", "umap_metric", "hdbscan_metric",
+    "hdbscan_selection", "seed")
+
+
+def cache_identity(cfg) -> dict:
+    out = {}
+    for f in CACHE_IDENTITY_FIELDS:
+        v = getattr(cfg, f, None)
+        out[f] = (Path(v).name if isinstance(v, Path)
+                  else list(v) if isinstance(v, tuple) else v)
+    return out
+
+
+def check_cache_identity(cfg):
+    """Refuse a cache built under a different scientific configuration."""
+    path = Path(cfg.cache_dir) / "_cache_identity.json"
+    now = cache_identity(cfg)
+    if not path.exists():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(now, indent=1), encoding="utf-8")
+        return
+    was = json.loads(path.read_text(encoding="utf-8"))
+    drift = {k: (was.get(k), now[k]) for k in now if was.get(k) != now[k]}
+    if drift:
+        raise ValueError(
+            f"the cache in {path.parent} was built under a different "
+            f"configuration and cannot be reused: "
+            + "; ".join(f"{k} was {a!r}, is now {b!r}" for k, (a, b) in drift.items())
+            + ". Point the configuration at a different cache directory, or "
+              "remove that one so the artefacts are recomputed.")
+
+
 def cached(cfg, name: str, compute):
     """Return cached artefact, or compute + persist it.
 
     Supported by extension: ``.parquet`` (DataFrame), ``.npy`` (array),
     ``.csv`` (DataFrame), ``.json`` (dict/list).
     """
+    check_cache_identity(cfg)
     path = cfg.cache_path(name)
     if path.exists() and not cfg.from_scratch:
         log(f"cache hit  {path.name}")
@@ -90,12 +130,19 @@ def jaccard(a: set, b: set) -> float:
     return len(a & b) / len(a | b)
 
 
-def best_jaccard(members: set, other_labels: np.ndarray, index: np.ndarray) -> float:
-    """Best Jaccard of ``members`` against any cluster in ``other_labels``."""
-    best = 0.0
+def best_jaccard(members: set, other_labels: np.ndarray, index: np.ndarray,
+                 return_match: bool = False):
+    """Best Jaccard of ``members`` against any cluster in ``other_labels``.
+
+    ``return_match`` additionally reports which cluster achieved it, which the
+    Monte-Carlo diagnostics persist per (category, replicate).
+    """
+    best, who = 0.0, None
     for lab in np.unique(other_labels):
         if lab == -1:
             continue
         cand = set(index[other_labels == lab].tolist())
-        best = max(best, jaccard(members, cand))
-    return best
+        j = jaccard(members, cand)
+        if j > best:
+            best, who = j, int(lab)
+    return (best, who) if return_match else best

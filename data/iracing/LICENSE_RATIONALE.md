@@ -1,6 +1,6 @@
 # Supplementary CC-BY Commentary Corpus — License Rationale
 
-**Corpus.** `data/demo_iracing/` contains **5,967 race-segment sentences** of transcribed spoken-word commentary from eight sim-racing live broadcasts on the *Fearless Broadcasting* YouTube channel (2026 vintage). The corpus is supplied as a supplementary demo for code-path verification, course exercises, and CI smoke-tests of the canonical Paper 1 pipeline. It does not replicate the canonical 34-cluster F1 highlights taxonomy and is not interpretable as transferability validation (cluster output differs from F1 highlights by register design: live ASR vs post-edited prose).
+**Corpus.** `data/iracing/` contains **5,967 race-segment sentences** of transcribed spoken-word commentary from eight sim-racing live broadcasts on the *Fearless Broadcasting* YouTube channel (2026 vintage). The corpus is supplied as a supplementary demo for code-path verification, course exercises, and CI smoke-tests of the canonical Paper 1 pipeline. It does not replicate the canonical 34-cluster F1 highlights taxonomy and is not interpretable as transferability validation (cluster output differs from F1 highlights by register design: live ASR vs post-edited prose).
 
 ## Scope of the corpus
 

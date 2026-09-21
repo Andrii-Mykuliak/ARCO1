@@ -24,7 +24,7 @@ sentence-transformers==5.5.1
 # networkx backs the Louvain centroid communities (Section 5).
 # leidenalg + python-igraph back the Leiden judge on the Algorithm axis.
 # These are NOT optional: without them the Algorithm axis silently runs with one
-# judge fewer, which changes the per-cluster survival counts and the verdict bands.
+# judge fewer, which changes the per-cluster survival counts and the diagnostic profiles.
 networkx==3.5
 leidenalg==0.12.0
 python-igraph==1.0.0

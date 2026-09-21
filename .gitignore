@@ -33,10 +33,6 @@ data/f1_highlights/*
 data/f1_full/*
 !data/f1_full/README.md
 
-# Runtime artefact: cfg.save() rewrites this each run and it embeds absolute
-# local paths. The immutable configurations live in configs/.
-run_config.json
-
 # Test suite: development/CI only, not part of the published artefact.
 tests/
 
@@ -46,7 +42,18 @@ tests/
 results/*/tables/survey_response_R*.csv
 
 # Authoring/organisational material: kept locally, not part of the published
-# experiment. pipeline/config.py is the single source of truth for presets.
+# experiment. pipeline/config.py is the single source of truth for the presets
+# the notebook uses; configs/ carries the frozen record of the reported run and
+# IS shipped -- the README cites it and pipeline/manuscript_tables.py reads it.
 build_notebook.py
 CONTENTS.md
-configs/
+
+# scratch identity-check output
+results/_ident/
+
+# Derived arrays are not distributed: the Data Availability statement ships
+# aggregate results, not embeddings or projections. The manifest that documents
+# the frozen experiment (hashes, shapes, identifiers) is tracked; the arrays are
+# reconstructed locally from the licensed corpus.
+data/f1_frozen_inputs/*.npy
+results/*/cache/_superseded_offby1/

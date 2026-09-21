@@ -1,0 +1,72 @@
+[
+  {
+    "part": "A",
+    "source": "supplement_A_thematic_structure.md",
+    "pdf": "supplement_A_thematic_structure.pdf",
+    "pages": 2,
+    "n_warnings": 0,
+    "n_errors": 0,
+    "errors": [],
+    "built": true
+  },
+  {
+    "part": "B",
+    "source": "supplement_B_diagnostic_characterisation.md",
+    "pdf": "supplement_B_diagnostic_characterisation.pdf",
+    "pages": 2,
+    "n_warnings": 0,
+    "n_errors": 0,
+    "errors": [],
+    "built": true
+  },
+  {
+    "part": "C",
+    "source": "supplement_C_lexical_enrichment.md",
+    "pdf": "supplement_C_lexical_enrichment.pdf",
+    "pages": 1,
+    "n_warnings": 0,
+    "n_errors": 0,
+    "errors": [],
+    "built": true
+  },
+  {
+    "part": "D",
+    "source": "supplement_D_fullrace_replication.md",
+    "pdf": "supplement_D_fullrace_replication.pdf",
+    "pages": 5,
+    "n_warnings": 0,
+    "n_errors": 0,
+    "errors": [],
+    "built": true
+  },
+  {
+    "part": "E",
+    "source": "supplement_E_paired_cross_register.md",
+    "pdf": "supplement_E_paired_cross_register.pdf",
+    "pages": 4,
+    "n_warnings": 0,
+    "n_errors": 0,
+    "errors": [],
+    "built": true
+  },
+  {
+    "part": "F",
+    "source": "supplement_F_human_rater_study.md",
+    "pdf": "supplement_F_human_rater_study.pdf",
+    "pages": 1,
+    "n_warnings": 0,
+    "n_errors": 0,
+    "errors": [],
+    "built": true
+  },
+  {
+    "part": "G",
+    "source": "supplement_G_sensitivity_robustness.md",
+    "pdf": "supplement_G_sensitivity_robustness.pdf",
+    "pages": 1,
+    "n_warnings": 0,
+    "n_errors": 0,
+    "errors": [],
+    "built": true
+  }
+]

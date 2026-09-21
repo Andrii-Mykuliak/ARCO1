@@ -1,0 +1,35 @@
+cluster_id,label,domain,size,alternative_model_recovery,resampling_stability,heldout_replication,geometry_separability
+0,DRS-assisted battles,Race dynamics,205,1.0,0.966643,0.5,0.819902
+1,Time penalties,Regulatory,118,1.0,0.96557,0.925926,0.797917
+2,Lights-out race starts,Race dynamics,54,1.0,0.87593,0.6,0.702917
+3,Mirror checks defending,Race dynamics,47,1.0,0.532212,0.5625,0.727672
+4,Race start launch,Race dynamics,42,1.0,0.357596,0.6,0.861373
+5,Weather conditions,Strategy & technical,43,1.0,0.074885,0.666667,0.716034
+6,Grand Prix wins,Narrative & meta,465,0.571429,0.851928,0.5,0.686303
+7,Race start lights,Race dynamics,36,0.428571,0.041137,0.636364,0.864485
+8,Race control flags,Regulatory,118,0.857143,0.771984,0.604651,0.728824
+9,Formula 1 milestones,Narrative & meta,134,0.571429,0.797159,0.846154,0.671169
+10,Chicane moves,Race dynamics,62,0.857143,0.853236,1.0,0.82326
+11,Team radio celebrations,Narrative & meta,55,0.714286,0.640254,0.7,0.768748
+12,Podium finishes,Narrative & meta,139,1.0,0.826374,0.461538,0.766865
+13,Championship & title,Narrative & meta,158,0.714286,0.69311,0.6,0.491832
+14,Pit stops,Strategy & technical,185,1.0,0.775812,0.666667,0.446841
+15,Tires & compounds,Strategy & technical,379,0.857143,0.827438,0.384615,0.575147
+16,Safety car deployment,Regulatory,122,1.0,0.688725,0.5625,0.625658
+17,Gap & pace,Strategy & technical,67,1.0,0.460959,0.333333,0.601582
+18,Team dynamics,Narrative & meta,600,0.857143,0.708901,1.0,0.365429
+19,Race lead holding,Race dynamics,115,0.857143,0.69391,0.3,0.619597
+20,Wing & car damage,Strategy & technical,61,0.714286,0.625832,0.625,0.669559
+21,Braking & lockups,Race dynamics,128,0.571429,0.579301,0.6,0.531874
+22,Wheel-to-wheel,Race dynamics,71,0.857143,0.710758,0.555556,0.639465
+23,Circuit action,Race dynamics,72,0.142857,0.700187,0.4,0.585244
+24,Inter-car distance,Strategy & technical,60,0.142857,0.411272,0.416667,0.47483
+25,Driver & team references,Narrative & meta,69,0.142857,0.471821,0.454545,0.480582
+26,Defending & attacking,Race dynamics,110,0.714286,0.664181,0.333333,0.481424
+27,Overtake battles,Race dynamics,762,0.571429,0.688147,0.555556,0.33875
+28,Corner battles,Race dynamics,82,0.571429,0.616816,0.5,0.674589
+29,Corner specific moves,Race dynamics,60,0.142857,0.445305,0.375,0.716944
+30,Lap pace & timing,Strategy & technical,136,0.428571,0.697011,0.9,0.534262
+31,Race leader changes,Race dynamics,162,0.571429,0.635146,0.5,0.605533
+32,Front position changes,Race dynamics,45,0.0,0.240853,,0.407461
+33,Field position changes,Race dynamics,122,0.571429,0.509916,0.619048,0.391927

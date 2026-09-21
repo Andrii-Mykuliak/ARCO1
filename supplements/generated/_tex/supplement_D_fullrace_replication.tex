@@ -1,0 +1,133 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=22mm]{geometry}
+\usepackage{booktabs,longtable,array,graphicx,microtype,tabularx,caption}
+\usepackage{ragged2e}
+\uchyph=1
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\footnotesize What Commentators Talk About --- Supplementary Materials}
+\fancyhead[R]{\footnotesize Supplement D}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+% Long snake_case identifiers are unbreakable in \texttt, which is the sole
+% cause of the overfull boxes. \idt inserts a discretionary break after every
+% underscore, so identifiers wrap instead of running into the margin. No
+% character of any identifier is changed.
+\newcommand{\idt}[1]{\texttt{\seqallowbreak #1}}
+\newcommand{\seqallowbreak}{}
+\makeatletter
+% capture the ORIGINAL \_ before re-letting it, else \ubreak recurses
+\let\origunderscore\_
+\def\ubreak{\origunderscore\allowbreak}
+\makeatother
+\sloppy
+\setlength{\emergencystretch}{3em}
+\raggedbottom
+\title{\vspace{-14mm}\large Supplement D --- Fullrace Replication}
+\author{}\date{}
+\begin{document}\maketitle\thispagestyle{fancy}
+\subsection*{\texttt{fullrace\_\allowbreak{}granularity\_\allowbreak{}sweep.csv}}
+16 rows x 14 columns.
+
+{\raggedright Columns: \texttt{mcs}, \texttt{effective\_\allowbreak{}min\_\allowbreak{}samples}, \texttt{min\_\allowbreak{}samples\_\allowbreak{}passed}, \texttt{n\_\allowbreak{}clusters}, \texttt{noise\_\allowbreak{}fraction}, \texttt{assigned\_\allowbreak{}fraction}, \texttt{DBCV}, \texttt{silhouette}, \texttt{min\_\allowbreak{}cluster\_\allowbreak{}size\_\allowbreak{}observed}, \texttt{median\_\allowbreak{}cluster\_\allowbreak{}size}, \texttt{max\_\allowbreak{}cluster\_\allowbreak{}size}, \texttt{mean\_\allowbreak{}enriched\_\allowbreak{}terms}, \texttt{frac\_\allowbreak{}interpretable}, \texttt{degenerate\_\allowbreak{}flag}\par}
+
+\subsection*{\texttt{fullrace\_\allowbreak{}primary\_\allowbreak{}solution.csv}}
+48 rows x 9 columns.
+
+{\raggedright Columns: \texttt{fr\_\allowbreak{}cluster}, \texttt{size}, \texttt{n\_\allowbreak{}enriched}, \texttt{top\_\allowbreak{}terms}, \texttt{races\_\allowbreak{}present}, \texttt{mean\_\allowbreak{}cosine\_\allowbreak{}to\_\allowbreak{}centroid}, \texttt{representative\_\allowbreak{}1\_\allowbreak{}sha1}, \texttt{representative\_\allowbreak{}2\_\allowbreak{}sha1}, \texttt{representative\_\allowbreak{}3\_\allowbreak{}sha1}\par}
+
+\subsection*{\texttt{fullrace\_\allowbreak{}seed\_\allowbreak{}stability.csv}}
+3 rows x 16 columns.
+
+{\raggedright Columns: \texttt{mcs}, \texttt{n\_\allowbreak{}seeds}, \texttt{viable\_\allowbreak{}seeds}, \texttt{failed\_\allowbreak{}seeds}, \texttt{degenerate\_\allowbreak{}seeds}, \texttt{n\_\allowbreak{}clusters\_\allowbreak{}ref}, \texttt{n\_\allowbreak{}clusters\_\allowbreak{}min}, \texttt{n\_\allowbreak{}clusters\_\allowbreak{}median}, \texttt{n\_\allowbreak{}clusters\_\allowbreak{}max}, \texttt{noise\_\allowbreak{}min}, \texttt{noise\_\allowbreak{}median}, \texttt{noise\_\allowbreak{}max}, \texttt{ari\_\allowbreak{}median}, \texttt{ari\_\allowbreak{}min}, \texttt{hungarian\_\allowbreak{}median}, \texttt{hungarian\_\allowbreak{}min}\par}
+
+\subsection*{\texttt{fullrace\_\allowbreak{}cluster\_\allowbreak{}enrichment.csv}}
+1374 rows x 7 columns.
+
+{\raggedright Columns: \texttt{fr\_\allowbreak{}cluster}, \texttt{term}, \texttt{in\_\allowbreak{}cluster}, \texttt{cluster\_\allowbreak{}size}, \texttt{p\_\allowbreak{}value}, \texttt{significant}, \texttt{weight}\par}
+
+\subsection*{\texttt{cross\_\allowbreak{}register\_\allowbreak{}correspondence.csv}}
+34 rows x 18 columns.
+
+{\raggedright Columns: \texttt{highlight\_\allowbreak{}cluster}, \texttt{highlight\_\allowbreak{}name}, \texttt{domain}, \texttt{availability\_\allowbreak{}class}, \texttt{matched10\_\allowbreak{}sentences}, \texttt{best\_\allowbreak{}fr\_\allowbreak{}cluster}, \texttt{fr\_\allowbreak{}size}, \texttt{fr\_\allowbreak{}races\_\allowbreak{}present}, \texttt{centroid\_\allowbreak{}cosine}, \texttt{lexical\_\allowbreak{}weighted\_\allowbreak{}jaccard}, \texttt{lexical\_\allowbreak{}overlap\_\allowbreak{}at\_\allowbreak{}15}, \texttt{null\_\allowbreak{}p95}, \texttt{null\_\allowbreak{}p\_\allowbreak{}empirical}, \texttt{exceeds\_\allowbreak{}null}, \texttt{n\_\allowbreak{}fr\_\allowbreak{}above\_\allowbreak{}threshold}, \texttt{fr\_\allowbreak{}clusters\_\allowbreak{}above\_\allowbreak{}threshold}, \texttt{relation}, \texttt{interpretable\_\allowbreak{}non\_\allowbreak{}recovery}\par}
+
+\subsection*{\texttt{cross\_\allowbreak{}register\_\allowbreak{}null.csv}}
+34 rows x 10 columns.
+
+{\raggedright Columns: \texttt{highlight\_\allowbreak{}cluster}, \texttt{highlight\_\allowbreak{}name}, \texttt{availability\_\allowbreak{}class}, \texttt{observed\_\allowbreak{}best\_\allowbreak{}cosine}, \texttt{null\_\allowbreak{}median}, \texttt{null\_\allowbreak{}p95}, \texttt{null\_\allowbreak{}p\_\allowbreak{}empirical}, \texttt{exceeds\_\allowbreak{}null\_\allowbreak{}p95}, \texttt{within\_\allowbreak{}highlight\_\allowbreak{}offdiag\_\allowbreak{}p95}, \texttt{exceeds\_\allowbreak{}within\_\allowbreak{}highlight\_\allowbreak{}p95}\par}
+
+\subsection*{\texttt{matched\_\allowbreak{}event\_\allowbreak{}availability.csv}}
+34 rows x 8 columns.
+
+{\raggedright Columns: \texttt{highlight\_\allowbreak{}cluster}, \texttt{highlight\_\allowbreak{}name}, \texttt{domain}, \texttt{canonical\_\allowbreak{}total\_\allowbreak{}sentences}, \texttt{matched10\_\allowbreak{}sentences}, \texttt{matched10\_\allowbreak{}events}, \texttt{share\_\allowbreak{}of\_\allowbreak{}canonical\_\allowbreak{}total}, \texttt{availability\_\allowbreak{}class}\par}
+
+\tiny
+\begin{longtable}{>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1078\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1677\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1198\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1078\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1078\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1078\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1078\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash\let\_\ubreak}p{\dimexpr0.1437\textwidth-2\tabcolsep\relax}}
+\toprule
+\textbf{highlight\_cluster} & \textbf{highlight\_name} & \textbf{domain} & \textbf{canonical\_total\_sentences} & \textbf{matched10\_sentences} & \textbf{matched10\_events} & \textbf{share\_of\_canonical\_total} & \textbf{availability\_class} \\
+\midrule\endhead
+0 & DRS-assisted battles & Race dynamics & 205 & 10 & 5 & 0.0487805 & SPARSE \\
+1 & Time penalties & Regulatory & 118 & 11 & 4 & 0.0932203 & SPARSE \\
+2 & Lights-out race starts & Race dynamics & 54 & 1 & 1 & 0.0185185 & EFFECTIVELY\_ABSENT \\
+3 & Mirror checks defending & Race dynamics & 47 & 6 & 6 & 0.12766 & SPARSE \\
+4 & Race start launch & Race dynamics & 42 & 4 & 4 & 0.0952381 & EFFECTIVELY\_ABSENT \\
+5 & Weather conditions & Strategy \& technical & 43 & 3 & 3 & 0.0697674 & EFFECTIVELY\_ABSENT \\
+6 & Grand Prix wins & Narrative \& meta & 465 & 55 & 10 & 0.11828 & WELL\_REPRESENTED \\
+7 & Race start lights & Race dynamics & 36 & 3 & 3 & 0.0833333 & EFFECTIVELY\_ABSENT \\
+8 & Race control flags & Regulatory & 118 & 11 & 6 & 0.0932203 & SPARSE \\
+9 & Formula 1 milestones & Narrative \& meta & 134 & 12 & 8 & 0.0895522 & SPARSE \\
+10 & Chicane moves & Race dynamics & 62 & 5 & 2 & 0.0806452 & SPARSE \\
+11 & Team radio celebrations & Narrative \& meta & 55 & 4 & 3 & 0.0727273 & EFFECTIVELY\_ABSENT \\
+12 & Podium finishes & Narrative \& meta & 139 & 8 & 5 & 0.057554 & SPARSE \\
+13 & Championship \& title & Narrative \& meta & 158 & 18 & 8 & 0.113924 & WELL\_REPRESENTED \\
+14 & Pit stops & Strategy \& technical & 185 & 17 & 8 & 0.0918919 & WELL\_REPRESENTED \\
+15 & Tires \& compounds & Strategy \& technical & 379 & 32 & 8 & 0.0844327 & WELL\_REPRESENTED \\
+16 & Safety car deployment & Regulatory & 122 & 12 & 6 & 0.0983607 & SPARSE \\
+17 & Gap \& pace & Strategy \& technical & 67 & 6 & 3 & 0.0895522 & SPARSE \\
+18 & Team dynamics & Narrative \& meta & 600 & 67 & 10 & 0.111667 & WELL\_REPRESENTED \\
+19 & Race lead holding & Race dynamics & 115 & 8 & 7 & 0.0695652 & SPARSE \\
+20 & Wing \& car damage & Strategy \& technical & 61 & 4 & 3 & 0.0655738 & EFFECTIVELY\_ABSENT \\
+21 & Braking \& lockups & Race dynamics & 128 & 13 & 9 & 0.101562 & SPARSE \\
+22 & Wheel-to-wheel & Race dynamics & 71 & 7 & 5 & 0.0985915 & SPARSE \\
+23 & Circuit action & Race dynamics & 72 & 10 & 7 & 0.138889 & SPARSE \\
+24 & Inter-car distance & Strategy \& technical & 60 & 1 & 1 & 0.0166667 & EFFECTIVELY\_ABSENT \\
+25 & Driver \& team references & Narrative \& meta & 69 & 13 & 9 & 0.188406 & SPARSE \\
+26 & Defending \& attacking & Race dynamics & 110 & 10 & 6 & 0.0909091 & SPARSE \\
+27 & Overtake battles & Race dynamics & 762 & 68 & 10 & 0.0892388 & WELL\_REPRESENTED \\
+28 & Corner battles & Race dynamics & 82 & 4 & 3 & 0.0487805 & EFFECTIVELY\_ABSENT \\
+29 & Corner specific moves & Race dynamics & 60 & 8 & 3 & 0.133333 & SPARSE \\
+30 & Lap pace \& timing & Strategy \& technical & 136 & 14 & 7 & 0.102941 & SPARSE \\
+31 & Race leader changes & Race dynamics & 162 & 13 & 6 & 0.0802469 & SPARSE \\
+32 & Front position changes & Race dynamics & 45 & 2 & 2 & 0.0444444 & EFFECTIVELY\_ABSENT \\
+33 & Field position changes & Race dynamics & 122 & 9 & 5 & 0.0737705 & SPARSE \\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\subsection*{\texttt{semantic\_\allowbreak{}lexical\_\allowbreak{}correspondence.csv}}
+34 rows x 49 columns.
+
+{\raggedright Columns: \texttt{Unnamed: 0}, \texttt{F0}, \texttt{F1}, \texttt{F2}, \texttt{F3}, \texttt{F4}, \texttt{F5}, \texttt{F6}, \texttt{F7}, \texttt{F8}, \texttt{F9}, \texttt{F10}, \texttt{F11}, \texttt{F12}, \texttt{F13}, \texttt{F14}, \texttt{F15}, \texttt{F16}, \texttt{F17}, \texttt{F18}, \texttt{F19}, \texttt{F20}, \texttt{F21}, \texttt{F22}, \texttt{F23}, \texttt{F24}, \texttt{F25}, \texttt{F26}, \texttt{F27}, \texttt{F28}, \texttt{F29}, \texttt{F30}, \texttt{F31}, \texttt{F32}, \texttt{F33}, \texttt{F34}, \texttt{F35}, \texttt{F36}, \texttt{F37}, \texttt{F38}, \texttt{F39}, \texttt{F40}, \texttt{F41}, \texttt{F42}, \texttt{F43}, \texttt{F44}, \texttt{F45}, \texttt{F46}, \texttt{F47}\par}
+
+\subsection*{Figures}
+\begin{figure}[htbp]\centering
+\includegraphics[width=0.92\textwidth,height=0.80\textheight,keepaspectratio]{results/f1_full/figures/figC_fullrace_granularity_landscape.png}
+\caption*{\footnotesize Full-race granularity landscape; the selected setting is marked.}
+\end{figure}
+\clearpage
+\begin{figure}[htbp]\centering
+\includegraphics[width=0.92\textwidth,height=0.80\textheight,keepaspectratio]{results/f1_cross_register/figures/figD_cross_register_correspondence.png}
+\caption*{\footnotesize Highlight x full-race centroid cosine with correspondence type.}
+\end{figure}
+\clearpage
+\begin{figure}[htbp]\centering
+\includegraphics[width=0.92\textwidth,height=0.80\textheight,keepaspectratio]{results/f1_cross_register/figures/figE_matched_event_availability.png}
+\caption*{\footnotesize Theme availability in the ten matched events.}
+\end{figure}
+\clearpage
+\end{document}

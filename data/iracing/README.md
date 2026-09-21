@@ -38,9 +38,13 @@ on **2026-06-09** and recorded in `manifest.json` → each video's
 | `sentences.jsonl` | **5,967 race-segment sentences**, one per line, with provenance fields denormalised for join-free use. |
 | `gazetteer.json` | **106 verified gazetteer entries** (83 PERSON, 9 TEAM, 6 PLACE, 8 broadcaster-meta DROP). Every variant verified to appear ≥1× in the corpus; built from the corpus itself, not speculated. |
 | `attribution.csv` | Per-video CC-BY attribution string, for use in publications using this demo. |
-| `code/` | Python scripts: end-to-end pipeline. |
+| `code/` | Extraction scripts. **Not shipped** - they download from YouTube and are not needed to use the corpus, which is supplied ready to read in `sentences.jsonl`. The table below records what they did. |
 
 ## Code
+
+The extraction scripts below are **not shipped**: they download from YouTube
+and are not needed to use the corpus, which is supplied ready to read in
+`sentences.jsonl`. The table records what each did.
 
 | Script | Stage |
 |---|---|
@@ -52,19 +56,14 @@ on **2026-06-09** and recorded in `manifest.json` → each video's
 
 ## Quick start
 
-```bash
-# Dependencies: yt-dlp, sentence-transformers, umap-learn, hdbscan, spacy, pandas
-pip install yt-dlp sentence-transformers umap-learn hdbscan spacy pandas
-python -m spacy download en_core_web_sm
+The corpus ships ready to use. Run it through the release pipeline by opening
+`00_reproduce_pipeline.ipynb` and selecting:
 
-# Option A — end-to-end (re-downloads from YouTube):
-python code/run_demo.py
-
-# Option B — skip download, use pre-shipped sentences.jsonl:
-python code/run_demo.py --skip-download
-
-# Output: pipeline_out/cluster_cards.json, sentences_clustered.parquet
+```python
+CONFIG = IRACING
 ```
+
+Outputs are written under `results/iracing/`.
 
 ## License
 
@@ -109,23 +108,33 @@ following discipline:
 
 ## Pipeline configuration choice
 
-The demo uses **`min_cluster_size = 35`** rather than the F1 canonical
-`mcs = 30`. Rationale:
+The demo uses **`min_cluster_size = 35`** as a **fixed demonstration setting**.
 
-- F1 canonical mcs=30 was validated specifically for **F1 highlights register**
-  (post-edited prose). iRacing is **live broadcast ASR** — different register.
-- Within the iRacing demo corpus, mcs=35 sits inside a stable region
-  (cluster count 36, noise 34.0%, largest cluster 9.5% of corpus) — neither
-  at the lower edge of plateau (where over-fragmentation begins) nor at
-  the upper edge (where mega-cluster collapse begins; ≥40).
-- mcs=35 gives a cluster count **comparable in structural scale to F1's
-  34-cluster baseline** (Δ=2 clusters, Δ=0.5pp noise, Δ=0.5pp largest cluster
-  proportion) — enabling apples-to-apples thematic comparison.
+**No optimality is claimed, and it was not chosen to resemble the Formula 1
+result.** Granularity for a new corpus should be selected from that corpus's own
+sweep, exactly as the Formula 1 full-race granularity was: `pipeline/clustering.py`
+exposes the sweep, and `results/iracing/tables/granularity_sweep_primary.csv` records its
+behaviour on this corpus so a user can re-select for their own purposes.
 
-This is **not a claim** that mcs=35 is "the right value" for iRacing
-universally. It is an explicit choice to match structural scales for
-comparability. The F1 paper's `mcs_sensitivity.csv` describes the full sweep
-behavior across mcs values; users should re-sweep on any new corpus.
+In the shipped iRacing demonstration run, `mcs = 35` yields 31 clusters at
+40.3% unclustered, with the largest cluster holding 397 sentences — 11.1% of the
+clustered sentences, 6.7% of the corpus. That sits between the over-fragmented
+low-mcs regime (148 clusters at mcs=10) and the mega-cluster collapse from
+mcs >= 40, where the count falls to 18 and the largest cluster takes 2,346 of
+the 5,967 sentences. That sweep behaviour is the only basis for the setting.
+
+The values above are read from `results/iracing/tables/partition_stats.csv`,
+`size_concentration.csv` and `granularity_sweep_primary.csv`, all of which this
+release regenerates on every iRacing run.
+
+> **Superseded rationale (removed 2026-09-13).** Earlier text here justified
+> mcs=35 as giving "a cluster count comparable in structural scale to F1's
+> 34-cluster baseline … enabling apples-to-apples thematic comparison", and
+> stated that the F1 canonical value was `mcs = 30`. Both were wrong. The
+> canonical F1 highlight value is **`mcs = 35`**, so the demo does not differ
+> from it at all; and choosing granularity to match another corpus's cluster
+> count is not a valid selection criterion. The iRacing corpus is a
+> **code-path demonstration**, not an analytical comparison with Formula 1.
 
 ## Honest limitations
 
@@ -149,10 +158,10 @@ If you use this demo in published work, please cite:
 1. The F1 paper (the protocol this demo exercises) — see repository root
 2. Each source video (per-video strings in `attribution.csv`)
 3. (Optional) this demo corpus itself: *iRacing-FB-RaceSeg-2026 supplementary
-   demo corpus for ["paper title"], `data/demo_iracing/`, 2026-06-10.*
+   demo corpus for ["paper title"], `data/iracing/`, 2026-06-10.*
 
 ---
 
 **Generated**: 2026-06-10
-**Pipeline**: see `code/`
+**Pipeline**: see `pipeline/`
 **Source channel**: Fearless Broadcasting, <https://www.youtube.com/@fearlessbroadcasting>

@@ -1,0 +1,8 @@
+**Held-out race replication, per cell of the factorial.**
+
+| Held-out cell                 |   Viable runs |   Median categories | IQR   |   Degenerate |
+|:------------------------------|--------------:|--------------------:|:------|-------------:|
+| realisation A, granularity 30 |            44 |                  17 | 15-19 |            6 |
+| realisation A, granularity 35 |            35 |                  14 | 13-16 |           15 |
+| realisation B, granularity 30 |            43 |                  16 | 15-19 |            7 |
+| realisation B, granularity 35 |            31 |                  14 | 13-15 |           19 |

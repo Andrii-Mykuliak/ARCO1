@@ -1,0 +1,4 @@
+axis,threshold,is_canonical,n_passing,gained_vs_canonical,lost_vs_canonical,n_within_0.02,categories_within_0.02,n_within_0.05,categories_within_0.05
+4,0.45,False,30,24,,0,,3,24;32;33
+4,0.5,True,29,,,2,21;24,5,13;14;21;24;25
+4,0.55,False,25,,13;14;21;25,3,14;25;26,6,13;14;21;25;26;30

@@ -1,0 +1,18 @@
+{
+  "artefact": "results\\f1_highlights\\cache\\umap2d_descriptive_s42.npy",
+  "shape": [
+    7647,
+    2
+  ],
+  "purpose": "DESCRIPTIVE VISUALISATION ONLY (Figure A)",
+  "generated_by": "pipeline.figures_ab.figure_a input; UMAP n_components=2, seed 42",
+  "used_for_clustering": false,
+  "used_for_correspondence": false,
+  "used_for_significance_testing": false,
+  "used_for_any_reported_quantitative_inference": false,
+  "canonical_representation": "UMAP n_components=5, n_neighbors=15, min_dist=0.0, metric=cosine, random_state=42 - unchanged",
+  "verification": "grep over *.py, *.json and the notebook finds no reference to this artefact outside pipeline/figures_ab.py; the canonical config and the results summary both record n_components=5",
+  "caption_discloses_descriptive_status": true,
+  "audit_date": "2026-09-13",
+  "audit_outcome": "NO scientific inconsistency found; figure retained unchanged"
+}

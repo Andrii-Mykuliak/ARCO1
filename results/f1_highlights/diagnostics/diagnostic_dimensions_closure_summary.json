@@ -1,0 +1,257 @@
+{
+  "_note": "Final state of the four complementary diagnostic dimensions. Each dimension is reported separately; no aggregate score and no pass/fail vote is computed across them.",
+  "_legacy_identifiers": {
+    "note": "'axis2/axis3/axis4' are legacy implementation identifiers retained only for provenance; they are not manuscript-facing terminology.",
+    "resampling_stability": "axis2",
+    "heldout_race_replication": "axis3",
+    "alternative_geometry_separability": "axis4",
+    "generating_scripts": [
+      "scripts/axis24_monte_carlo.py",
+      "scripts/axis3_factorial.py"
+    ]
+  },
+  "alternative_model_recovery": {
+    "status": "unchanged by this closure pass",
+    "n_pipelines": 7,
+    "recovery_jaccard": 0.3,
+    "provenance": "release/results/f1_highlights/tables/category_diagnostic_profiles.csv"
+  },
+  "resampling_stability": {
+    "n_resamples": 200,
+    "subsample_fraction": 0.8,
+    "level": "sentence",
+    "n_failed": 0,
+    "n_degenerate": 35,
+    "n_viable": 165,
+    "n_degenerate_in_historical_prefix": 6,
+    "prefix_reproduces_canonical": false,
+    "max_abs_diff_vs_historical": 0.0862287326186939,
+    "median_abs_diff_vs_historical": 0.022432426511350367,
+    "conditional_summary_basis": "viable runs only",
+    "interpretation": "The extended run exposes version-sensitive non-reproducibility of the historical 30-resample prefix rather than refining it. Neither the historical nor the extended pass count is a uniquely canonical stability truth.",
+    "provenance": "results/f1_highlights/diagnostics/resampling_stability_*"
+  },
+  "heldout_race_replication": {
+    "n_seeds": 50,
+    "n_embedding_caches": 2,
+    "mcs_roster": [
+      30,
+      35
+    ],
+    "total_runs": 200,
+    "failed_runs": 0,
+    "degenerate_runs": 47,
+    "split_algorithm": "unstratified rng.choice over sorted race ids, numpy default_rng(seed), 80 train / 33 held-out",
+    "degeneracy_rule": "aligned_categories < 10 OR train_noise_fraction < 0.05",
+    "reporting": "distributional (median, IQR, percentiles) per cell",
+    "cells": [
+      {
+        "cell": "A30",
+        "n_viable": 44,
+        "median": 17.0,
+        "iqr_lo": 15.0,
+        "iqr_hi": 19.0,
+        "seed42_n_pass": 24,
+        "seed42_degenerate": false,
+        "seed42_percentile_among_viable": 97.72727272727273
+      },
+      {
+        "cell": "A35",
+        "n_viable": 35,
+        "median": 14.0,
+        "iqr_lo": 13.0,
+        "iqr_hi": 16.0,
+        "seed42_n_pass": 18,
+        "seed42_degenerate": false,
+        "seed42_percentile_among_viable": 82.85714285714286
+      },
+      {
+        "cell": "B30",
+        "n_viable": 43,
+        "median": 16.0,
+        "iqr_lo": 15.0,
+        "iqr_hi": 19.0,
+        "seed42_n_pass": 22,
+        "seed42_degenerate": false,
+        "seed42_percentile_among_viable": 88.37209302325581
+      },
+      {
+        "cell": "B35",
+        "n_viable": 31,
+        "median": 14.0,
+        "iqr_lo": 13.0,
+        "iqr_hi": 15.0,
+        "seed42_n_pass": 3,
+        "seed42_degenerate": true,
+        "seed42_percentile_among_viable": NaN
+      }
+    ],
+    "interpretation": "The historical single-seed result is atypically optimistic and is not representative; distributional reporting supersedes it.",
+    "provenance": "results/f1_highlights/diagnostics/heldout_race_replication_*"
+  },
+  "alternative_geometry_separability": {
+    "n_replicates": 100,
+    "samples_per_category": 15,
+    "K": 34,
+    "n_failed": 0,
+    "n_degenerate": 0,
+    "prefix_reproduces_canonical": true,
+    "max_abs_diff_vs_historical": 0.09645835161250027,
+    "measure": "continuous best-overlap Jaccard, conditional on K and per-category sample size",
+    "secondary_descriptive": {
+      "ward_K4": "descriptive only",
+      "louvain": "community count is resolution-sensitive; NOT a stable four-community result"
+    },
+    "provenance": "results/f1_highlights/diagnostics/alternative_geometry_*"
+  },
+  "environment": {
+    "python": "3.13.9",
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "umap-learn": "0.5.12",
+    "hdbscan": "0.8.43"
+  },
+  "input_hashes": {
+    "corpus_sha256": "869104c1f6237ada210c034e246a5dbbe6e9a6b8d92596118c76c990bb5ca654",
+    "embedding_cache_sha256": {
+      "A": "afad0da43887d42bb201ac9db635393d87a4d30214207c505fcd501175822a46",
+      "B": "d3daea4626a81cdec5f6408c15f5fbca688dd685e8363f0d46c10fc6c7aa1b7f"
+    }
+  },
+  "guards": {
+    "aggregate_validation_vote_generated": false,
+    "verdict_bands_generated": false,
+    "canonical_values_modified": false
+  },
+  "files": [
+    {
+      "dimension": "resampling_stability",
+      "file": "resampling_stability_mc200_degeneracy.csv",
+      "legacy_source_path": "outputs/tables/axis2_mc200_degeneracy.csv",
+      "sha256": "5b3f94c2d3f0b38b89db355ae5605175e8c3beb9d7d31867e483776d4d184fc4",
+      "bytes": 7337,
+      "source_mtime_utc": "2026-09-11T21:50:13.829674+00:00"
+    },
+    {
+      "dimension": "resampling_stability",
+      "file": "resampling_stability_mc200_category_summary.csv",
+      "legacy_source_path": "outputs/tables/axis2_mc200_category_summary.csv",
+      "sha256": "325aaf8eb8f6cf6c31185cc0c765a69f849b27673d09d71bbf1cdac0de1da222",
+      "bytes": 9766,
+      "source_mtime_utc": "2026-09-11T21:50:13.829674+00:00"
+    },
+    {
+      "dimension": "resampling_stability",
+      "file": "resampling_stability_convergence.csv",
+      "legacy_source_path": "outputs/tables/axis2_mc_convergence.csv",
+      "sha256": "a5446c5e3655ac6ab47fb0d023d565ad543d53de58c031966261a7ab888ef13f",
+      "bytes": 11889,
+      "source_mtime_utc": "2026-09-11T21:50:13.827666+00:00"
+    },
+    {
+      "dimension": "resampling_stability",
+      "file": "resampling_stability_threshold_sensitivity.csv",
+      "legacy_source_path": "outputs/tables/axis2_threshold_sensitivity_200.csv",
+      "sha256": "e07f7a8a41e006f79311c5ec1cf010945a6d7dc26d72d80e2c7d6194e9ae1cff",
+      "bytes": 271,
+      "source_mtime_utc": "2026-09-11T21:50:13.829674+00:00"
+    },
+    {
+      "dimension": "resampling_stability",
+      "file": "resampling_stability_mc200_runs.csv",
+      "legacy_source_path": "outputs/tables/axis2_mc200_runs.csv",
+      "sha256": "9082bbfe754cd82a2e2735bc39308991a87eda21a7c6e292c36b5f00b5f75a0e",
+      "bytes": 264934,
+      "source_mtime_utc": "2026-09-11T21:50:13.817622+00:00"
+    },
+    {
+      "dimension": "heldout_race_replication",
+      "file": "heldout_race_replication_factorial_summary.json",
+      "legacy_source_path": "outputs/tables/axis3_factorial_summary.json",
+      "sha256": "245efe1d32699fd1a761b3d95d10be4d9385ffd1c048c6ab2e07bf3957000d48",
+      "bytes": 6530,
+      "source_mtime_utc": "2026-09-10T23:54:52.000795+00:00"
+    },
+    {
+      "dimension": "heldout_race_replication",
+      "file": "heldout_race_replication_degeneracy.csv",
+      "legacy_source_path": "outputs/tables/axis3_factorial_degeneracy.csv",
+      "sha256": "a095f6f3b53b9643534c9738d2b725fc26b0e549b6e28d3d530bf0bfc4ad1c5f",
+      "bytes": 226,
+      "source_mtime_utc": "2026-09-10T23:54:51.704650+00:00"
+    },
+    {
+      "dimension": "heldout_race_replication",
+      "file": "heldout_race_replication_category_summary.csv",
+      "legacy_source_path": "outputs/tables/axis3_factorial_category_summary.csv",
+      "sha256": "ec3d35f30407470cfb47564a8aa0dfe77c439d1010a3a0f5d5550ed81a71083a",
+      "bytes": 20274,
+      "source_mtime_utc": "2026-09-10T23:54:51.978870+00:00"
+    },
+    {
+      "dimension": "heldout_race_replication",
+      "file": "heldout_race_replication_seed42_location.csv",
+      "legacy_source_path": "outputs/tables/axis3_factorial_seed42_location.csv",
+      "sha256": "2972456ed352e3c1361552b6254ed7ac1d329dffe910a718a9a0b5e50989a928",
+      "bytes": 662,
+      "source_mtime_utc": "2026-09-10T23:54:51.710953+00:00"
+    },
+    {
+      "dimension": "heldout_race_replication",
+      "file": "heldout_race_replication_embedding_sensitivity.csv",
+      "legacy_source_path": "outputs/tables/axis3_factorial_embedding_sensitivity.csv",
+      "sha256": "3a2089697e1f9a5b69fd171b43c3d00b138d268e23c99cc609daf41ea4a697dc",
+      "bytes": 238,
+      "source_mtime_utc": "2026-09-10T23:54:51.716952+00:00"
+    },
+    {
+      "dimension": "heldout_race_replication",
+      "file": "heldout_race_replication_granularity_sensitivity.csv",
+      "legacy_source_path": "outputs/tables/axis3_factorial_granularity_sensitivity.csv",
+      "sha256": "2d93bd7ef37f07d645df6dbb17e3e22bebb378bb1ef1a216e13b74a346dd1b17",
+      "bytes": 242,
+      "source_mtime_utc": "2026-09-10T23:54:51.723463+00:00"
+    },
+    {
+      "dimension": "heldout_race_replication",
+      "file": "heldout_race_replication_factorial_runs.csv",
+      "legacy_source_path": "outputs/tables/axis3_factorial_runs.csv",
+      "sha256": "906f43aeb36cfc5d03c1cb1808340b0d4a8d14b2a381fc7f302011ee2ee94bc1",
+      "bytes": 392264,
+      "source_mtime_utc": "2026-09-10T23:54:51.668524+00:00"
+    },
+    {
+      "dimension": "alternative_geometry_separability",
+      "file": "alternative_geometry_mc100_category_summary.csv",
+      "legacy_source_path": "outputs/tables/axis4_mc100_category_summary.csv",
+      "sha256": "60a346a87af9192ea5cf2fa4b128fc95ded970e84e71a0f12214da8b9eb6eb92",
+      "bytes": 7966,
+      "source_mtime_utc": "2026-09-11T21:50:13.773379+00:00"
+    },
+    {
+      "dimension": "alternative_geometry_separability",
+      "file": "alternative_geometry_convergence.csv",
+      "legacy_source_path": "outputs/tables/axis4_mc_convergence.csv",
+      "sha256": "7b411edf52eb8eb5d571a7bc9aad5b84b639bfee7bf1736fbde4ebb305cb8737",
+      "bytes": 10028,
+      "source_mtime_utc": "2026-09-11T21:50:13.776379+00:00"
+    },
+    {
+      "dimension": "alternative_geometry_separability",
+      "file": "alternative_geometry_threshold_sensitivity.csv",
+      "legacy_source_path": "outputs/tables/axis4_threshold_sensitivity_100.csv",
+      "sha256": "2ca4ce7e7608b835fb18e563fbb6cf6b88599d0c60f2e816cf56585a6801df83",
+      "bytes": 289,
+      "source_mtime_utc": "2026-09-11T21:50:13.780378+00:00"
+    },
+    {
+      "dimension": "alternative_geometry_separability",
+      "file": "alternative_geometry_mc100_runs.csv",
+      "legacy_source_path": "outputs/tables/axis4_mc100_runs.csv",
+      "sha256": "e05f656d4b015e06938fe8b2038a3b43c9dc1018d90956f116ba5e19f709f7c1",
+      "bytes": 109548,
+      "source_mtime_utc": "2026-09-11T21:50:13.768870+00:00"
+    }
+  ]
+}
