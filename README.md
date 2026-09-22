@@ -72,7 +72,7 @@ CONFIG = IRACING          # IRACING or F1
 | corpora | `iracing` | `f1_highlights` + `f1_full` |
 | registers | one | two, matched |
 | matched events, category labels, domain grouping | none | resolved from the frozen metadata |
-| output root | `results/iracing/` | `results/f1_run/`, `results/f1_cross_register_run/` |
+| output root | `results/iracing/` | `results/f1_run/`, `results/f1_cross_register_run/` (written by the run, not shipped) |
 | ships with the package | yes | no — supply the licensed transcripts |
 
 Everything else is resolved from the selected preset. No other line in the

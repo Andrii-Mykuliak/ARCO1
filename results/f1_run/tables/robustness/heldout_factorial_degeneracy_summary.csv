@@ -1,5 +1,0 @@
-cache,mcs,n_runs,n_degenerate,min_aligned,max_aligned,min_noise,max_noise,degeneracy_rate
-A,30,50,6,3,33,0.0,0.42902,0.12
-A,35,50,15,3,28,0.0,0.41948,0.3
-B,30,50,7,4,33,0.0,0.421811,0.14
-B,35,50,19,3,29,0.0,0.419552,0.38

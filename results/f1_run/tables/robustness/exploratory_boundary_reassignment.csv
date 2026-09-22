@@ -1,6 +1,0 @@
-variant,analysis_type,reassigned_categories,exploratory,n_primary_domain_categories,median_raw_delta,n_negative_raw,p_sign_raw,median_logit_delta,n_negative_logit,p_sign_logit,median_clr_delta,n_negative_clr,p_sign_clr,median_ilr_delta,n_negative_ilr,p_sign_ilr,n_events
-NO REASSIGNMENT (baseline),baseline,,False,7,-0.0973,10,0.002,-0.5899,10,0.002,-0.3382,9,0.0215,-0.3906,9,0.0215,10
-move Pit stops -> Race dynamics,exploratory stress test,Pit stops,True,6,-0.089,9,0.0215,-0.7056,9,0.0215,-0.351,10,0.002,-0.4053,10,0.002,10
-move Gap & pace -> Race dynamics,exploratory stress test,Gap & pace,True,6,-0.0712,9,0.0215,-0.4825,9,0.0215,-0.2492,9,0.0215,-0.2878,9,0.0215,10
-move Wing & car damage -> Race dynamics,exploratory stress test,Wing & car damage,True,6,-0.0846,9,0.0215,-0.6773,9,0.0215,-0.3524,9,0.0215,-0.4069,9,0.0215,10
-"move Pit stops, Gap & pace, Wing & car damage -> Race dynamics",exploratory stress test,"Pit stops, Gap & pace, Wing & car damage",True,4,-0.048,9,0.0215,-0.5502,9,0.0215,-0.213,9,0.0215,-0.2459,9,0.0215,10

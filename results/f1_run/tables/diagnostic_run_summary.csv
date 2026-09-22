@@ -1,5 +1,0 @@
-dimension,categories_scored,configurations,note
-alternative_model_recovery,34,7.0,fraction of pre-specified alternative configurations that recover the category
-resampling_stability,34,,"resampling runs, conditional on the recorded software environment"
-heldout_replication,34,,no estimate where the training split does not reconstruct the category
-geometry_separability,34,,"continuous overlap statistic, comparable at a fixed per-category sample size"

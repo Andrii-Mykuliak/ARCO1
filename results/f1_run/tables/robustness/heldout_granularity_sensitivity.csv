@@ -1,3 +1,0 @@
-cache,n_seeds,degenerate_mcs30,degenerate_mcs35,n_pairs_both_viable,median_delta_30_minus_35,iqr_lo,iqr_hi,min_delta,max_delta,n_30_gt_35,n_equal,n_30_lt_35
-A,50,6,15,35,3.0,1.0,4.0,-1.0,9.0,28,5,2
-B,50,7,19,31,2.0,0.5,4.0,-2.0,8.0,23,2,6

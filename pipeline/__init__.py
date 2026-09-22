@@ -16,7 +16,6 @@ Flat, one-concern-per-module layout:
     cross_register        independent full-race structure and its correspondence
                           with the highlight categories
     paired_register       matched same-event highlight/full-race comparison
-    entity_concentration  masking diagnostics
     ablation              masking and default-pipeline ablations
     reporting             manuscript tables, figures and the summary JSON
 
@@ -29,7 +28,7 @@ from . import (ablation, analytical_figures, analytical_tables,  # noqa: F401
                monte_carlo_diagnostics, heldout_factorial,
                clustering, config, corpus,  # noqa: F401
                cross_register, diagnostics, domains, embedding, enrichment,
-               entity_concentration, frozen_f1, heldout_replication, io_utils,
+               frozen_f1, heldout_replication, io_utils,
                labeling, paired_register, reporting, sensitivity)
 from .config import CORPORA, Config, for_corpus  # noqa: F401
 
@@ -37,7 +36,7 @@ __all__ = [
     "Config", "CORPORA", "for_corpus",
     "config", "io_utils", "corpus", "embedding", "clustering", "enrichment",
     "labeling", "diagnostics", "heldout_replication", "domains",
-    "cross_register", "paired_register", "frozen_f1", "entity_concentration",
+    "cross_register", "paired_register", "frozen_f1",
     "ablation", "reporting", "sensitivity", "analytical_figures", "analytical_tables", "monte_carlo_diagnostics", "heldout_factorial",
 ]
 

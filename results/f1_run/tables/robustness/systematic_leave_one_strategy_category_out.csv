@@ -1,9 +1,0 @@
-variant,analysis_type,removed_category,n_primary_domain_categories,median_raw_delta,n_negative_raw,p_sign_raw,median_logit_delta,n_negative_logit,p_sign_logit,median_clr_delta,n_negative_clr,p_sign_clr,median_ilr_delta,n_negative_ilr,p_sign_ilr,n_events
-ALL MEMBERS (baseline),baseline,,7,-0.0973,10,0.002,-0.5899,10,0.002,-0.3382,9,0.0215,-0.3906,9,0.0215,10
-drop Weather conditions,systematic leave-one-category-out,Weather conditions,6,-0.0928,9,0.0215,-0.6011,9,0.0215,-0.3355,8,0.1094,-0.3874,8,0.1094,10
-drop Pit stops,systematic leave-one-category-out,Pit stops,6,-0.0949,10,0.002,-0.6945,10,0.002,-0.3592,10,0.002,-0.4148,10,0.002,10
-drop Tires & compounds,systematic leave-one-category-out,Tires & compounds,6,-0.0884,10,0.002,-0.7137,10,0.002,-0.426,9,0.0215,-0.4918,9,0.0215,10
-drop Gap & pace,systematic leave-one-category-out,Gap & pace,6,-0.0785,9,0.0215,-0.5189,9,0.0215,-0.2714,9,0.0215,-0.3133,9,0.0215,10
-drop Wing & car damage,systematic leave-one-category-out,Wing & car damage,6,-0.0868,10,0.002,-0.6591,10,0.002,-0.3554,9,0.0215,-0.4104,9,0.0215,10
-drop Inter-car distance,systematic leave-one-category-out,Inter-car distance,6,-0.0914,10,0.002,-0.6375,10,0.002,-0.3802,10,0.002,-0.439,10,0.002,10
-drop Lap pace & timing,systematic leave-one-category-out,Lap pace & timing,6,-0.0973,10,0.002,-0.6949,10,0.002,-0.3388,9,0.0215,-0.3912,9,0.0215,10
