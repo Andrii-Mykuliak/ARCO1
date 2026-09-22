@@ -26,7 +26,6 @@ Typical use:
     res = compare_partitions(entities, labels_masked, labels_unmasked,
                              classes=("PERSON", "TEAM", "PLACE"))
 
-See `docs/entity_concentration.md` for the metric definitions.
 """
 from __future__ import annotations
 

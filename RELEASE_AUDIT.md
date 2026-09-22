@@ -127,10 +127,11 @@ release and are the manuscript source of truth. They live under
 | Alternative-geometry separability | 10-replicate run (25/34) | 100 replicates, 15 per category, K = 34, 0 failed, 0 degenerate, **prefix reproduction gate passed**. The 10-replicate value was a Monte-Carlo budget artefact. |
 | Alternative-model recovery | — | unchanged by the closure pass. |
 
-Historical settings were preserved verbatim. They lived in
-`configs/paper_f1.json` under `highlight.diagnostics_historical_superseded`
-until that file was consolidated into `pipeline/config.py`, and are now
-recorded in `docs/superseded_artefacts.md`; nothing was silently erased.
+Historical settings were preserved verbatim rather than edited away. They
+lived in `configs/paper_f1.json` under
+`highlight.diagnostics_historical_superseded` until that file was
+consolidated into `pipeline/config.py`. They are not carried in the current
+release; prior versions remain retrievable from git history.
 
 Still true after promotion: no aggregate vote, no banded verdict and no
 pass/fail ensemble is computed across the four dimensions. They are reported
